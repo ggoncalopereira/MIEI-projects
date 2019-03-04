@@ -1,5 +1,5 @@
 # Bases de Dados
-train simulating database, further extended to both **MySQL** and **Neo4J**
+train travelling simulated database, further extended to both **MySQL** and **Neo4J**
 
 co-authored with:
 + [André Diogo](https://github.com/Seriyin)
