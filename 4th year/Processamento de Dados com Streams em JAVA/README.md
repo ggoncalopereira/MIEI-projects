@@ -7,7 +7,4 @@ universal date/time calculator that converts every time measure into a different
 co-authored with:
 
 + [Jorge Paiva](https://github.com/Phaktumn)
-
-
-+ [Matias Araújo](https://github.com/MatiasN)
-+
++ [Matias AraÃºjo](https://github.com/MatiasN)
