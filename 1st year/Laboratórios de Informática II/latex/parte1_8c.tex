@@ -1,0 +1,196 @@
+\hypertarget{parte1_8c}{\section{Referência ao ficheiro parte1.\-c}
+\label{parte1_8c}\index{parte1.\-c@{parte1.\-c}}
+}
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}header.\-h\char`\"{}}\\*
+\subsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$ \hyperlink{parte1_8c_aef94537ea16678ff43e6c34ad7ff3505}{new\-Dados\-Est} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+int \hyperlink{parte1_8c_ab72fb307b21be09f1012820f489a4f6f}{cmd\-\_\-c} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\item 
+int \hyperlink{parte1_8c_a1477aa7a5bfd07a0f88315d84a68cce2}{cmd\-\_\-m} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+int \hyperlink{parte1_8c_ae590e32890755d1eb50586e0fa1747de}{cmd\-\_\-h} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, int l, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\item 
+\hyperlink{header_8h_ac31cca6d54fd1fce82eca72192564cd4}{Dados\-V\-H} $\ast$ \hyperlink{parte1_8c_a7acc435844c7e6fd7a371c9bac0503aa}{new\-Dados\-V\-H} (int lc, int t, int a\mbox{[}\hyperlink{header_8h_a0592dba56693fad79136250c11e5a7fe}{M\-A\-X\-\_\-\-S\-I\-Z\-E}\mbox{]})
+\item 
+int \hyperlink{parte1_8c_a8a7b914ecacb9b94a8d46cc3e36bb97f}{cmd\-\_\-v} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, int c, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\item 
+\hyperlink{header_8h_a469ff72408bc348b417cc0ee2cf860b0}{Dados\-P} $\ast$ \hyperlink{parte1_8c_aadd63d46c30af5d8abe03eca62515531}{new\-Dados\-P} (int lin, int col, char chr)
+\item 
+int \hyperlink{parte1_8c_aeb48731b2c91b25b35ee97d50446c1ae}{cmd\-\_\-p} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, char x, int l, int c, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentação das funções}
+\hypertarget{parte1_8c_ab72fb307b21be09f1012820f489a4f6f}{\index{parte1.\-c@{parte1.\-c}!cmd\-\_\-c@{cmd\-\_\-c}}
+\index{cmd\-\_\-c@{cmd\-\_\-c}!parte1.c@{parte1.\-c}}
+\subsubsection[{cmd\-\_\-c}]{\setlength{\rightskip}{0pt plus 5cm}int cmd\-\_\-c (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{parte1_8c_ab72fb307b21be09f1012820f489a4f6f}
+O comando c lê o tabuleiro a partir do standard input.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & função vai receber um tabuleiro a partir do standard input. \\
+\hline
+{\em Recebe} & a estrutura (\hyperlink{structest__bn}{est\-\_\-bn}), dois arrays um linha (recebe a linha do tabuleiro) e restolinha (guarda o resto da linha). \\
+\hline
+{\em lin} & e col são as duas variáveis para o tamanho das linhas e colunas respetivamente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Não retorna nada apenas lê o tabuleiro a partir do teclado. 
+\end{DoxyReturn}
+\hypertarget{parte1_8c_ae590e32890755d1eb50586e0fa1747de}{\index{parte1.\-c@{parte1.\-c}!cmd\-\_\-h@{cmd\-\_\-h}}
+\index{cmd\-\_\-h@{cmd\-\_\-h}!parte1.c@{parte1.\-c}}
+\subsubsection[{cmd\-\_\-h}]{\setlength{\rightskip}{0pt plus 5cm}int cmd\-\_\-h (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{int}]{l, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{parte1_8c_ae590e32890755d1eb50586e0fa1747de}
+O comando h coloca um estado em todas as grelhas de uma linha.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & função coloca o estado de todas as grelhas da linha n o num que ainda não estão determinadas como sendo água. \\
+\hline
+{\em Onde} & está '.' vai colocar '$\sim$' na linha correspondente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Não retorna nada apenas altera o tabuleiro. 
+\end{DoxyReturn}
+\hypertarget{parte1_8c_a1477aa7a5bfd07a0f88315d84a68cce2}{\index{parte1.\-c@{parte1.\-c}!cmd\-\_\-m@{cmd\-\_\-m}}
+\index{cmd\-\_\-m@{cmd\-\_\-m}!parte1.c@{parte1.\-c}}
+\subsubsection[{cmd\-\_\-m}]{\setlength{\rightskip}{0pt plus 5cm}int cmd\-\_\-m (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte1_8c_a1477aa7a5bfd07a0f88315d84a68cce2}
+O comando m mostra o tabuleiro.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & função vai receber um tabuleiro e vai imprimi-\/lo no ecrã. \\
+\hline
+{\em lin} & e col são as duas variáveis para o tamanho das linhas e colunas respetivamente.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Não retorna nada apenas mostra tabuleiro. 
+\end{DoxyReturn}
+\hypertarget{parte1_8c_aeb48731b2c91b25b35ee97d50446c1ae}{\index{parte1.\-c@{parte1.\-c}!cmd\-\_\-p@{cmd\-\_\-p}}
+\index{cmd\-\_\-p@{cmd\-\_\-p}!parte1.c@{parte1.\-c}}
+\subsubsection[{cmd\-\_\-p}]{\setlength{\rightskip}{0pt plus 5cm}int cmd\-\_\-p (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{char}]{x, }
+\item[{int}]{l, }
+\item[{int}]{c, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{parte1_8c_aeb48731b2c91b25b35ee97d50446c1ae}
+O comando p coloca uma peça de um barco ou submarino na linha e coluna dados.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & função ao receber um carater deve colocar na linha e coluna correspondentes esse mesmo carater. \\
+\hline
+{\em ln} & e cl são as variáveis que correspondem à linha ln e coluna cl.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Não retorna nada apenas altera o tabuleiro. 
+\end{DoxyReturn}
+\hypertarget{parte1_8c_a8a7b914ecacb9b94a8d46cc3e36bb97f}{\index{parte1.\-c@{parte1.\-c}!cmd\-\_\-v@{cmd\-\_\-v}}
+\index{cmd\-\_\-v@{cmd\-\_\-v}!parte1.c@{parte1.\-c}}
+\subsubsection[{cmd\-\_\-v}]{\setlength{\rightskip}{0pt plus 5cm}int cmd\-\_\-v (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{int}]{c, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{parte1_8c_a8a7b914ecacb9b94a8d46cc3e36bb97f}
+O comando v coloca um estado em todas as grelhas de uma coluna
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & função coloca o estado de todas as grelhas da coluna n o num que ainda não estão determinadas como sendo água, ou seja, onde está '.' vai colocar '$\sim$' na coluna correspondente. \\
+\hline
+{\em c} & e l são as variáveis correspondentes à linha e coluna correspondentes.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Não retorna nada apenas altera o tabuleiro. 
+\end{DoxyReturn}
+\hypertarget{parte1_8c_aef94537ea16678ff43e6c34ad7ff3505}{\index{parte1.\-c@{parte1.\-c}!new\-Dados\-Est@{new\-Dados\-Est}}
+\index{new\-Dados\-Est@{new\-Dados\-Est}!parte1.c@{parte1.\-c}}
+\subsubsection[{new\-Dados\-Est}]{\setlength{\rightskip}{0pt plus 5cm}{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N}$\ast$ new\-Dados\-Est (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte1_8c_aef94537ea16678ff43e6c34ad7ff3505}
+A função \char`\"{}new\-Dados\-Est\char`\"{} cria uma nova estrutura do tipo \char`\"{}\-E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N\char`\"{}.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & função recebe como parametro somente uma estrutura, a qual vai copiar na integra.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+A nova estrutura. 
+\end{DoxyReturn}
+\hypertarget{parte1_8c_aadd63d46c30af5d8abe03eca62515531}{\index{parte1.\-c@{parte1.\-c}!new\-Dados\-P@{new\-Dados\-P}}
+\index{new\-Dados\-P@{new\-Dados\-P}!parte1.c@{parte1.\-c}}
+\subsubsection[{new\-Dados\-P}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Dados\-P}$\ast$ new\-Dados\-P (
+\begin{DoxyParamCaption}
+\item[{int}]{lin, }
+\item[{int}]{col, }
+\item[{char}]{chr}
+\end{DoxyParamCaption}
+)}}\label{parte1_8c_aadd63d46c30af5d8abe03eca62515531}
+Esta funcao cria os dados relativos a uma unica posição.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em a} & funcao recebe os números da linha e coluna alterados. \\
+\hline
+{\em recebe} & também o carater que estava na posicao antes de esta ser alterada.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+os dados relativos à posição. 
+\end{DoxyReturn}
+\hypertarget{parte1_8c_a7acc435844c7e6fd7a371c9bac0503aa}{\index{parte1.\-c@{parte1.\-c}!new\-Dados\-V\-H@{new\-Dados\-V\-H}}
+\index{new\-Dados\-V\-H@{new\-Dados\-V\-H}!parte1.c@{parte1.\-c}}
+\subsubsection[{new\-Dados\-V\-H}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Dados\-V\-H}$\ast$ new\-Dados\-V\-H (
+\begin{DoxyParamCaption}
+\item[{int}]{lc, }
+\item[{int}]{t, }
+\item[{int}]{a\mbox{[}\-M\-A\-X\-\_\-\-S\-I\-Z\-E\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{parte1_8c_a7acc435844c7e6fd7a371c9bac0503aa}
+Esta função irá criar uma nova estrutur que guarda os dados de uma fila/coluna inteira.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em como} & primeiro argumento a função recebe o numero da linha/coluna que quer copiar. \\
+\hline
+{\em recebe} & também o tamanho da linha/coluna. \\
+\hline
+{\em por} & último a função recebe a propria linha/coluna que quer copiar.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+os dados da fila ou coluna que foram copiados. 
+\end{DoxyReturn}

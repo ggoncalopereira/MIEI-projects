@@ -1,0 +1,53 @@
+\hypertarget{interpretador_8c}{\section{Referência ao ficheiro interpretador.\-c}
+\label{interpretador_8c}\index{interpretador.\-c@{interpretador.\-c}}
+}
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}header.\-h\char`\"{}}\\*
+\subsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{interpretador_8c_ac8c1b2b92769d39a81df16d46072f51f}{interpretar} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, char $\ast$linha, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\item 
+void \hyperlink{interpretador_8c_a46134b4f7006ed872c2c6acecf5f0cee}{interpretador} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\item 
+int \hyperlink{interpretador_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentação das funções}
+\hypertarget{interpretador_8c_a46134b4f7006ed872c2c6acecf5f0cee}{\index{interpretador.\-c@{interpretador.\-c}!interpretador@{interpretador}}
+\index{interpretador@{interpretador}!interpretador.c@{interpretador.\-c}}
+\subsubsection[{interpretador}]{\setlength{\rightskip}{0pt plus 5cm}void interpretador (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{interpretador_8c_a46134b4f7006ed872c2c6acecf5f0cee}
+O interpretador encarrega-\/se de criar um ciclo até que o comando seja igual N\-U\-L\-L \hypertarget{interpretador_8c_ac8c1b2b92769d39a81df16d46072f51f}{\index{interpretador.\-c@{interpretador.\-c}!interpretar@{interpretar}}
+\index{interpretar@{interpretar}!interpretador.c@{interpretador.\-c}}
+\subsubsection[{interpretar}]{\setlength{\rightskip}{0pt plus 5cm}int interpretar (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{char $\ast$}]{linha, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{interpretador_8c_ac8c1b2b92769d39a81df16d46072f51f}
+O comando interpretar está encarregue de compreender o comando inserido
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em Conforme} & o comando inserido o interpretar tem um switch case para os diferentes comandos.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+O resultado da função escrita. 
+\end{DoxyReturn}
+\hypertarget{interpretador_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{\index{interpretador.\-c@{interpretador.\-c}!main@{main}}
+\index{main@{main}!interpretador.c@{interpretador.\-c}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interpretador_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}

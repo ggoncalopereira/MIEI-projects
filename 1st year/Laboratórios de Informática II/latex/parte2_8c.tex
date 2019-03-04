@@ -1,0 +1,568 @@
+\hypertarget{parte2_8c}{\section{Referência ao ficheiro parte2.\-c}
+\label{parte2_8c}\index{parte2.\-c@{parte2.\-c}}
+}
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}header.\-h\char`\"{}}\\*
+\subsection*{Funções}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{parte2_8c_a3612c739cc369c5547480cc53ca1b2fa}{undo\-\_\-p} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\item 
+void \hyperlink{parte2_8c_a530f2491dbaf2effb0937ca4fb964dfd}{undo\-\_\-v} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\item 
+void \hyperlink{parte2_8c_adda53bc08b6e1006a4a7168a7ac02d38}{undo\-\_\-h} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\item 
+void \hyperlink{parte2_8c_addea9cb6aecf35f686a0a33ff35456fa}{undo\-\_\-\-C\-L\-E} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\item 
+void \hyperlink{parte2_8c_a8cb17ff3dcc86bddd0bf921ae40e6fd0}{cmd\-\_\-\-D} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\item 
+void \hyperlink{parte2_8c_ae761aedc00080a6f00d322dcc397b1e9}{push} (\hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack}, char cmd, union dados d)
+\item 
+void \hyperlink{parte2_8c_abfd19c9e6e4452b9d482ee7b8a80bcf8}{pop} (\hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\item 
+int \hyperlink{parte2_8c_a264ed0392b7344640b191d8859dee860}{cmd\-\_\-l} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, char $\ast$path, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\item 
+int \hyperlink{parte2_8c_a5cd6b4b254cce7dd3ac53266652364f3}{cmd\-\_\-e} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, char $\ast$path)
+\item 
+int \hyperlink{parte2_8c_a4ccee3cf1072baccbb5b7dc811af1d10}{verifica\-Agua} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+int \hyperlink{parte2_8c_a1664d23036bf45ce3785feee253d047c}{verifica\-Cantos\-P} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+int \hyperlink{parte2_8c_a794c7feec2df77f7f3c979880605f9a4}{verifica\-S\-U\-B} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, char peca, int lin, int col)
+\item 
+int \hyperlink{parte2_8c_a8d4794f085526f1dfdb447e0c1ccfc27}{verifica\-Barcos} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+int \hyperlink{parte2_8c_abb8e46fa52eb33ebc8727cd91d5d3d43}{verifica\-Peca\-Ex} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+int \hyperlink{parte2_8c_ab447d04cb4b32bf8329f6016ef4324a8}{verifica\-Seg} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+int \hyperlink{parte2_8c_ade8970e1ef02b807acf8ac6ee37d68ec}{cmd\-\_\-\-V} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+void \hyperlink{parte2_8c_a0e42340b81e723cfce403ee87e801a63}{E1\-\_\-primlinha} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+void \hyperlink{parte2_8c_a0e4de54db8be6b54c41c64766e6c2add}{E1\-\_\-filtraresto} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+int \hyperlink{parte2_8c_a532bbe304aed8c44bb06e519d4cfb30e}{contaaguas} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+int \hyperlink{parte2_8c_aeda5c885aef71ee4ce5dcb11d3dcf62d}{cmd\-\_\-\-E1} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\item 
+int \hyperlink{parte2_8c_ad327b2dee70f4002d5f94cf71b076095}{pertence} (char c)
+\item 
+void \hyperlink{parte2_8c_a4893d717483b7e828a692e9b49371953}{vaux} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, int c)
+\item 
+int \hyperlink{parte2_8c_af373aa1eabe08a0bc3525b40acc2166f}{E2\-C} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+void \hyperlink{parte2_8c_ad82ef6266d363ce176f2785e1525f736}{haux} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, int l)
+\item 
+int \hyperlink{parte2_8c_a737aaaf90d4c029e43ae5c7197c368b7}{E2\-L} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+int \hyperlink{parte2_8c_ac1f8bee34a3b5ea23735a6d86a21c4e1}{cmd\-\_\-\-E2} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\item 
+int \hyperlink{parte2_8c_a2502b7e46b4c851ba37d29d00f606167}{pertence3} (char c)
+\item 
+int \hyperlink{parte2_8c_aff1776159d9e217fd3a8abefdabafce1}{contasegl} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, int l)
+\item 
+int \hyperlink{parte2_8c_a02bc4d36c6020cfc3e680115457ed6e0}{contapl} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, int l)
+\item 
+void \hyperlink{parte2_8c_a8e4e2797850fab71b598360977d7c757}{porosl} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+int \hyperlink{parte2_8c_a9f91b9e2ea6340139226cbf13b56377c}{contasegc} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, int c)
+\item 
+int \hyperlink{parte2_8c_a257e5c96ec209788e5ba64374b02b448}{contapc} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, int c)
+\item 
+void \hyperlink{parte2_8c_a518348f7e391149236896ec636e9a00f}{porosc} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+void \hyperlink{parte2_8c_ae9becda6b15e9175ac1da8554f5cbcac}{poros} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+int \hyperlink{parte2_8c_a3b61ee2b26716e43a993ce9cc4d3a0d5}{porsubs} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+void \hyperlink{parte2_8c_a3be1b4c4216fd6ce515499ab4d1645b4}{poebarcos\-Auxl} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, int l, int c)
+\item 
+void \hyperlink{parte2_8c_a80813024d0bc6109d936ab88048dbd6e}{caso\-El} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, int l, int c)
+\item 
+void \hyperlink{parte2_8c_af633d2c99bab94c2496e33521ecc6455}{caso\-Ec} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, int l, int c)
+\item 
+void \hyperlink{parte2_8c_ac8f5860cb4be216d6d43fd0de19b8813}{poebarcos\-Auxc} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, int l, int c)
+\item 
+int \hyperlink{parte2_8c_a24d71c1ffe070ee60f929e659b709130}{porbarcos} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+int \hyperlink{parte2_8c_a436309221725e30fde866af67569beba}{porsegs} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+void \hyperlink{parte2_8c_a3430f05726117d6094e9236eb96f4d93}{tiraros} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn})
+\item 
+int \hyperlink{parte2_8c_a5b883af808e6d414a5ee0d2623ad3a94}{cmd\-\_\-\-E3} (\hyperlink{header_8h_a341ac1667f3dc23635b071398592e724}{E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$\hyperlink{structest__bn}{est\-\_\-bn}, \hyperlink{header_8h_a6209c6f0cbf77a7146be05f6df115ceb}{stck} $\ast$\hyperlink{structstack}{stack})
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentação das funções}
+\hypertarget{parte2_8c_af633d2c99bab94c2496e33521ecc6455}{\index{parte2.\-c@{parte2.\-c}!caso\-Ec@{caso\-Ec}}
+\index{caso\-Ec@{caso\-Ec}!parte2.c@{parte2.\-c}}
+\subsubsection[{caso\-Ec}]{\setlength{\rightskip}{0pt plus 5cm}void caso\-Ec (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{int}]{l, }
+\item[{int}]{c}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_af633d2c99bab94c2496e33521ecc6455}
+\hypertarget{parte2_8c_a80813024d0bc6109d936ab88048dbd6e}{\index{parte2.\-c@{parte2.\-c}!caso\-El@{caso\-El}}
+\index{caso\-El@{caso\-El}!parte2.c@{parte2.\-c}}
+\subsubsection[{caso\-El}]{\setlength{\rightskip}{0pt plus 5cm}void caso\-El (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{int}]{l, }
+\item[{int}]{c}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a80813024d0bc6109d936ab88048dbd6e}
+\hypertarget{parte2_8c_a8cb17ff3dcc86bddd0bf921ae40e6fd0}{\index{parte2.\-c@{parte2.\-c}!cmd\-\_\-\-D@{cmd\-\_\-\-D}}
+\index{cmd\-\_\-\-D@{cmd\-\_\-\-D}!parte2.c@{parte2.\-c}}
+\subsubsection[{cmd\-\_\-\-D}]{\setlength{\rightskip}{0pt plus 5cm}void cmd\-\_\-\-D (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a8cb17ff3dcc86bddd0bf921ae40e6fd0}
+O comando D desfaz um comando e volta ao estado anterior.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & função desfaz a última alteração feita ao tabuleiro. \\
+\hline
+{\em Esta} & é constituida por várias funções auxiliares pois cada comando é diferente na sua forma de alterar o tabuleiro.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Não retorna nada apenas desfaz a última alteração feita ao tabuleiro. 
+\end{DoxyReturn}
+\hypertarget{parte2_8c_a5cd6b4b254cce7dd3ac53266652364f3}{\index{parte2.\-c@{parte2.\-c}!cmd\-\_\-e@{cmd\-\_\-e}}
+\index{cmd\-\_\-e@{cmd\-\_\-e}!parte2.c@{parte2.\-c}}
+\subsubsection[{cmd\-\_\-e}]{\setlength{\rightskip}{0pt plus 5cm}int cmd\-\_\-e (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{char $\ast$}]{path}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a5cd6b4b254cce7dd3ac53266652364f3}
+O comando e escrever um tabuleiro num ficheiro .txt.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & função vai receber um tabuleiro a partir do qual vai escrever num dado ficheiro, para o qual teremos de escolher o nome e o path.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Não retorna nada apenas escreve no ficheiro .txt. 
+\end{DoxyReturn}
+\hypertarget{parte2_8c_aeda5c885aef71ee4ce5dcb11d3dcf62d}{\index{parte2.\-c@{parte2.\-c}!cmd\-\_\-\-E1@{cmd\-\_\-\-E1}}
+\index{cmd\-\_\-\-E1@{cmd\-\_\-\-E1}!parte2.c@{parte2.\-c}}
+\subsubsection[{cmd\-\_\-\-E1}]{\setlength{\rightskip}{0pt plus 5cm}int cmd\-\_\-\-E1 (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_aeda5c885aef71ee4ce5dcb11d3dcf62d}
+O comando E1 é a estratégia 1.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & função recebe o tabuleiro e é responsável por colocar água onde se deduz que vai existir à volta de todos os segmentos de barcos já colocados. \\
+\hline
+{\em É} & constituída por duas funções auxiliares chamadas E1\-\_\-primlinha e E1\-\_\-filtraresto que começam por preencher a primeira linha. Caso existam mais do que uma linha, esta preenchê-\/las-\/á.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Retorna 1 se houverem alterações e 0 se não houverem. 
+\end{DoxyReturn}
+\hypertarget{parte2_8c_ac1f8bee34a3b5ea23735a6d86a21c4e1}{\index{parte2.\-c@{parte2.\-c}!cmd\-\_\-\-E2@{cmd\-\_\-\-E2}}
+\index{cmd\-\_\-\-E2@{cmd\-\_\-\-E2}!parte2.c@{parte2.\-c}}
+\subsubsection[{cmd\-\_\-\-E2}]{\setlength{\rightskip}{0pt plus 5cm}int cmd\-\_\-\-E2 (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_ac1f8bee34a3b5ea23735a6d86a21c4e1}
+O comando E2 é a estratégia 2.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & função recebe o tabuleiro e é responsável por colocar água nas linhas e colunas em todos os segmentos de barcos que já foram colocados.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+retorna 1 se houverem alterações e 0 se não houverem. 
+\end{DoxyReturn}
+\hypertarget{parte2_8c_a5b883af808e6d414a5ee0d2623ad3a94}{\index{parte2.\-c@{parte2.\-c}!cmd\-\_\-\-E3@{cmd\-\_\-\-E3}}
+\index{cmd\-\_\-\-E3@{cmd\-\_\-\-E3}!parte2.c@{parte2.\-c}}
+\subsubsection[{cmd\-\_\-\-E3}]{\setlength{\rightskip}{0pt plus 5cm}int cmd\-\_\-\-E3 (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a5b883af808e6d414a5ee0d2623ad3a94}
+O comando E3 é a estratégia E3
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & função recebe um tabuleiro quase completo, ou seja onde a água já esteja completamente preenchida, e coloca segmentos de barcos nas linhas e colunas nas quais todos os espaços vazios têm que conter segmentos de barcos para que o número correspondente seja respeitado.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+A funcao retorna 1 se houverem alterações e 0 se não houverem. 
+\end{DoxyReturn}
+\hypertarget{parte2_8c_a264ed0392b7344640b191d8859dee860}{\index{parte2.\-c@{parte2.\-c}!cmd\-\_\-l@{cmd\-\_\-l}}
+\index{cmd\-\_\-l@{cmd\-\_\-l}!parte2.c@{parte2.\-c}}
+\subsubsection[{cmd\-\_\-l}]{\setlength{\rightskip}{0pt plus 5cm}int cmd\-\_\-l (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{char $\ast$}]{path, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a264ed0392b7344640b191d8859dee860}
+O comando l lê o tabuleiro a partir de um ficheiro .txt.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & função recebe um tabuleiro a partir do ficheiro .txt escrito que pertence à mesma diretoria onde o projeto se encontra.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+Não retorna nada apenas lê o tabuleiro. 
+\end{DoxyReturn}
+\hypertarget{parte2_8c_ade8970e1ef02b807acf8ac6ee37d68ec}{\index{parte2.\-c@{parte2.\-c}!cmd\-\_\-\-V@{cmd\-\_\-\-V}}
+\index{cmd\-\_\-\-V@{cmd\-\_\-\-V}!parte2.c@{parte2.\-c}}
+\subsubsection[{cmd\-\_\-\-V}]{\setlength{\rightskip}{0pt plus 5cm}int cmd\-\_\-\-V (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_ade8970e1ef02b807acf8ac6ee37d68ec}
+O comando V verifica se a solução apresentada está correta.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em A} & função é composta por várias funções auxiliares que conforme as regras da água, dos segmentos e dos barcos verifica se a solução apresentada está correta\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+A função retorna S\-I\-M caso a solução seja a correta e retorna N\-A\-O caso seja incorreta. 
+\end{DoxyReturn}
+\hypertarget{parte2_8c_a532bbe304aed8c44bb06e519d4cfb30e}{\index{parte2.\-c@{parte2.\-c}!contaaguas@{contaaguas}}
+\index{contaaguas@{contaaguas}!parte2.c@{parte2.\-c}}
+\subsubsection[{contaaguas}]{\setlength{\rightskip}{0pt plus 5cm}int contaaguas (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a532bbe304aed8c44bb06e519d4cfb30e}
+\hypertarget{parte2_8c_a257e5c96ec209788e5ba64374b02b448}{\index{parte2.\-c@{parte2.\-c}!contapc@{contapc}}
+\index{contapc@{contapc}!parte2.c@{parte2.\-c}}
+\subsubsection[{contapc}]{\setlength{\rightskip}{0pt plus 5cm}int contapc (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{int}]{c}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a257e5c96ec209788e5ba64374b02b448}
+\hypertarget{parte2_8c_a02bc4d36c6020cfc3e680115457ed6e0}{\index{parte2.\-c@{parte2.\-c}!contapl@{contapl}}
+\index{contapl@{contapl}!parte2.c@{parte2.\-c}}
+\subsubsection[{contapl}]{\setlength{\rightskip}{0pt plus 5cm}int contapl (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{int}]{l}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a02bc4d36c6020cfc3e680115457ed6e0}
+\hypertarget{parte2_8c_a9f91b9e2ea6340139226cbf13b56377c}{\index{parte2.\-c@{parte2.\-c}!contasegc@{contasegc}}
+\index{contasegc@{contasegc}!parte2.c@{parte2.\-c}}
+\subsubsection[{contasegc}]{\setlength{\rightskip}{0pt plus 5cm}int contasegc (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{int}]{c}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a9f91b9e2ea6340139226cbf13b56377c}
+\hypertarget{parte2_8c_aff1776159d9e217fd3a8abefdabafce1}{\index{parte2.\-c@{parte2.\-c}!contasegl@{contasegl}}
+\index{contasegl@{contasegl}!parte2.c@{parte2.\-c}}
+\subsubsection[{contasegl}]{\setlength{\rightskip}{0pt plus 5cm}int contasegl (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{int}]{l}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_aff1776159d9e217fd3a8abefdabafce1}
+\hypertarget{parte2_8c_a0e4de54db8be6b54c41c64766e6c2add}{\index{parte2.\-c@{parte2.\-c}!E1\-\_\-filtraresto@{E1\-\_\-filtraresto}}
+\index{E1\-\_\-filtraresto@{E1\-\_\-filtraresto}!parte2.c@{parte2.\-c}}
+\subsubsection[{E1\-\_\-filtraresto}]{\setlength{\rightskip}{0pt plus 5cm}void E1\-\_\-filtraresto (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a0e4de54db8be6b54c41c64766e6c2add}
+\hypertarget{parte2_8c_a0e42340b81e723cfce403ee87e801a63}{\index{parte2.\-c@{parte2.\-c}!E1\-\_\-primlinha@{E1\-\_\-primlinha}}
+\index{E1\-\_\-primlinha@{E1\-\_\-primlinha}!parte2.c@{parte2.\-c}}
+\subsubsection[{E1\-\_\-primlinha}]{\setlength{\rightskip}{0pt plus 5cm}void E1\-\_\-primlinha (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a0e42340b81e723cfce403ee87e801a63}
+\hypertarget{parte2_8c_af373aa1eabe08a0bc3525b40acc2166f}{\index{parte2.\-c@{parte2.\-c}!E2\-C@{E2\-C}}
+\index{E2\-C@{E2\-C}!parte2.c@{parte2.\-c}}
+\subsubsection[{E2\-C}]{\setlength{\rightskip}{0pt plus 5cm}int E2\-C (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_af373aa1eabe08a0bc3525b40acc2166f}
+\hypertarget{parte2_8c_a737aaaf90d4c029e43ae5c7197c368b7}{\index{parte2.\-c@{parte2.\-c}!E2\-L@{E2\-L}}
+\index{E2\-L@{E2\-L}!parte2.c@{parte2.\-c}}
+\subsubsection[{E2\-L}]{\setlength{\rightskip}{0pt plus 5cm}int E2\-L (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a737aaaf90d4c029e43ae5c7197c368b7}
+\hypertarget{parte2_8c_ad82ef6266d363ce176f2785e1525f736}{\index{parte2.\-c@{parte2.\-c}!haux@{haux}}
+\index{haux@{haux}!parte2.c@{parte2.\-c}}
+\subsubsection[{haux}]{\setlength{\rightskip}{0pt plus 5cm}void haux (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{int}]{l}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_ad82ef6266d363ce176f2785e1525f736}
+\hypertarget{parte2_8c_ad327b2dee70f4002d5f94cf71b076095}{\index{parte2.\-c@{parte2.\-c}!pertence@{pertence}}
+\index{pertence@{pertence}!parte2.c@{parte2.\-c}}
+\subsubsection[{pertence}]{\setlength{\rightskip}{0pt plus 5cm}int pertence (
+\begin{DoxyParamCaption}
+\item[{char}]{c}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_ad327b2dee70f4002d5f94cf71b076095}
+\hypertarget{parte2_8c_a2502b7e46b4c851ba37d29d00f606167}{\index{parte2.\-c@{parte2.\-c}!pertence3@{pertence3}}
+\index{pertence3@{pertence3}!parte2.c@{parte2.\-c}}
+\subsubsection[{pertence3}]{\setlength{\rightskip}{0pt plus 5cm}int pertence3 (
+\begin{DoxyParamCaption}
+\item[{char}]{c}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a2502b7e46b4c851ba37d29d00f606167}
+\hypertarget{parte2_8c_ac8f5860cb4be216d6d43fd0de19b8813}{\index{parte2.\-c@{parte2.\-c}!poebarcos\-Auxc@{poebarcos\-Auxc}}
+\index{poebarcos\-Auxc@{poebarcos\-Auxc}!parte2.c@{parte2.\-c}}
+\subsubsection[{poebarcos\-Auxc}]{\setlength{\rightskip}{0pt plus 5cm}void poebarcos\-Auxc (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{int}]{l, }
+\item[{int}]{c}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_ac8f5860cb4be216d6d43fd0de19b8813}
+\hypertarget{parte2_8c_a3be1b4c4216fd6ce515499ab4d1645b4}{\index{parte2.\-c@{parte2.\-c}!poebarcos\-Auxl@{poebarcos\-Auxl}}
+\index{poebarcos\-Auxl@{poebarcos\-Auxl}!parte2.c@{parte2.\-c}}
+\subsubsection[{poebarcos\-Auxl}]{\setlength{\rightskip}{0pt plus 5cm}void poebarcos\-Auxl (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{int}]{l, }
+\item[{int}]{c}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a3be1b4c4216fd6ce515499ab4d1645b4}
+\hypertarget{parte2_8c_abfd19c9e6e4452b9d482ee7b8a80bcf8}{\index{parte2.\-c@{parte2.\-c}!pop@{pop}}
+\index{pop@{pop}!parte2.c@{parte2.\-c}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}void pop (
+\begin{DoxyParamCaption}
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_abfd19c9e6e4452b9d482ee7b8a80bcf8}
+Esta função retira um elemento da stack.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em esta} & função recebe somente a stack. \\
+\hline
+\end{DoxyParams}
+\hypertarget{parte2_8c_a24d71c1ffe070ee60f929e659b709130}{\index{parte2.\-c@{parte2.\-c}!porbarcos@{porbarcos}}
+\index{porbarcos@{porbarcos}!parte2.c@{parte2.\-c}}
+\subsubsection[{porbarcos}]{\setlength{\rightskip}{0pt plus 5cm}int porbarcos (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a24d71c1ffe070ee60f929e659b709130}
+\hypertarget{parte2_8c_ae9becda6b15e9175ac1da8554f5cbcac}{\index{parte2.\-c@{parte2.\-c}!poros@{poros}}
+\index{poros@{poros}!parte2.c@{parte2.\-c}}
+\subsubsection[{poros}]{\setlength{\rightskip}{0pt plus 5cm}void poros (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_ae9becda6b15e9175ac1da8554f5cbcac}
+\hypertarget{parte2_8c_a518348f7e391149236896ec636e9a00f}{\index{parte2.\-c@{parte2.\-c}!porosc@{porosc}}
+\index{porosc@{porosc}!parte2.c@{parte2.\-c}}
+\subsubsection[{porosc}]{\setlength{\rightskip}{0pt plus 5cm}void porosc (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a518348f7e391149236896ec636e9a00f}
+\hypertarget{parte2_8c_a8e4e2797850fab71b598360977d7c757}{\index{parte2.\-c@{parte2.\-c}!porosl@{porosl}}
+\index{porosl@{porosl}!parte2.c@{parte2.\-c}}
+\subsubsection[{porosl}]{\setlength{\rightskip}{0pt plus 5cm}void porosl (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a8e4e2797850fab71b598360977d7c757}
+\hypertarget{parte2_8c_a436309221725e30fde866af67569beba}{\index{parte2.\-c@{parte2.\-c}!porsegs@{porsegs}}
+\index{porsegs@{porsegs}!parte2.c@{parte2.\-c}}
+\subsubsection[{porsegs}]{\setlength{\rightskip}{0pt plus 5cm}int porsegs (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a436309221725e30fde866af67569beba}
+Esta função substitui os o's que sejam possiveis substituir por segmentos de barcos.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em a} & função recebe a estrutura com todos os o's.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Retorna}
+1 ou zero consoante haja alterações 
+\end{DoxyReturn}
+\hypertarget{parte2_8c_a3b61ee2b26716e43a993ce9cc4d3a0d5}{\index{parte2.\-c@{parte2.\-c}!porsubs@{porsubs}}
+\index{porsubs@{porsubs}!parte2.c@{parte2.\-c}}
+\subsubsection[{porsubs}]{\setlength{\rightskip}{0pt plus 5cm}int porsubs (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a3b61ee2b26716e43a993ce9cc4d3a0d5}
+\hypertarget{parte2_8c_ae761aedc00080a6f00d322dcc397b1e9}{\index{parte2.\-c@{parte2.\-c}!push@{push}}
+\index{push@{push}!parte2.c@{parte2.\-c}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}void push (
+\begin{DoxyParamCaption}
+\item[{{\bf stck} $\ast$}]{stack, }
+\item[{char}]{cmd, }
+\item[{union dados}]{d}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_ae761aedc00080a6f00d322dcc397b1e9}
+Esta funcao acrescenta um elemento à stack
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em a} & função recebe a stack. \\
+\hline
+{\em recebe} & o comando que foi utilizado. \\
+\hline
+{\em recebe} & uma \char`\"{}union dados\char`\"{} que, dependendo do comando uzado será um apontador para tipos diferentes. \\
+\hline
+\end{DoxyParams}
+\hypertarget{parte2_8c_a3430f05726117d6094e9236eb96f4d93}{\index{parte2.\-c@{parte2.\-c}!tiraros@{tiraros}}
+\index{tiraros@{tiraros}!parte2.c@{parte2.\-c}}
+\subsubsection[{tiraros}]{\setlength{\rightskip}{0pt plus 5cm}void tiraros (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a3430f05726117d6094e9236eb96f4d93}
+\hypertarget{parte2_8c_addea9cb6aecf35f686a0a33ff35456fa}{\index{parte2.\-c@{parte2.\-c}!undo\-\_\-\-C\-L\-E@{undo\-\_\-\-C\-L\-E}}
+\index{undo\-\_\-\-C\-L\-E@{undo\-\_\-\-C\-L\-E}!parte2.c@{parte2.\-c}}
+\subsubsection[{undo\-\_\-\-C\-L\-E}]{\setlength{\rightskip}{0pt plus 5cm}void undo\-\_\-\-C\-L\-E (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_addea9cb6aecf35f686a0a33ff35456fa}
+Esta função está responsável por desfazer o último comando quando este foi o C, o L, ou qualquer das E's.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em a} & função recebe a estrutura atual \\
+\hline
+{\em para} & que possa recuperar a estrutura antiga, a função recebe também a stack. \\
+\hline
+\end{DoxyParams}
+\hypertarget{parte2_8c_adda53bc08b6e1006a4a7168a7ac02d38}{\index{parte2.\-c@{parte2.\-c}!undo\-\_\-h@{undo\-\_\-h}}
+\index{undo\-\_\-h@{undo\-\_\-h}!parte2.c@{parte2.\-c}}
+\subsubsection[{undo\-\_\-h}]{\setlength{\rightskip}{0pt plus 5cm}void undo\-\_\-h (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_adda53bc08b6e1006a4a7168a7ac02d38}
+Esta função está responsável por desfazer o último comando quando este foi o h.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em a} & função recebe a estrutura atual \\
+\hline
+{\em para} & que possa recuperar a estrutura antiga, a função recebe também a stack. \\
+\hline
+\end{DoxyParams}
+\hypertarget{parte2_8c_a3612c739cc369c5547480cc53ca1b2fa}{\index{parte2.\-c@{parte2.\-c}!undo\-\_\-p@{undo\-\_\-p}}
+\index{undo\-\_\-p@{undo\-\_\-p}!parte2.c@{parte2.\-c}}
+\subsubsection[{undo\-\_\-p}]{\setlength{\rightskip}{0pt plus 5cm}void undo\-\_\-p (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a3612c739cc369c5547480cc53ca1b2fa}
+Esta função está responsável por desfazer o último comando quando este foi o p.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em a} & função recebe a estrutura atual \\
+\hline
+{\em para} & que possa recuperar a estrutura antiga, a função recebe também a stack. \\
+\hline
+\end{DoxyParams}
+\hypertarget{parte2_8c_a530f2491dbaf2effb0937ca4fb964dfd}{\index{parte2.\-c@{parte2.\-c}!undo\-\_\-v@{undo\-\_\-v}}
+\index{undo\-\_\-v@{undo\-\_\-v}!parte2.c@{parte2.\-c}}
+\subsubsection[{undo\-\_\-v}]{\setlength{\rightskip}{0pt plus 5cm}void undo\-\_\-v (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{{\bf stck} $\ast$}]{stack}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a530f2491dbaf2effb0937ca4fb964dfd}
+Esta função está responsável por desfazer o último comando quando este foi o v.
+
+
+\begin{DoxyParams}{Parâmetros}
+{\em a} & função recebe a estrutura atual \\
+\hline
+{\em para} & que possa recuperar a estrutura antiga, a função recebe também a stack. \\
+\hline
+\end{DoxyParams}
+\hypertarget{parte2_8c_a4893d717483b7e828a692e9b49371953}{\index{parte2.\-c@{parte2.\-c}!vaux@{vaux}}
+\index{vaux@{vaux}!parte2.c@{parte2.\-c}}
+\subsubsection[{vaux}]{\setlength{\rightskip}{0pt plus 5cm}void vaux (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{int}]{c}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a4893d717483b7e828a692e9b49371953}
+\hypertarget{parte2_8c_a4ccee3cf1072baccbb5b7dc811af1d10}{\index{parte2.\-c@{parte2.\-c}!verifica\-Agua@{verifica\-Agua}}
+\index{verifica\-Agua@{verifica\-Agua}!parte2.c@{parte2.\-c}}
+\subsubsection[{verifica\-Agua}]{\setlength{\rightskip}{0pt plus 5cm}int verifica\-Agua (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a4ccee3cf1072baccbb5b7dc811af1d10}
+\hypertarget{parte2_8c_a8d4794f085526f1dfdb447e0c1ccfc27}{\index{parte2.\-c@{parte2.\-c}!verifica\-Barcos@{verifica\-Barcos}}
+\index{verifica\-Barcos@{verifica\-Barcos}!parte2.c@{parte2.\-c}}
+\subsubsection[{verifica\-Barcos}]{\setlength{\rightskip}{0pt plus 5cm}int verifica\-Barcos (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a8d4794f085526f1dfdb447e0c1ccfc27}
+\hypertarget{parte2_8c_a1664d23036bf45ce3785feee253d047c}{\index{parte2.\-c@{parte2.\-c}!verifica\-Cantos\-P@{verifica\-Cantos\-P}}
+\index{verifica\-Cantos\-P@{verifica\-Cantos\-P}!parte2.c@{parte2.\-c}}
+\subsubsection[{verifica\-Cantos\-P}]{\setlength{\rightskip}{0pt plus 5cm}int verifica\-Cantos\-P (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a1664d23036bf45ce3785feee253d047c}
+\hypertarget{parte2_8c_abb8e46fa52eb33ebc8727cd91d5d3d43}{\index{parte2.\-c@{parte2.\-c}!verifica\-Peca\-Ex@{verifica\-Peca\-Ex}}
+\index{verifica\-Peca\-Ex@{verifica\-Peca\-Ex}!parte2.c@{parte2.\-c}}
+\subsubsection[{verifica\-Peca\-Ex}]{\setlength{\rightskip}{0pt plus 5cm}int verifica\-Peca\-Ex (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_abb8e46fa52eb33ebc8727cd91d5d3d43}
+\hypertarget{parte2_8c_ab447d04cb4b32bf8329f6016ef4324a8}{\index{parte2.\-c@{parte2.\-c}!verifica\-Seg@{verifica\-Seg}}
+\index{verifica\-Seg@{verifica\-Seg}!parte2.c@{parte2.\-c}}
+\subsubsection[{verifica\-Seg}]{\setlength{\rightskip}{0pt plus 5cm}int verifica\-Seg (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_ab447d04cb4b32bf8329f6016ef4324a8}
+\hypertarget{parte2_8c_a794c7feec2df77f7f3c979880605f9a4}{\index{parte2.\-c@{parte2.\-c}!verifica\-S\-U\-B@{verifica\-S\-U\-B}}
+\index{verifica\-S\-U\-B@{verifica\-S\-U\-B}!parte2.c@{parte2.\-c}}
+\subsubsection[{verifica\-S\-U\-B}]{\setlength{\rightskip}{0pt plus 5cm}int verifica\-S\-U\-B (
+\begin{DoxyParamCaption}
+\item[{{\bf E\-S\-T\-R\-U\-T\-U\-R\-A\-\_\-\-B\-N} $\ast$}]{est\-\_\-bn, }
+\item[{char}]{peca, }
+\item[{int}]{lin, }
+\item[{int}]{col}
+\end{DoxyParamCaption}
+)}}\label{parte2_8c_a794c7feec2df77f7f3c979880605f9a4}
