@@ -1,3 +1,7 @@
 # AEBD - Administração	e	Exploração	de	Bases	de	Dados
-Pequeno	monitor	 de	 BD que	 apresente	 de	 forma	 simples	 os	 principais	 parâmetros	 de	 avaliação	 de	
-performance	de	uma	BD	Oracle.
+database monitor that shows performance evaluation parameters in a simple way of an Oracle DB
+
+co-authored with:
++ [José Bastos](https://github.com/zbastos)
++ [José Silva](https://github.com/Jpvsilva)
++ [Matias Araújo](https://github.com/MatiasN)
