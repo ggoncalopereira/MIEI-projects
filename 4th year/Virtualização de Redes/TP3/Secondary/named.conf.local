@@ -1,0 +1,18 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+zone "grupo2VR.example.com"{
+	type slave;
+	file "slaves/db.grupo2VR.example.com";
+	allow-transfer {10.0.0.5;};
+};
+
+zone "0.10.in-addr.arpa" {
+	type master;
+	file "/etc/bind/zones/10.0";
+	allow-transfer {10.0.0.5;};
+};

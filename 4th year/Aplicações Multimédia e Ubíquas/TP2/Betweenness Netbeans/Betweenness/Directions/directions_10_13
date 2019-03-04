@@ -1,0 +1,204 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ2Yxj0Dv_JA0R5AeeCNKSico",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJg-yz8Xn_JA0RTnThOO0GlJM",
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.5630646,
+               "lng" : -8.454814899999999
+            },
+            "southwest" : {
+               "lat" : 41.5417838,
+               "lng" : -8.474460300000001
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "4.1 km",
+                  "value" : 4081
+               },
+               "duration" : {
+                  "text" : "7 mins",
+                  "value" : 431
+               },
+               "end_address" : "4700-830 Parada de Tibães, Portugal",
+               "end_location" : {
+                  "lat" : 41.5630646,
+                  "lng" : -8.4740822
+               },
+               "start_address" : "4705-309 Braga, Portugal",
+               "start_location" : {
+                  "lat" : 41.5418483,
+                  "lng" : -8.4563215
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 191
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : {
+                        "lat" : 41.54283040000001,
+                        "lng" : -8.454814899999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e on \u003cb\u003eR. da Igreja\u003c/b\u003e toward \u003cb\u003eAv. de Santo André\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "qsp|F~rrr@?ADm@Bc@BO?GAOEKEIEGIESQoA_Ao@e@_@U"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5418483,
+                        "lng" : -8.4563215
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 km",
+                        "value" : 634
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 66
+                     },
+                     "end_location" : {
+                        "lat" : 41.5469448,
+                        "lng" : -8.4598648
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. do Carvalho\u003c/b\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : {
+                        "points" : "uyp|Fpirr@KNKNm@`A[h@OTCBGH]^qAxAEJMb@]|AEXITKXKPMPOLSL_@ZSPML[d@EH{AdBu@`AYb@[RUNc@VYROLKDQJMF"
+                     },
+                     "start_location" : {
+                        "lat" : 41.54283040000001,
+                        "lng" : -8.454814899999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.9 km",
+                        "value" : 867
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 91
+                     },
+                     "end_location" : {
+                        "lat" : 41.5537469,
+                        "lng" : -8.461029399999999
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eCM1325\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ksq|Fbisr@gBfBq@h@WPQL_@ZMJIJELSh@IVIVIPKLIHIDKDKBM@I?QEOGOGSKIGMKOOUYQSUUUWQOMGMEO?Q?k@@]@a@@Q@E?_@Bg@BU@I@G?KDKDMHKF[XUTOLIFIDQDQBM@G@UAs@Ac@?C?UGYSc@Wc@_@KIOI"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5469448,
+                        "lng" : -8.4598648
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.8 km",
+                        "value" : 1812
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 158
+                     },
+                     "end_location" : {
+                        "lat" : 41.5586779,
+                        "lng" : -8.471674699999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. do Anjo\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "}}r|Flpsr@APATAV?XAZAd@ATAPARCf@Af@APAJ?L?NDNBPHb@F\\H`@Jj@F`@DPF\\DT@DHVNh@^bAP^LZVt@N`@HZFTBLHb@D^BT?P@HBTBf@Fr@@R@VBRF\\Pl@Rl@Pp@Rl@Rn@Tp@N^Nd@Nh@DRBTBT?N?PARC\\Cd@CZEbAI`BCn@G|@Cl@CPCPILIJIFODM?KAWCe@I]E[GKCSEUGMEWIYMMG]O[QMGMIUI_@MoA]{Bo@iA[g@MMCOAI?ODm@P[LWDODMBK?]Aa@Ag@Cg@A[CuCAODODMFGFGHEHCB"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5537469,
+                        "lng" : -8.461029399999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 530
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 80
+                     },
+                     "end_location" : {
+                        "lat" : 41.5627724,
+                        "lng" : -8.474460300000001
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. do Carrascal\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "w|s|F|rur@ICGAGCKAO?Y@a@@Y@A@I?OBUHMBQH[Lc@RGBKDiAv@_@VOJGFYPYRUNc@Xi@\\QNUNGHa@b@[^UTMRU^GLMPOREJEJGLCD"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5586779,
+                        "lng" : -8.471674699999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "47 m",
+                        "value" : 47
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 10
+                     },
+                     "end_location" : {
+                        "lat" : 41.5630646,
+                        "lng" : -8.4740822
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. 10 de Junho\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ivt|Fjdvr@Ua@ISGKCCGCEA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5627724,
+                        "lng" : -8.474460300000001
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "qsp|F~rrr@LcBAWKUsB_BoA{@W^}AdCe@h@qAxAEJk@`COn@Wj@]^s@h@a@^a@n@qCfDYb@[Ry@f@i@`@]PMFgBfBiAz@q@h@WVm@fBU^SNWHW@a@Mc@SWSe@i@oAqA[Ma@?}BFcBHQ@WJYPq@n@YT[J_@D]?wAAYG}@k@o@i@OIAPCl@EpBItBCz@ZbBb@`CXpAn@lB^z@f@vAPp@VfBHxANrBXjAd@~AlAnD^nAHh@Bd@Ad@QbDY|FGb@SXYLYAwB[cAW}Ao@mAm@uHwBu@QYAqBj@]Hi@AmCKuCAOD]LOPILYI[A{@Bu@FqAd@k@VuA|@qA|@}BzAg@^i@l@q@t@c@r@k@~@MXCDUa@Q_@KGEA"
+         },
+         "summary" : "R. do Anjo",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,205 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJlS1h2r7_JA0R4ebxnjIVqEY",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJq4u2_Bb-JA0Rfa-LPB979Ag",
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.60432309999999,
+               "lng" : -8.41337
+            },
+            "southwest" : {
+               "lat" : 41.5854884,
+               "lng" : -8.460855199999999
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "5.9 km",
+                  "value" : 5856
+               },
+               "duration" : {
+                  "text" : "9 mins",
+                  "value" : 538
+               },
+               "end_address" : "4710-586 Adaúfe, Portugal",
+               "end_location" : {
+                  "lat" : 41.5988925,
+                  "lng" : -8.4149943
+               },
+               "start_address" : "4700-020 São Paio Merelim, Portugal",
+               "start_location" : {
+                  "lat" : 41.5854884,
+                  "lng" : -8.4576017
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 179
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 24
+                     },
+                     "end_location" : {
+                        "lat" : 41.5865963,
+                        "lng" : -8.458880299999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eR. da Nascente\u003c/b\u003e toward \u003cb\u003eR. de São Bento\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "idy|F~zrr@E`AGj@CJEHEFKFGDkDdB"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5854884,
+                        "lng" : -8.4576017
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 186
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 46
+                     },
+                     "end_location" : {
+                        "lat" : 41.5876755,
+                        "lng" : -8.457174799999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. de São Bento\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "gky|F~bsr@iAoBCGEKkAuB[k@[o@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5865963,
+                        "lng" : -8.458880299999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.7 km",
+                        "value" : 686
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 58
+                     },
+                     "end_location" : {
+                        "lat" : 41.5931481,
+                        "lng" : -8.460855199999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. do Carmo\u003c/b\u003e/\u003cb\u003eN201\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow N201\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "_ry|Fhxrr@SXMJGHIJIFEDQHWLOF]LwAn@i@Pq@Vc@Ri@RaA^gA`@kBr@_@RYP[TKNc@\\yBnB{AlAuAhA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5876755,
+                        "lng" : -8.457174799999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "4.4 km",
+                        "value" : 4402
+                     },
+                     "duration" : {
+                        "text" : "6 mins",
+                        "value" : 340
+                     },
+                     "end_location" : {
+                        "lat" : 41.6018334,
+                        "lng" : -8.413506999999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. da Marginal\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "etz|Fjosr@QSGESUYo@Yq@Sg@a@aAQe@CCM[KWyAgDq@}Ac@kAkBgEmAmCO]a@_AOa@gAcCQ[Wc@i@u@Ya@i@m@mAcBcAmAwBwCeAsAOOU]aAyBWg@c@cAuAyCOa@cAyBM[Me@I_@Ec@ESAKACAU?IAYAe@D{BH_CHaDByBV}LHuFAw@Am@E}@E[CYQ{@sA{GEYG[CM[mBEQGWEKWm@AAeBqD]q@]m@o@y@]a@c@q@Sg@I_@Is@Go@M{BK}AIoBEq@Is@C[Ca@i@yDIm@MeAMeACOGg@Gc@OoAA[AK@OBU@A@??A@A?A@A?A?A@A?C?A?C?A?A?C?AAC?A?AAAAA?AAAAa@@iAFw@V{CL}AJ_AD]B_@Fs@Fw@JeBDi@JuAV_DLsAP}@r@oCT{@Le@Nm@p@sCTyAb@yDX_Cj@gFTgBJgATkBBe@?iAMgDEiA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5931481,
+                        "lng" : -8.460855199999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 223
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 30
+                     },
+                     "end_location" : {
+                        "lat" : 41.5999571,
+                        "lng" : -8.41337
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eParque Industrial de Adaúfe\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eRestricted usage road\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "mj||Flgjr@f@NXNp@b@VBX?JErAm@~@_@n@O"
+                     },
+                     "start_location" : {
+                        "lat" : 41.6018334,
+                        "lng" : -8.413506999999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 180
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 40
+                     },
+                     "end_location" : {
+                        "lat" : 41.5988925,
+                        "lng" : -8.4149943
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e to stay on \u003cb\u003eParque Industrial de Adaúfe\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eRestricted usage road\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "w~{|Fpfjr@tAfCl@bApAvB"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5999571,
+                        "lng" : -8.41337
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "idy|F~zrr@MlBITQNsDjB_DyFw@{Aa@d@a@b@wAl@wElB_HhCy@d@g@d@oIdHYYSUYo@m@yAs@gBwB_FuAiDyDuIiCcGi@_AcAwAi@m@mAcB{DeFuAcBU]aAyB{@kBeB{DqAuCWeAOgAE_BN{FL{G`@sTCeBKyAUuAeB_Ja@_CMc@}CsGmAgBaAsA]gAQcBi@{JMoAm@{Ei@iEOkAQkB?[BUDEBSCSACCc@@iAFw@d@yF\\qDd@}Gd@sFdAmEdBcHTyAb@yDdAgJz@aI?iAMgDEiAf@NjAr@p@B~As@~@_@n@ObCjEpAvB"
+         },
+         "summary" : "R. da Marginal",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

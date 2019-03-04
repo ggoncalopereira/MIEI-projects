@@ -1,0 +1,372 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ-el7Mmn4JA0RxB9-nkPx3dY",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ2Yxj0Dv_JA0R5AeeCNKSico",
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.5418483,
+               "lng" : -8.4480159
+            },
+            "southwest" : {
+               "lat" : 41.474297,
+               "lng" : -8.473517299999999
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "10.1 km",
+                  "value" : 10052
+               },
+               "duration" : {
+                  "text" : "17 mins",
+                  "value" : 1007
+               },
+               "end_address" : "4705-309 Braga, Portugal",
+               "end_location" : {
+                  "lat" : 41.5418483,
+                  "lng" : -8.4563215
+               },
+               "start_address" : "4705-627 Oliveira (São Pedro), Portugal",
+               "start_location" : {
+                  "lat" : 41.475566,
+                  "lng" : -8.4675858
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 349
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 47
+                     },
+                     "end_location" : {
+                        "lat" : 41.4749951,
+                        "lng" : -8.4707916
+                     },
+                     "html_instructions" : "Head \u003cb\u003ewest\u003c/b\u003e on \u003cb\u003eTv. da Volta do Carro\u003c/b\u003e toward \u003cb\u003eR. do Talho\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "iuc|Flytr@?B?F@PBH@FBD@DbAvADDDBBBHBHBp@NDB@BB@BDFHd@zA@H?N?\\EPGNIX_AzBGLEPCLKp@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.475566,
+                        "lng" : -8.4675858
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 203
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 36
+                     },
+                     "end_location" : {
+                        "lat" : 41.474297,
+                        "lng" : -8.4729606
+                     },
+                     "html_instructions" : "\u003cb\u003eTv. da Volta do Carro\u003c/b\u003e turns \u003cb\u003eleft\u003c/b\u003e and becomes \u003cb\u003eAv. de Casais\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "wqc|Flmur@HJDLBVTfBHr@Lr@FPBHFHPRDFT^BF@F@D?H?l@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.4749951,
+                        "lng" : -8.4707916
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 546
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 71
+                     },
+                     "end_location" : {
+                        "lat" : 41.4788375,
+                        "lng" : -8.4712301
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. do Termo\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "kmc|F~zur@_@@]Ba@Cg@EKCMCICKCOIQIIEUGYIk@KGAE?SCg@GeAIK?G?K?e@Fg@HE?CAyAi@[KMCECGEEGy@uAEGII_Ao@GEY["
+                     },
+                     "start_location" : {
+                        "lat" : 41.474297,
+                        "lng" : -8.4729606
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.1 km",
+                        "value" : 1075
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 96
+                     },
+                     "end_location" : {
+                        "lat" : 41.4878207,
+                        "lng" : -8.473517299999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eN103-2\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "wid|Fdpur@GDE@GBMBc@FG@OBI@I?MBUBUB[BW?E?GAYE[GOEq@UKCWC_@G]E_@A_BLGCGAEAeCiBCACAC?GAEDEBm@bAABC@EBE@IBM?c@?M?OBODaBr@s@\\qBz@cFvBeInDIDCBCDOX"
+                     },
+                     "start_location" : {
+                        "lat" : 41.4788375,
+                        "lng" : -8.4712301
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "4.0 km",
+                        "value" : 4029
+                     },
+                     "duration" : {
+                        "text" : "5 mins",
+                        "value" : 327
+                     },
+                     "end_location" : {
+                        "lat" : 41.5167317,
+                        "lng" : -8.448929399999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eN14\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "{af|Fn~ur@W_@e@i@IMIK]e@AAw@kAOUa@k@OSAAOUa@k@U[W_@MQ_@i@[c@]c@a@m@a@m@KM{AyBc@m@[a@KQW_@EGQWQY[m@MYIUM[Qc@[gAG]Kg@Gc@Mw@AMAGQqAAECUCSOsAIm@CUCQAKE_@AIEYKu@Kw@G]CQMk@Oo@Qq@Oe@Oa@O]KUMWGMEECECCGE[e@QWm@s@o@u@{DuE_@c@oA{AoA}AaAiA}@aA]a@]a@k@q@Y][]MMIIUS_@]OMOIKG_@Sa@Sg@UQGME_@KSG_@Ii@MoE}@uCo@}@S}Be@{Be@cAUEAo@Oi@MkAYCE?AA?q@MeBa@cAU[Ia@M]KqA_@_@MWIKEMEEE?A?AA??A?A?A?AAA?A?AA??AA??AA??AA?AAA?A?A?A?A?A??@A?A@A@A@?@a@[IGGE]QOIk@Yk@UYMMG}As@KGw@[[OUKa@OICGAIA_Bu@{@_@qHeDOO_@W?AAA?A?AAA?AAA?AA??AA??AA?A??AA?A?A?A?A??@A?A??@A??@w@UK?uGuCq@YGEaBs@o@WWIWEQE]Gi@G}@K{@Ie@GQAQEKCECg@gA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.4878207,
+                        "lng" : -8.473517299999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.1 km",
+                        "value" : 1077
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 79
+                     },
+                     "end_location" : {
+                        "lat" : 41.5257077,
+                        "lng" : -8.448138199999999
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e3rd\u003c/b\u003e exit and stay on \u003cb\u003eN14\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "qvk|Fxdqr@?I?C?EAEAEACACAEACCCAAECCCC?CAC?C?C?C?C@C@C@C@ABA@ABA@A@ABAB?@AB?@?BA@?B?@?@?B?@UXIHOJQBS@W@Q@MDUFSHaErAiCz@WJYFWFQ@SBY?YAUAUEQEQEOG]MOGQIwCsAm@Ws@]g@S[MUI[Ia@Km@K_ASkB[UEIGYGi@Mm@Ok@MQEi@K"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5167317,
+                        "lng" : -8.448929399999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 507
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 65
+                     },
+                     "end_location" : {
+                        "lat" : 41.5274274,
+                        "lng" : -8.4524846
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e4th\u003c/b\u003e exit onto \u003cb\u003eCM1316\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "unm|Fz_qr@?A?AA??AAACCEAECEAEACAE?E?C?A?A?A?C?A?A@C??@A??@A??@A??@?@A??@?@A@?@?@?@?@?@?@?@?@?@?@@@?@?@@@?@B@DBBBB@B@@?B@@?@@@?@?@@@?HX@N?DCR@FQrBGn@G`@Kf@KZQVk@p@c@h@KPEPCREdB?R@N@F?HAF?DCFGTuAn@GDCFEFCFEHIT"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5257077,
+                        "lng" : -8.448138199999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 223
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 27
+                     },
+                     "end_location" : {
+                        "lat" : 41.5283556,
+                        "lng" : -8.4544996
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. 8 de Setembro\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "mym|F~zqr@MB_@D_@FMBGBCBGHEHCJEN]bDGb@ATCXETGv@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5274274,
+                        "lng" : -8.4524846
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.9 km",
+                        "value" : 867
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 100
+                     },
+                     "end_location" : {
+                        "lat" : 41.5354171,
+                        "lng" : -8.454553899999999
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit onto \u003cb\u003eR. de Edgardo Sá Malheiro\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "g_n|Frgrr@A@A??@?@A??@A@SDEBmAPqA\\YFUDkAPg@Ba@Ea@IGA[MGEyA{@]SGE{A}@OICAUMOICAs@e@SM{A{@u@e@YKSCI?G@I@QDo@^_A^{@ZUHQHCBEBGJUZc@l@[b@a@j@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5283556,
+                        "lng" : -8.4544996
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 185
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 20
+                     },
+                     "end_location" : {
+                        "lat" : 41.5369196,
+                        "lng" : -8.4535889
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eAv. dos Extremos\u003c/b\u003e/\u003cb\u003eN103\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "kko|F|grr@cCsAcB_AcAk@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5354171,
+                        "lng" : -8.454553899999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 548
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 76
+                     },
+                     "end_location" : {
+                        "lat" : 41.5387516,
+                        "lng" : -8.458718899999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. da Tomada\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "wto|F|arr@ELUh@Uf@Yt@O`@GFm@jAHHFHPRRNPNFDDD@HBF?J@LAHEHCFGHID[Ha@NIDMJGHKLINOf@I^EXAVE^G\\Mh@M^_@hAUv@GZG^Wt@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5369196,
+                        "lng" : -8.4535889
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 403
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 56
+                     },
+                     "end_location" : {
+                        "lat" : 41.5418112,
+                        "lng" : -8.456794700000001
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. do Assento\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "e`p|F~asr@]N]NI@M?KAOEYQ_@W[WYUIMQWW]QSOMCCu@k@m@]IGKGGIEGEMGOKUKQOQOIOGIEKAW?]B"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5387516,
+                        "lng" : -8.458718899999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "40 m",
+                        "value" : 40
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 7
+                     },
+                     "end_location" : {
+                        "lat" : 41.5418483,
+                        "lng" : -8.4563215
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. da Igreja\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "isp|F|urr@CMC_@AY@U"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5418112,
+                        "lng" : -8.456794700000001
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "iuc|Flytr@Df@DLdA|AJHLFbAZFFl@dB@X?\\EPQh@gAhCI^Kp@HJHd@^zCTdAJRVZXf@BdA}@DiAIo@Oa@S_@MeAUMAmCUS?mAPIAuBu@SGMM_A}AiAy@a@a@MFaAPq@Hk@Fs@BcAOaA[c@G}AO_BLGCMCqCmBGAEDs@fAQJWBq@?_@HuCpAeThJGHOXW_@o@w@g@q@kBoC_DoEeH{J{@qAeAwB_@_Ac@eBc@qC{@aHs@mFQ}@a@aB_@gA[s@_@q@KIm@}@yHcJ_DyD_CkCaCsCiAiAkA}@{BeAaBc@mMoCcIcByA]kAYCE?As@MgFoAgDcA_@QAGAGIIK@EBA@?@k@c@aB{@qD_BuB_Ak@SQC{CuAqHeDOO_@YAA?CACCEEAK?C@?@cAUqLiFgAa@i@KaEe@w@I]IECg@gA?MEUIQOIOAODQVCT?D_@b@OJQBk@B_@Fi@P}JbDi@Hm@Bo@Cg@KoAc@kGsCcAa@q@S{FgAUEIGcAUuCo@GKWISAQ@CDET@JDFPJLBB@Jh@StCOpAWbAmBdCId@ExB@h@CLGTuAn@KLINO^m@Hm@JKFMRIZk@vFMlAA@CB?@UFEBmAPkBd@aBVg@Ba@Ei@Kc@S{EsCy@c@gDqBu@e@YK]CQBQDo@^{Bz@g@Rg@n@_ApAa@j@cCsAgDkB[v@o@|AWh@m@jAHHX\\r@j@DP@XGRKPe@Nk@TUTU\\YfAGp@M|@[hAu@`COz@Wt@]Ng@PYAi@W{@o@c@c@i@u@a@a@y@o@w@e@SQKUSe@[c@_@QUGu@BGm@?o@"
+         },
+         "summary" : "N14",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

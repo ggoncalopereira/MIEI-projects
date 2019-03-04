@@ -1,0 +1,256 @@
+<!DOCTYPE html><html
+itemscope itemtype="http://schema.org/WebPage" lang="pt-pt"><head><title>Códigos Postais de Adaúfe (8)</title><meta
+http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link
+rel="stylesheet" href="/public/css/flat-v4.css" type="text/css" /><meta
+name="description" content="Todos os Códigos Postais de Adaúfe, Braga. Por exemplo, 4710-857 ADAÚFE, Travessa Júlio Lima." /><meta
+name="keywords" content="codigo postal, Adaúfe, Braga, Braga, 4710-584, 4710-573, 4710-562, 4710-844, 4710-563, 4710-571, 4710-564, 4710-262, 4710-862, 4710-857, 4710-851, 4710-555, 4710-193, 4710-479" /><meta
+name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link
+rel="shortcut icon" href="/favicon.ico" /><meta
+property="fb:admins" content="1035683224" /><meta
+property="fb:app_id" content="420345441324086" /><meta
+property="og:title" content="Código Postal" /><meta
+property="og:url" content="https://www.codigo-postal.pt/" /><meta
+property="og:image" content="https://www.codigo-postal.pt/img/logo-fb.png" /><meta
+property="og:site_name" content="Código Postal" /><meta
+property="og:description" content="Todos os Códigos Postais de Adaúfe, Braga. Por exemplo, 4710-857 ADAÚFE, Travessa Júlio Lima." /><meta
+property="og:type" content="website" /> <script type="text/javascript">var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16650868-14']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script> <script type='text/javascript'>var googletag = googletag || {};
+                googletag.cmd = googletag.cmd || [];
+                (function() {
+                var gads = document.createElement('script');
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') + 
+                '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+                })();</script><script type='text/javascript'>googletag.cmd.push(function() {var mySizeMapping = googletag.sizeMapping().addSize([1,1], [300,250]).addSize([770,500], [728,90]).addSize([1190,500], [970,90]).build();googletag.defineSlot('/4685050/códigopostal_lists_leaderboard_top', [[970,90], [728, 90], [300, 250]], 'div-gpt-ad-1401463712846-1').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+var mySizeMapping = googletag.sizeMapping().addSize([0,0], [320,50]).addSize([770,500], []).build();googletag.defineSlot('/4685050/códigopostal_CodigoPostal_stickybottom320x50', [320, 50], 'div-gpt-ad-1401463712846-4').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+var mySizeMapping = googletag.sizeMapping().addSize([1,1], [300,250]).addSize([770,500], [336,280]).build();googletag.defineSlot('/4685050/códigopostal_lists_MREC_bottom', [[300, 250], [336, 280]], 'div-gpt-ad-1401463712846-3').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+var mySizeMapping = googletag.sizeMapping().addSize([1,1], [300,250]).addSize([770,500], [728,90]).addSize([1190,500], [970,90]).build();googletag.defineSlot('/4685050/códigopostal_lists_leaderboard_middle', [[970,90], [728, 90], [300, 250]], 'div-gpt-ad-1401463712846-2').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();googletag.enableServices();});</script> </head><body><div
+id="fb-root"></div><div
+id='header' class='min'><div
+class="container"><div
+class="col-md-12"><div
+id='logo' class='min'><a
+href='/'><span>Código Postal - Pesquisa e Validação de Códigos Postais</span></a></div></div></div></div><div
+id='search' class='min'><div
+class="container"><div
+class='search-container min'><div
+class="col-sm-4 col-md-4 hidden-xs"><form
+method='get' action='/' class="form-inline"><div
+class="form-group"> <label
+for='cp4'>Pesquisa por Código Postal</label> <input
+class='cp4 form-control input-lg min' name='cp4' maxlength="4" id='cp4' placeholder="0000" value="" /> <span
+id='cp-split'>-</span> <input
+class='cp3 form-control input-lg min' name='cp3' maxlength="3" placeholder="000"  value="" /> <button
+class="sbutton"><i
+class="fa fa-search"></i><span> Pesquisar</span></button></div></form></div><div
+class="col-sm-1 col-md-1 hidden-xs"><div
+class="row"><div
+class='search-split'></div></div></div><div
+class="col-sm-7 col-md-7 mobile-split hidden-xs"><form
+method='get' action='/' class="form-inline pull-right"> <label
+for='rua'>Pesquisa de Moradas e Ruas</label><div
+class="form-group"> <input
+class='rua form-control input-lg min' name='rua' id="rua" placeholder="Nome da Rua" value="" /> <input
+class='local form-control input-lg min' name='local' placeholder="Localidade"  value="" /> <button
+class="sbutton"><i
+class="fa fa-search"></i><span> Pesquisar</span></button></div></form></div><div
+class="col-sm-12 col-md-12 visible-xs"><form
+method='get' action='/' class="form-inline"><div
+class="input-group"> <input
+class='mobile form-control min' name='mobile' id='mobile' placeholder="Código Postal ou Morada"  value="" /> <span
+class="input-group-btn"> <button
+class="btn btn-default" type="button"><i
+class="fa fa-search"></i></button> </span></div></form></div></div></div></div><div
+class="container"><div
+class="col-md-12"><div
+class="row"><h1>Códigos Postais de Adaúfe</h1><div
+class="breadcrumbs" itemprop="breadcrumb"><a
+href="/distrito-braga/">Distrito de Braga</a> &gt; <a
+href="/braga/">Braga</a> &gt; Adaúfe</div> <br/><div
+id="isolated"><div
+class="places"><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 38.566982,-9.048880 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/travessa-de-freire/" >Travessa de Freire</a> <br/><span
+class="cp">4710-584</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p
+id="div-gpt-ad-1401463712846-1" style="display:inline-block;" class="nobg"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-1"); });</script></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.645135,-8.408928 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-do-fundao/" >Rua do Fundão</a> <br/><span
+class="cp">4710-573</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.590723,-8.405909 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-do-giestal/" >Rua do Giestal</a> <br/><span
+class="cp">4710-562</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.588379,-8.398077 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/travessa-do-giestal/" >Travessa do Giestal</a> <br/><span
+class="cp">4710-844</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.586099,-8.385264 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-jose-gomes-martins/" >Rua José Gomes Martins</a> <br/><span
+class="cp">4710-563</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.593987,-8.408950 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/travessa-da-industria/" >Travessa da Indústria</a> <br/><span
+class="cp">4710-571</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.593987,-8.408950 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-da-industria/" >Rua da Industria</a> <br/><span
+class="cp">4710-571</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p
+id="div-gpt-ad-1401463712846-2" style="display:inline-block;" class="nobg"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-2"); });</script></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.567208,-8.391723 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-de-sao-joao-adaufe/" >Rua de São João</a> <br/><span
+class="cp">4710-564</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.559861,-8.409576 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-de-sao-jose-adaufe/" >Rua de São José</a> <br/><span
+class="cp">4710-262</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.555011,-8.422502 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-julio-lima/" >Rua Júlio Lima</a> <br/><span
+class="cp">4710-862</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.587581,-8.398921 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/travessa-julio-lima/" >Travessa Júlio Lima</a> <br/><span
+class="cp">4710-857</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.581860,-8.407314 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-das-laranjeiras/" >Rua das Laranjeiras</a> <br/><span
+class="cp">4710-851</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.574658,-8.401427 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/lugar-de-montezinhos/" >Lugar de Montezinhos</a> <br/><span
+class="cp">4710-555</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.582312,-8.408919 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-das-maias/" >Rua das Maias</a> <br/><span
+class="cp">4710-193</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.585116,-8.397707 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-manuel-teixeira-da-silva/" >Rua Manuel Teixeira da Silva</a> <br/><span
+class="cp">4710-479</span> ADAÚFE <br
+/><span
+class='local'>Adaúfe, Braga</span> </span></p><p
+id="div-gpt-ad-1401463712846-3" style="display:inline-block;" class="nobg odd"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-3"); });</script></p><div
+class="col-md-12 pagination-container"><ul
+class="pagination"><li
+class="prev"><a
+href='/braga/adaufe/7.html' title='Página Anterior'>&larr; Anterior</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/adaufe/" title="Página 1">1</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/adaufe/2.html" title="Página 2">2</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/adaufe/3.html" title="Página 3">3</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/adaufe/4.html" title="Página 4">4</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/adaufe/5.html" title="Página 5">5</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/adaufe/6.html" title="Página 6">6</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/adaufe/7.html" title="Página 7">7</a></li><li
+class='active'><a
+href="/braga/adaufe/8.html" title="Página 8">8</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/adaufe/9.html" title="Página 9">9</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/adaufe/10.html" title="Página 10">10</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/adaufe/11.html" title="Página 11">11</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/adaufe/12.html" title="Página 12">12</a></li><li
+class='next'><a
+href="/braga/adaufe/9.html" title="Próxima Página">Próxima &rarr;</a></li></ul><div
+class='pagination-totals '>Página 8 de 12</div></div></div></div></div></div></div><div
+id='footer'><div
+class="container"><div
+class="col-md-12"><div
+class="row"><p
+id='copyright' class="pull-left">&copy; 2018 Código Postal</p><div
+class="pull-right"><div
+id="powered"> <a
+href="http://www.nex.pt/"><span>Powered by Nex</span></a></div></div></div></div></div></div><div
+id='stickyBottom'><div
+id='stickyBottomAd'><div
+id="div-gpt-ad-1401463712846-4" style="display:inline-block;"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-4"); });</script></div></div></div> <script type='text/javascript'>eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(6(){3 1=5.k(\'4\');1.9=\'a/b\';1.c=d;1.8=\'/f/7/g.7\';3 2=5.h(\'4\')[0];2.i.j(1,2)})();6 e(){}',21,21,'|pjs|s|var|script|document|function|js|src|type|text|javascript|async|true|runInlineJs|public|main|getElementsByTagName|parentNode|insertBefore|createElement'.split('|'),0,{}))</script></body></html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Universidade do Minho
+License Type: Academic
+-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Utilizador, Base de Dados - MM" table="Utilizador" lazy="false">
+		<id name="Email" column="email" type="String">
+			<generator class="native">
+			</generator>
+		</id>
+		<property name="Password" column="password" type="String" length="255" not-null="true"/>
+		<property name="Tipo" column="tipo" type="Byte" length="1" not-null="true"/>
+		<one-to-one name="__estabelecimento" class="Estabelecimento, Base de Dados - MM" cascade="save-update" property-ref="__utilizador" lazy="proxy" access="field"/>
+		<one-to-one name="__cliente" class="Cliente, Base de Dados - MM" cascade="save-update" property-ref="__utilizador" lazy="proxy" access="field"/>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,9 @@
+{
+    "name": "aebdProjectH",
+    "version": "1.0.0",
+    "private": true,
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "JPVS",
+    "contributors": [],
+    "dependencies": {}
+}

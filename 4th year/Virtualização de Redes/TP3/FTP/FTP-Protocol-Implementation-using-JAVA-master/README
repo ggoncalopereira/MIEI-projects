@@ -1,0 +1,45 @@
+*** Welcome to the Floodlight v1.0 VM! ***
+
+This Ubuntu 14.04 VM includes:
+1) Floodlight v1.0
+2) Eclipse (w/Floodlight imported)
+2) Mininet v2.2.0
+3) Open vSwitch v2.3.1
+4) Wireshark w/OpenFlow dissector
+
+
+*** The following is useful information to get started ***
+1) VM Credentials
+--username:
+  floodlight
+--password:
+  floodlight
+
+2) Useful Paths
+--Floodlight is installed at:
+  /home/floodlight/floodlight
+--The Terminal can be found at:
+  Applications->Accessories->Terminal
+--Eclipse can be found at:
+  Applications->Programming->Eclipse
+--Firefox can be found at:
+  Applications->Internet->Firefox Web Browser
+
+3) Documentation
+--Firefox's home page defaults to the Floodlight Documentation wiki.
+--The Floodlight developer's group is always available to assist with any questions you may have:
+  floodlight-dev@openflowhub.org
+
+4) Examples
+--Example command to use Mininet, OVS, and Floodlight with OpenFlow 1.3:
+  sudo mn --controller=remote,ip=127.0.0.1,port=6653 --switch ovsk,protocols=OpenFlow13
+
+--Example command to view flow table contents (outside of mininet):
+  sudo ovs-ofctl dump-flows s1 table=0 -O OpenFlow13
+
+5) Notes
+--By default, Floodlight inserts zero-priority flows in all OpenFlow 1.3+ switch flow tables to forward table-misses to the controller. When dumping flows, filter by table (as shown above) to limit the output to the scope applicable to your application. Omitting the "table=XXX" parameter will default to show all tables (which produces a lot of output due to the many table-miss flows). In OpenFlow 1.0, the table-miss behavior is "embedded" within the table, so the table-miss flows will not be present in OpenFlow 1.0 switches.
+
+--Other "Floodlight" desktop backgrounds are available in /home/floodlight/Pictures if you would prefer another. I apologize in advance for my amateur Photoshop skills =)
+
+

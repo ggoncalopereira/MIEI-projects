@@ -1,0 +1,109 @@
+1º Ruílhe
+
+Código-postal: 4705-712 
+Coordenadas: 41.5088491,
+             -8.4622987
+
+https://maps.googleapis.com/maps/api/geocode/json?address=4705-712&key=       
+
+
+2º Lamas
+
+Código-postal: 4705-480 
+Coordenadas: 41.4989596,
+             -8.435706
+
+https://maps.googleapis.com/maps/api/geocode/json?address=4705-480&key=
+
+
+3º Sequeira
+
+Código-postal: 4705-629 
+Coordenadas: 41.5288988,
+             -8.476934199999999
+
+https://maps.googleapis.com/maps/api/geocode/json?address=4705-629&key=           
+
+
+4º Nogueira
+
+Código-postal: 4715-226 
+Coordenadas: 41.530903,
+             -8.416241299999999
+
+https://maps.googleapis.com/maps/api/geocode/json?address=4715-226&key=
+
+
+5º Panóias
+
+Código-postal: 4700-760 
+Coordenadas: 41.5752248,
+             -8.465715099999999
+
+https://maps.googleapis.com/maps/api/geocode/json?address=4700-760&key=           
+
+
+6º Sé
+
+Código-postal: 4700-444 
+Coordenadas:  41.5497071,
+              -8.4269395
+
+https://maps.googleapis.com/maps/api/geocode/json?address=4700-444&key=
+
+
+7º Nogueiró
+
+Código-postal: 4715-108 
+Coordenadas:  41.5503314,
+              -8.389826200000002
+
+https://maps.googleapis.com/maps/api/geocode/json?address=4715-108&key=      
+
+
+8º Palmeira
+
+Código-postal: 4700-713 
+Coordenadas: 41.6008097,
+             -8.441818899999999
+
+https://maps.googleapis.com/maps/api/geocode/json?address=4700-713&key=
+
+
+9º Navarra
+
+Código-postal: 4710-670 
+Coordenadas:  41.6063051,
+              -8.384566399999999
+
+https://maps.googleapis.com/maps/api/geocode/json?address=4710-670&key=              
+
+
+10º São Mamede Este
+
+Código-postal: 4715-662 
+Coordenadas: 41.5697677,
+             -8.366646899999999
+
+https://maps.googleapis.com/maps/api/geocode/json?address=4715-662&key=
+
+
+Pedido de vários destinos:
+
+https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&origins=41.5591186,-8.41927&
+destinations=41.5088491%2C-8.4622987%7C 
+			 41.4989596%2C-8.435706%7C
+			 41.5288988%2C-8.476934199999999%7C
+			 41.530903%2C-8.416241299999999%7C
+			 41.5752248%2C-8.465715099999999%7C
+			 41.5497071%2C-8.4269395%7C
+			 41.5503314%2C-8.389826200000002%7C
+			 41.6008097%2C-8.441818899999999%7C
+			 41.6063051%2C-8.384566399999999%7C
+			 41.5697677%2C-8.366646899999999&7C
+			 &key=YOUR_API_KEY
+
+
+Mudar a origem mas de resto mantém-se igual a isto
+
+https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&origins=41.5591186,-8.419276&destinations=41.5088491%2C-8.4622987%7C41.4989596%2C-8.435706%7C41.5288988%2C-8.476934199999999%7C41.530903%2C-8.416241299999999%7C41.5752248%2C-8.465715099999999%7C41.5497071%2C-8.4269395%7C41.5503314%2C-8.389826200000002%7C41.6008097%2C-8.441818899999999%7C41.6063051%2C-8.384566399999999%7C41.5697677%2C-8.366646899999999&7C&key=YOUR_API_KEY

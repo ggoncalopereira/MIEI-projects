@@ -1,0 +1,372 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ2Yxj0Dv_JA0R5AeeCNKSico",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJlS1h2r7_JA0R4ebxnjIVqEY",
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.5876755,
+               "lng" : -8.4459833
+            },
+            "southwest" : {
+               "lat" : 41.5417838,
+               "lng" : -8.458880299999999
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "7.2 km",
+                  "value" : 7230
+               },
+               "duration" : {
+                  "text" : "13 mins",
+                  "value" : 790
+               },
+               "end_address" : "4700-020 São Paio Merelim, Portugal",
+               "end_location" : {
+                  "lat" : 41.5854884,
+                  "lng" : -8.4576017
+               },
+               "start_address" : "4705-309 Braga, Portugal",
+               "start_location" : {
+                  "lat" : 41.5418483,
+                  "lng" : -8.4563215
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 191
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : {
+                        "lat" : 41.54283040000001,
+                        "lng" : -8.454814899999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003eeast\u003c/b\u003e on \u003cb\u003eR. da Igreja\u003c/b\u003e toward \u003cb\u003eAv. de Santo André\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "qsp|F~rrr@?ADm@Bc@BO?GAOEKEIEGIESQoA_Ao@e@_@U"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5418483,
+                        "lng" : -8.4563215
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.8 km",
+                        "value" : 830
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 94
+                     },
+                     "end_location" : {
+                        "lat" : 41.5449943,
+                        "lng" : -8.4474169
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eAv. de Santo André\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "uyp|Fpirr@BKBKDKFGJQJMTYNSNSBEBEBE@C?C@C@E?C?C?C?E?C?C?EAC?EACACIYMc@Qk@K]I]?CAE?C?E?C?A?K@G@GBE@EFGPQDKFSLc@@O?O?KAMCGACGMGKECMIEECEIOGQIWIYIQQO]Ka@GYIq@ISAk@Kc@MMEKEKIEIGQSq@a@_BG[OcACOCQCQ?IAI?IAI?y@AI?I?GAIAMCKCOCOEQCQCQCMAI"
+                     },
+                     "start_location" : {
+                        "lat" : 41.54283040000001,
+                        "lng" : -8.454814899999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 405
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 54
+                     },
+                     "end_location" : {
+                        "lat" : 41.5484677,
+                        "lng" : -8.4474976
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. da Escola Nova\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "egq|Fj{pr@w@c@[UKGGGUKSKSAM?SDKFYPk@Xg@Pk@JODKBI?MAMEWESAc@DaAFe@DoAL"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5449943,
+                        "lng" : -8.4474169
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 184
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 28
+                     },
+                     "end_location" : {
+                        "lat" : 41.5495897,
+                        "lng" : -8.4490813
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. dos Paiois\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "}|q|Fz{pr@ENIPSV]TYRURMVSd@QZELINMVO\\KT"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5484677,
+                        "lng" : -8.4474976
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 160
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 21
+                     },
+                     "end_location" : {
+                        "lat" : 41.5503858,
+                        "lng" : -8.4475347
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. das Giestas\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "}cr|Fveqr@KYEOE[G]Um@KYOa@Wo@OUe@a@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5495897,
+                        "lng" : -8.4490813
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "56 m",
+                        "value" : 56
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 7
+                     },
+                     "end_location" : {
+                        "lat" : 41.5508829,
+                        "lng" : -8.4475774
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eRua de Tourido\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "}hr|F`|pr@c@Hg@?U?"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5503858,
+                        "lng" : -8.4475347
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 430
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 44
+                     },
+                     "end_location" : {
+                        "lat" : 41.5539397,
+                        "lng" : -8.4498131
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. do Monte de Barral\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "_lr|Fj|pr@S\\CD[^]l@KPINGNGPCJETKx@If@IXILCBABKFo@TYJWFUDSBUB_@DM@M@I@K?O@eAFY@A?M?SAM?OA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5508829,
+                        "lng" : -8.4475774
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 260
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 25
+                     },
+                     "end_location" : {
+                        "lat" : 41.5553028,
+                        "lng" : -8.452302899999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. do Barral\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "c_s|Fhjqr@Uv@A@EL?@GNGJKRIL?@EFADCHCJCDGPSZ?@EDGFGFCBGFGDEFA@KNA@EJEH?@GJEHEJCFENCDGTCDGRQd@GZ"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5539397,
+                        "lng" : -8.4498131
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 501
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 52
+                     },
+                     "end_location" : {
+                        "lat" : 41.5593301,
+                        "lng" : -8.4523709
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eR. do Semelhe\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "sgs|Fzyqr@KPGDEBE@E@C?IAGCOIMESKGAI?GBEBEFADINA@MVKRA@KTIPGJINKPCDGJY?A?OAA?MAQCOCUECASEOCQESCAAWCKCO?G?EAGAA?MEOEMEICSIICOEAASGQGMEIC]KQGs@UOE"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5553028,
+                        "lng" : -8.452302899999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 547
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 72
+                     },
+                     "end_location" : {
+                        "lat" : 41.5601101,
+                        "lng" : -8.4461938
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eAv. do Estádio\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "y`t|Fhzqr@BY@W?_@?SAe@?U?M?QBg@Be@Fg@D_@Dc@@W@SASCMCKGQGMEOGOCMEMEWCU?IAI@]BgABcA@y@?S?MAQIg@GYIc@Mi@EUIWGSOWKOMQ_@{@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5593301,
+                        "lng" : -8.4523709
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "3.3 km",
+                        "value" : 3301
+                     },
+                     "duration" : {
+                        "text" : "5 mins",
+                        "value" : 300
+                     },
+                     "end_location" : {
+                        "lat" : 41.5876755,
+                        "lng" : -8.457174799999999
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e3rd\u003c/b\u003e exit onto \u003cb\u003eVariante de Real\u003c/b\u003e/\u003cb\u003eN201\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow N201\u003c/div\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "uet|Ftspr@?A?A?A?A?A?A?A?AAC?A?AAA?AA??AAA?AA??AA?AAAAA?AAA?A?A?A?A@A?A?A@A??@A?A@A@A@?@A@?@A@?@A@?B?@A@?B?@@@?@?@?@@@ENELAFCFADCDKNo@nAcAhB[f@IHOPYTSNILGBMJkJ|F{@d@i@XeAd@WLw@Vw@T_@J_ANo@JoBZi@Ha@FaBZ{AZkAR}@LuF|@IBMHQHoAf@s@Xm@T[HG@MDIDWFc@NKDKBODSFKDKDMDSFWFUFKBO@O@e@@kABO?K@M?U@E?S@I?O?U?O@M?Q@Q?Q@Y?YBYBg@FSBO@QBS@MBOBM@QBQ@KBQ@QBUBeAJQBoANQ@O@U@cCFg@Ba@@}@@u@?u@?q@A[@[?_@FQF_@Hc@Bg@DW@c@D_AJ_AP[HQB_@Hs@Nw@Ng@Jk@LOBG@SDs@N{@Pm@Lc@L[LeAf@SH]NwB~@wAr@OFw@^QHy@^u@\\a@Rw@`@QNg@j@c@f@y@bAON"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5601101,
+                        "lng" : -8.4461938
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 186
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 22
+                     },
+                     "end_location" : {
+                        "lat" : 41.5865963,
+                        "lng" : -8.458880299999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. de São Bento\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "_ry|Fhxrr@Zn@Zj@jAtBDJBFhAnB"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5876755,
+                        "lng" : -8.457174799999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 179
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 45
+                     },
+                     "end_location" : {
+                        "lat" : 41.5854884,
+                        "lng" : -8.4576017
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. da Nascente\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "gky|F~bsr@jDeBFEJGDGDIBKFk@DaA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5865963,
+                        "lng" : -8.458880299999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "qsp|F~rrr@LcBAWKUsB_BoA{@FWd@s@x@gAHSBQCe@k@mBWeA?OFa@HMPQDKTw@@_@AYEKOYSMIKQa@Sq@IQQO_ASYIq@I_AMq@SWOM[u@qCW_BK}@CwACe@My@QcAAIw@c@g@]]SSKSAa@De@Xk@Xg@P{@PUB[Gk@GeBLuBRO`@SV]To@f@y@fBs@zAQi@My@iAyCOUe@a@c@Hg@?U?S\\_@d@i@~@Q^K\\QnAS`AMPwAl@m@Li@F{@HkBJ}@?]AWx@Uj@[j@M`@a@t@k@j@m@jAUr@KXY`ASVEBKBMAy@_@QAMFS^g@bAg@~@KP[?q@G}@Qw@O{@G]I{@YwBq@eA]OEBY@w@Ay@B}AVqCBk@Ea@Y{@WcAC_@?g@HyEA_@QaAg@{BWk@Ya@_@_A?GEOGIKCMDINAP?DKf@Ub@sBxDe@p@gAdA}LrHoB~@oAd@wA`@oBZyCd@cCb@gDn@sHjAyB~@aBn@c@JsAb@{@Vy@XiATgEJeCD_BH}APaCV_CVaBPe@BkGNyD?{@Fq@PgCP_C\\m@LsDt@wAXoB`@qAZsCnAwB~@wAr@gAf@cDzAw@`@QNkArAiArAv@zA~CxFrDkBPOHULmB"
+         },
+         "summary" : "N201",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Universidade do Minho
+License Type: Academic
+-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Estabelecimento, Base de Dados - MM" table="Estabelecimento" lazy="false">
+		<id name="Id_estabelecimento" column="id_estabelecimento" type="Int32" unsaved-value="0">
+			<generator class="increment">
+			</generator>
+		</id>
+		<property name="Nome_estabelecimento" column="nome_estabelecimento" type="String" length="75" not-null="true"/>
+		<property name="Desc_ambiente" column="desc_ambiente" type="String" length="255" not-null="true"/>
+		<property name="Rating_medio_estabelecimento" column="rating_medio_estabelecimento" type="Decimal" precision="5" scale="4" not-null="true"/>
+		<property name="Telefone" column="telefone" type="Int32" length="10" not-null="true"/>
+		<property name="Visual_estabelecimento" column="visual_estabelecimento" type="Int32" length="10" not-null="true"/>
+		<property name="Longitude" column="longitude" type="Decimal" precision="11" scale="8" not-null="true"/>
+		<property name="Latitude" column="latitude" type="Decimal" precision="11" scale="8" not-null="true"/>
+		<property name="Rua" column="rua" type="String" length="75" not-null="true"/>
+		<property name="Numero" column="numero" type="Int32" length="10" not-null="true"/>
+		<property name="Localidade" column="localidade" type="String" length="45" not-null="true"/>
+		<property name="Cod_postal" column="cod_postal" type="String" length="10" not-null="true"/>
+		<many-to-one name="__categoria1" column="Categoria" class="Categoria, Base de Dados - MM" not-null="true" lazy="proxy" access="field">
+		</many-to-one>
+		<many-to-one name="__utilizador" column="Utilizador" class="Utilizador, Base de Dados - MM" cascade="save-update" unique="true" not-null="true" lazy="proxy" access="field">
+		</many-to-one>
+		<set name="ORM_Iguaria" lazy="true" cascade="save-update" inverse="true">
+			<key column="Estabelecimento"/>
+			<one-to-many class="Iguaria, Base de Dados - MM"/>
+		</set>
+		<set name="ORM_HorarioEstabelecimento" lazy="true" cascade="save-update" inverse="true">
+			<key column="Estabelecimento"/>
+			<one-to-many class="HorarioEstabelecimento, Base de Dados - MM"/>
+		</set>
+		<set name="ORM_Cliente_seleciona_Estabelecimento" lazy="true" cascade="save-update" inverse="true">
+			<key column="Estabelecimento"/>
+			<one-to-many class="Cliente_seleciona_Estabelecimento, Base de Dados - MM"/>
+		</set>
+		<set name="ORM_Cliente_avalia_Estabelecimento" lazy="true" cascade="save-update" inverse="true">
+			<key column="Estabelecimento"/>
+			<one-to-many class="Cliente_avalia_Estabelecimento, Base de Dados - MM"/>
+		</set>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,44 @@
+// prime the server with knowledge of the root servers
+zone "." {
+	type hint;
+	file "/home/core/primario/db.root";
+};
+
+// be authoritative for the localhost forward and reverse zones, and for
+// broadcast zones as per RFC 1912
+
+zone "localhost" {
+	type master;
+	file "/home/core/primario/db.local";
+	allow-transfer { @ip-secondary; };
+};
+
+zone "127.in-addr.arpa" {
+	type master;
+	file "/home/core/primario/db.127";
+	allow-transfer { @ip-secondary; };
+};
+
+zone "0.in-addr.arpa" {
+	type master;
+	file "/home/core/primario/db.0";
+	allow-transfer { @ip-secondary; };
+};
+
+zone "255.in-addr.arpa" {
+	type master;
+	file "/home/core/primario/db.255";
+	allow-transfer { @ip-secondary; };
+};
+
+zone "cc.pt" {
+	type master;
+	file "/home/core/primario/db.cc.pt";
+	allow-transfer { @ip-secondary; };
+
+zone "1.1.10.in-addr.arpa" {
+	type master;
+	file "/home/core/primario/db.1-1-10";
+	allow-transfer { @ip-secondary; };
+};
+

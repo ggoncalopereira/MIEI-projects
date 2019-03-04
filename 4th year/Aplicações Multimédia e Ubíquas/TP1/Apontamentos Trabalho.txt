@@ -1,0 +1,67 @@
+Apontamentos Trabalho
+
+Solicitar chave para API.
+Desenvolvimento em Java. 
+https://googlemaps.github.io/google-maps-services-java/v0.2.6/javadoc/
+https://github.com/googlemaps/google-maps-services-java
+https://developers.google.com/maps/documentation/directions/start
+https://developers.google.com/maps/documentation/distance-matrix/ API
+
+
+Limitar em pesquisas com 10%, 20 ou 30% de cada zona, em vez de fazer os 1000 códigos totais.
+
+
+Relatório de 2 páginas mas com o conceito bem explicado. 
+Registar tudo o que foi feito por forma a poder dar entender a ideia e poder explicar mesmo que não funcione.
+
+Índice de centralidade (0-5)
+Não é por input ao algoritmo. 
+Verificar que uma rua tem determinado índice e poder ter forma de comparar (por exemplo com outra rua)
+COMO CALCULAR ??? 
+
+
+Códigos postais
+NUT III - PT112 e PT119 (Distrito de Braga)
+Tem alguns que pertencem a Vila Real no PT119
+E alguns de Vila Verde não estão no PT112 nem PT119
+
+Ficheiro Códigos(PT): http://ec.europa.eu/eurostat/tercet/flatfiles.do
+Mapa dos NUT de Portugal: http://ec.europa.eu/eurostat/documents/345175/7451602/nuts-map-PT.pdf
+
+
+Converter o código postal de input com o GeoCoding para coordenadas
+Para fazer o pedido de matriz é preciso converter o código postal em coordenadas no formato devido e limitado a apenas 8192 carateres
+Exemplo da Google:
+https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=40.6655101,-73.89188969999998&
+destinations=40.6905615%2C-73.9976592%7C
+			 40.6905615%2C-73.9976592%7C
+			 40.6905615%2C-73.9976592%7C
+			 40.6905615%2C-73.9976592%7C
+			 40.6905615%2C-73.9976592%7C
+			 40.6905615%2C-73.9976592%7C
+			 40.659569%2C-73.933783%7C
+			 40.729029%2C-73.851524%7C
+			 40.6860072%2C-73.6334271%7C
+			 40.598566%2C-73.7527626%7C
+			 40.659569%2C-73.933783%7C
+			 40.729029%2C-73.851524%7C
+			 40.6860072%2C-73.6334271%7C
+			 40.598566%2C-73.7527626
+			 &key=YOUR_API_KEY
+			 
+
+APRESENTAÇÃO:
+Explicar o conceito 
+Interpretação do conceito
+Implementação (APIs, dados)
+Limitações encontradas
+Análise dos dados
+
+Tutorial de onde foi retirado a busca da DistanceMatrix:
+https://teamtreehouse.com/community/how-to-use-the-google-map-matrix-api-for-calculating-the-distance-between-two-points-in-java-a-big-treat-is-promise
+
+Jar para o trabalho
+http://central.maven.org/maven2/org/json/json/20180130/
+
+Parse JSON
+http://theoryapp.com/parse-json-in-java/

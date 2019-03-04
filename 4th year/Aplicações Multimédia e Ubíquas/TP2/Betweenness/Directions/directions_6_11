@@ -1,0 +1,348 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJl92e27b4JA0REbx1mS-MLlw",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJqfgByYFVJA0RzTVpqBdfiwU",
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.56767790000001,
+               "lng" : -8.466138899999999
+            },
+            "southwest" : {
+               "lat" : 41.5193671,
+               "lng" : -8.5187089
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "12.8 km",
+                  "value" : 12804
+               },
+               "duration" : {
+                  "text" : "19 mins",
+                  "value" : 1115
+               },
+               "end_address" : "4700-658 Padim da Graça, Portugal",
+               "end_location" : {
+                  "lat" : 41.5654684,
+                  "lng" : -8.4874825
+               },
+               "start_address" : "4705-046 Aveleda, Portugal",
+               "start_location" : {
+                  "lat" : 41.5212404,
+                  "lng" : -8.4668999
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "6 m",
+                        "value" : 6
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 1
+                     },
+                     "end_location" : {
+                        "lat" : 41.5212032,
+                        "lng" : -8.4668417
+                     },
+                     "html_instructions" : "Head \u003cb\u003esoutheast\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "wrl|Fbutr@@C?ADE"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5212404,
+                        "lng" : -8.4668999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "52 m",
+                        "value" : 52
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 8
+                     },
+                     "end_location" : {
+                        "lat" : 41.520743,
+                        "lng" : -8.4669159
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eLargo da Igreja\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "orl|Fvttr@@AH@~@HND"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5212032,
+                        "lng" : -8.4668417
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "94 m",
+                        "value" : 94
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 23
+                     },
+                     "end_location" : {
+                        "lat" : 41.520139,
+                        "lng" : -8.466138899999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eEM569\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "sol|Ffutr@Nc@HOHI\\c@t@w@?A"
+                     },
+                     "start_location" : {
+                        "lat" : 41.520743,
+                        "lng" : -8.4669159
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 416
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 58
+                     },
+                     "end_location" : {
+                        "lat" : 41.5196698,
+                        "lng" : -8.4707969
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "{kl|Fjptr@@B@@@BB@@@@@B@@@B~@@bA@TFf@Jb@^fALb@JVd@~BDd@BjA?LGlBEj@CPETCPEPENGPCLGN"
+                     },
+                     "start_location" : {
+                        "lat" : 41.520139,
+                        "lng" : -8.466138899999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 352
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 35
+                     },
+                     "end_location" : {
+                        "lat" : 41.520512,
+                        "lng" : -8.4747637
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eR. do Cruzeiro\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "}hl|Fnmur@Wr@O`@M`@Qj@IVK\\GVCPETGf@Ej@ANCTADIn@E`@MbAGd@EZAPAN?N@NHbA@^"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5196698,
+                        "lng" : -8.4707969
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "24 m",
+                        "value" : 24
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 6
+                     },
+                     "end_location" : {
+                        "lat" : 41.5204522,
+                        "lng" : -8.475020799999999
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. da Infância\u003c/b\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : {
+                        "points" : "enl|Fffvr@CLNd@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.520512,
+                        "lng" : -8.4747637
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.5 km",
+                        "value" : 1500
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 126
+                     },
+                     "end_location" : {
+                        "lat" : 41.5318728,
+                        "lng" : -8.472116399999999
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit onto \u003cb\u003eR. do Acento\u003c/b\u003e/\u003cb\u003eN103-2\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow N103-2\u003c/div\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "yml|Fzgvr@A@?@?@?@?@?@?@Un@AHM^Oj@M\\ILKLQHSDA?UB_@D_@D[B]Da@Dy@Jc@DE?C?I@EAKAA?GCC?ECCAECo@c@SOOIUIUIKGIGOMWYe@a@MO][MIGGKEGCEAICSCYIGCGEGIMSa@u@GIGGGGIEGCm@Om@Ka@KICMKMOQWGKKMIMIOQWW_@Wc@[i@Yg@S[]o@Ua@S[KOII_@Y[a@k@g@e@a@OMICMAI@KBKFMJSNWVa@^UPSPYNKDKFGDOHe@RIBOBI@M?O?G?OA}@@C?[?C?u@?q@?e@@WAM@EEMCG?G?"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5204522,
+                        "lng" : -8.475020799999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "4.0 km",
+                        "value" : 3986
+                     },
+                     "duration" : {
+                        "text" : "5 mins",
+                        "value" : 315
+                     },
+                     "end_location" : {
+                        "lat" : 41.5333643,
+                        "lng" : -8.5173462
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e3rd\u003c/b\u003e exit onto \u003cb\u003eAv. de Sequeira\u003c/b\u003e/\u003cb\u003eN103\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow N103\u003c/div\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "eun|Fvuur@AA?AA??AA?A??AA?AAA?A?A?A?A?A?A@A??@A?A@A@?@A?A@?@?@?@?@?@A@?@?@@@?B?@?@@@?@?@?@@??@@@@@?@@?@V?H?F?F?D@H@RDb@DLFv@Fn@rBzSDb@l@rG\\fD\\nDdCjWD^BPDb@D^VdC\\pDFb@Df@Df@D`@@\\?X?PALALAJOr@CHCLEJIPIPKRMVMPKJA@MVW`@EJWb@KPo@hAA@CJ]n@Wb@S\\Yf@QXYf@OTUb@_@l@Wf@U`@Wb@]h@QZ]l@GJILMRa@r@OVELGJKXIXEVCPCVEn@IbAEVARALAJCNCVC\\?FAJ?V?J?NAJ?PKlBE~@Gt@Ex@Et@ANCRANEZQb@GVERABCREn@ALEp@MhB?FOzBC~A?HC|AGhB?B@Z?`@?Z?\\Bh@D|@Dz@Bh@LdCTpEHvBLxBDz@n@tM@Z@x@@l@@bD?PBfH@t@?zB@xA?`A?X?@?h@@pB@xB@tABxG?dC"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5318728,
+                        "lng" : -8.472116399999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "6.2 km",
+                        "value" : 6191
+                     },
+                     "duration" : {
+                        "text" : "8 mins",
+                        "value" : 502
+                     },
+                     "end_location" : {
+                        "lat" : 41.5669023,
+                        "lng" : -8.4873914
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eAv. do Estádio\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "o~n|Flp~r@M?Q?G?IAMAaAKqBQE?iAMaBOw@EKEm@]o@_@WOKCMEKAcAQg@K]I]Ge@K_@Kw@UyAa@cAYOICCECGCEGKSS]Wc@OWKMMKi@WUIyAm@cA_@KEo@WYIWKSIIGKIEGCGCGCMEQCQEi@E]G[CQAIEOCKCGEE}@uA]g@QY[a@EGEEGCIAC?E?GBKFKHOJQJMHKHKFIBIBK@K?G?QA]G}B[SCSC[CQAIAE@E@EB]LOLy@t@YTUF[Fg@DSDQD_@VMNCFGRIr@Et@E`@G^MZi@|@{@xAqAl@o@Zq@d@{D~DgCpDUb@ENEXA^?t@?j@?V?HG`@WXKHKDOBa@CGEMGm@k@eAiAYU{@k@gBgAo@i@IMEMQu@UwAUiBOo@KWGKo@eAo@_AcAiDQa@SScAu@mCaBo@e@YKm@QcE{@eDi@_Fu@{Eq@qA]_@Uu@eAsDuGuFaKYm@CGCY?G?Y@k@Bc@?[?SCQCWKe@S_AGUo@oCOi@Og@I[EKEKSo@IS[aAWy@IQIWEIGIGGCCGEGACAGAK?O@cBJc@BK?G?GCKEECGIEEACEGAGCKAKAQ?K@K@K@EFIN]\\k@FKHQdAkBDIDIBE@E@G@G@I?E?E?G?GCMG[GSOq@]{AEOCQAOAKEm@M_BAQCSAICKEMGKm@g@[U[WMMEGEGGIGKEKEICICMG[EOIe@m@cCIa@EUCKAECGGMGGEACAE?CAI@a@@O?I?G?GACACACAEECECECCAGGSS_Ac@mBMk@CSAG?E?G@IBMBIBEDGNK`@MFGDCFGHK@E?E?K?OGe@AUAKAS?WBm@@Q@M@I@GDMBKDIN[FOBI@IBM@O?S@Y@W?CDWDYBGJa@\\oADQ@E@G?G@E@O@_F?k@AO?MAG?GCKAIIYESKa@e@eB"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5333643,
+                        "lng" : -8.5173462
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "22 m",
+                        "value" : 22
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 7
+                     },
+                     "end_location" : {
+                        "lat" : 41.5667121,
+                        "lng" : -8.4873171
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. da Igreja\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "cpu|Fduxr@d@M"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5669023,
+                        "lng" : -8.4873914
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 126
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : {
+                        "lat" : 41.565711,
+                        "lng" : -8.4877468
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-slight-right",
+                     "polyline" : {
+                        "points" : "}nu|Fvtxr@@BD@D@J?JA@?HAHAFEDABAB?B?B?DDFFFHJNDDLLFHJFHFJBHBB?"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5667121,
+                        "lng" : -8.4873171
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "35 m",
+                        "value" : 35
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 8
+                     },
+                     "end_location" : {
+                        "lat" : 41.5654684,
+                        "lng" : -8.4874825
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at \u003cb\u003eTv. do Passal\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "uhu|Flwxr@@CDGFGHKDGJIBC"
+                     },
+                     "start_location" : {
+                        "lat" : 41.565711,
+                        "lng" : -8.4877468
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "wrl|Fbutr@FKJ?nANXs@f@m@t@y@BDHHDBDbCH|@j@jBXz@d@~BDd@BxAMxCSjAaBbFa@~AUxBs@dGA^JrA@^CLLf@?D?Du@dCWj@]VkAN{BTgBP]AUIyAaAk@SUO{AyA_As@k@Ma@MOOo@iAOQQMu@SoAWWOs@aA}@uAaBqCsA}Bi@c@[a@k@g@u@o@WEUDYRcBxAy@f@iAj@YFW@eB?wE@SIO?ACEAECMBIJ?PBJBDBb@@^Fv@LdAnDb_@fEbc@xA`OF~@?j@CZQ~@Wt@q@nAMLe@x@yAjCELu@rAyAfC}AnC}AjC}B`EUr@Ih@IfAOzAI|@IhAA~@K~BMtBQrCGj@Yz@QzAUpDOzBC~ACfBGlB@|@H`Dl@|LlAbWBtABpEDjN@vDDjJB~K_@?aBOcHo@cAK}A}@c@SYGgDo@wEoAsAc@IGMK_@q@g@{@YY}EoBmBs@]QQQGOI_@WuBOw@eBkCy@iAQEI?SJ[Tw@f@SFW@uDe@uAMO?KDm@ZsAjAq@N{@JQD_@VQVGRIr@KvAG^MZeBvCaChAq@d@{D~DgCpDUb@Kh@AxCGj@c@b@[Hi@I{@s@_B_BcDsBo@i@IMWcAk@aE[gAw@qAo@_AcAiDQa@SScAu@mCaBo@e@YKqFmAeK_B{Eq@qA]_@Uu@eAiLwS]u@Ca@@eAB_ACe@O}@[uAyA}Fi@{AgAeDMSKK[KcDPS?SIUWMg@A]BWv@yA|AsCL]B]?OKi@{@qDc@kFIYu@s@w@m@SU[i@U}@Ou@w@eDOo@OUICu@@i@AQKMWmAmFEi@DWFOTSh@ULKJQ?QGu@EmAHwAPk@Vk@DSD]@m@LmAr@kCD[@kHEi@]yAe@eBd@MFD^?RCLGNALLRXf@d@TJLBX_@TU"
+         },
+         "summary" : "N103 and Av. do Estádio",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html><html
+itemscope itemtype="http://schema.org/WebPage" lang="pt-pt"><head><title>Códigos Postais de Nogueiró (2)</title><meta
+http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link
+rel="stylesheet" href="/public/css/flat-v4.css" type="text/css" /><meta
+name="description" content="Todos os Códigos Postais de Nogueiró, Braga. Por exemplo, 4715-389 BRAGA, Estrada do Sameiro." /><meta
+name="keywords" content="codigo postal, Nogueiró, Braga, Braga, 4715-298, 4715-301, 4715-321, 4715-306, 4715-310, 4715-316, 4715-315, 4715-411, 4715-266, 4715-114, 4715-297, 4715-317, 4715-389" /><meta
+name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link
+rel="shortcut icon" href="/favicon.ico" /><meta
+property="fb:admins" content="1035683224" /><meta
+property="fb:app_id" content="420345441324086" /><meta
+property="og:title" content="Código Postal" /><meta
+property="og:url" content="https://www.codigo-postal.pt/" /><meta
+property="og:image" content="https://www.codigo-postal.pt/img/logo-fb.png" /><meta
+property="og:site_name" content="Código Postal" /><meta
+property="og:description" content="Todos os Códigos Postais de Nogueiró, Braga. Por exemplo, 4715-389 BRAGA, Estrada do Sameiro." /><meta
+property="og:type" content="website" /> <script type="text/javascript">var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16650868-14']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script> <script type='text/javascript'>var googletag = googletag || {};
+                googletag.cmd = googletag.cmd || [];
+                (function() {
+                var gads = document.createElement('script');
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') + 
+                '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+                })();</script><script type='text/javascript'>googletag.cmd.push(function() {var mySizeMapping = googletag.sizeMapping().addSize([1,1], [300,250]).addSize([770,500], [728,90]).addSize([1190,500], [970,90]).build();googletag.defineSlot('/4685050/códigopostal_lists_leaderboard_top', [[970,90], [728, 90], [300, 250]], 'div-gpt-ad-1401463712846-1').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+var mySizeMapping = googletag.sizeMapping().addSize([0,0], [320,50]).addSize([770,500], []).build();googletag.defineSlot('/4685050/códigopostal_CodigoPostal_stickybottom320x50', [320, 50], 'div-gpt-ad-1401463712846-4').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+var mySizeMapping = googletag.sizeMapping().addSize([1,1], [300,250]).addSize([770,500], [336,280]).build();googletag.defineSlot('/4685050/códigopostal_lists_MREC_bottom', [[300, 250], [336, 280]], 'div-gpt-ad-1401463712846-3').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+var mySizeMapping = googletag.sizeMapping().addSize([1,1], [300,250]).addSize([770,500], [728,90]).addSize([1190,500], [970,90]).build();googletag.defineSlot('/4685050/códigopostal_lists_leaderboard_middle', [[970,90], [728, 90], [300, 250]], 'div-gpt-ad-1401463712846-2').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();googletag.enableServices();});</script> </head><body><div
+id="fb-root"></div><div
+id='header' class='min'><div
+class="container"><div
+class="col-md-12"><div
+id='logo' class='min'><a
+href='/'><span>Código Postal - Pesquisa e Validação de Códigos Postais</span></a></div></div></div></div><div
+id='search' class='min'><div
+class="container"><div
+class='search-container min'><div
+class="col-sm-4 col-md-4 hidden-xs"><form
+method='get' action='/' class="form-inline"><div
+class="form-group"> <label
+for='cp4'>Pesquisa por Código Postal</label> <input
+class='cp4 form-control input-lg min' name='cp4' maxlength="4" id='cp4' placeholder="0000" value="" /> <span
+id='cp-split'>-</span> <input
+class='cp3 form-control input-lg min' name='cp3' maxlength="3" placeholder="000"  value="" /> <button
+class="sbutton"><i
+class="fa fa-search"></i><span> Pesquisar</span></button></div></form></div><div
+class="col-sm-1 col-md-1 hidden-xs"><div
+class="row"><div
+class='search-split'></div></div></div><div
+class="col-sm-7 col-md-7 mobile-split hidden-xs"><form
+method='get' action='/' class="form-inline pull-right"> <label
+for='rua'>Pesquisa de Moradas e Ruas</label><div
+class="form-group"> <input
+class='rua form-control input-lg min' name='rua' id="rua" placeholder="Nome da Rua" value="" /> <input
+class='local form-control input-lg min' name='local' placeholder="Localidade"  value="" /> <button
+class="sbutton"><i
+class="fa fa-search"></i><span> Pesquisar</span></button></div></form></div><div
+class="col-sm-12 col-md-12 visible-xs"><form
+method='get' action='/' class="form-inline"><div
+class="input-group"> <input
+class='mobile form-control min' name='mobile' id='mobile' placeholder="Código Postal ou Morada"  value="" /> <span
+class="input-group-btn"> <button
+class="btn btn-default" type="button"><i
+class="fa fa-search"></i></button> </span></div></form></div></div></div></div><div
+class="container"><div
+class="col-md-12"><div
+class="row"><h1>Códigos Postais de Nogueiró</h1><div
+class="breadcrumbs" itemprop="breadcrumb"><a
+href="/distrito-braga/">Distrito de Braga</a> &gt; <a
+href="/braga/">Braga</a> &gt; Nogueiró</div> <br/><div
+id="isolated"><div
+class="places"><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.556370,-8.346001 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/largo-de-gaiao/" >Largo de Gaião</a> <br/><span
+class="cp">4715-298</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p
+id="div-gpt-ad-1401463712846-1" style="display:inline-block;" class="nobg"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-1"); });</script></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.547234,-8.385845 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/largo-de-dadim/" >Largo de Dadim</a> <br/><span
+class="cp">4715-301</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.526996,-8.423315 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-de-santo-antonio-nogueiro/" >Rua de Santo António</a> <br/><span
+class="cp">4715-321</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.526996,-8.423315<br/>Nogueiró </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-de-santo-antonio-nogueiro/" >Rua de Santo António</a> <br/><span
+class="cp">4715-321</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.554665,-8.393530 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-doutor-antonio-oliveira-braga/" >Rua Doutor António Oliveira Braga</a> <br/><span
+class="cp">4715-306</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.553057,-8.398542 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-luis-antonio-correia/" >Rua Luís António Correia</a> <br/><span
+class="cp">4715-310</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.553057,-8.398542 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-domingos-jose-araujo/" >Rua Domingos José Araújo</a> <br/><span
+class="cp">4715-316</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p
+id="div-gpt-ad-1401463712846-2" style="display:inline-block;" class="nobg"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-2"); });</script></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.555001,-8.396147 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/praca-monsenhor-elisio-fernandes-de-araujo/" >Praça Monsenhor Elísio Fernandes de Araújo</a> <br/><span
+class="cp">4715-315</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.553532,-8.398488 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-arquitecto-ernesto-korrodi/" >Rua Arquitecto Ernesto Korrodi</a> <br/><span
+class="cp">4715-411</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.547234,-8.385845 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/estrada-de-dadim/" >Estrada de Dadim</a> <br/><span
+class="cp">4715-266</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.550074,-8.386712 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/caminho-dos-rios/" >Caminho dos Rios</a> <br/><span
+class="cp">4715-114</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.550640,-8.379183<br/>Nogueiró </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/estrada-do-bom-jesus/" >Estrada do Bom Jesus</a> <br/><span
+class="cp">4715-297</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.556370,-8.346001 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/caminho-do-peixoto/" >Caminho do Peixoto</a> <br/><span
+class="cp">4715-317</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.567416,-8.372231 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/estrada-do-sameiro/" >Estrada do Sameiro</a> <br/><span
+class="cp">4715-389</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.567416,-8.372231<br/>Nogueiró </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/estrada-do-sameiro/" >Estrada do Sameiro</a> <br/><span
+class="cp">4715-389</span> BRAGA <br
+/><span
+class='local'>Nogueiró, Braga</span> </span></p><p
+id="div-gpt-ad-1401463712846-3" style="display:inline-block;" class="nobg odd"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-3"); });</script></p><div
+class="col-md-12 pagination-container"><ul
+class="pagination"><li
+class="prev"><a
+href='/braga/nogueiro/' title='Página Anterior'>&larr; Anterior</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/nogueiro/" title="Página 1">1</a></li><li
+class='active'><a
+href="/braga/nogueiro/2.html" title="Página 2">2</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/nogueiro/3.html" title="Página 3">3</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/nogueiro/4.html" title="Página 4">4</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/nogueiro/5.html" title="Página 5">5</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/nogueiro/6.html" title="Página 6">6</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/nogueiro/7.html" title="Página 7">7</a></li><li
+class='next'><a
+href="/braga/nogueiro/3.html" title="Próxima Página">Próxima &rarr;</a></li></ul><div
+class='pagination-totals '>Página 2 de 7</div></div></div></div></div></div></div><div
+id='footer'><div
+class="container"><div
+class="col-md-12"><div
+class="row"><p
+id='copyright' class="pull-left">&copy; 2018 Código Postal</p><div
+class="pull-right"><div
+id="powered"> <a
+href="http://www.nex.pt/"><span>Powered by Nex</span></a></div></div></div></div></div></div><div
+id='stickyBottom'><div
+id='stickyBottomAd'><div
+id="div-gpt-ad-1401463712846-4" style="display:inline-block;"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-4"); });</script></div></div></div> <script type='text/javascript'>eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(6(){3 1=5.k(\'4\');1.9=\'a/b\';1.c=d;1.8=\'/f/7/g.7\';3 2=5.h(\'4\')[0];2.i.j(1,2)})();6 e(){}',21,21,'|pjs|s|var|script|document|function|js|src|type|text|javascript|async|true|runInlineJs|public|main|getElementsByTagName|parentNode|insertBefore|createElement'.split('|'),0,{}))</script></body></html>

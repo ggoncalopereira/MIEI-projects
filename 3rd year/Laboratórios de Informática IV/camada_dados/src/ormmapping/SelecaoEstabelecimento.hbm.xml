@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Universidade do Minho
+License Type: Academic
+-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="SelecaoEstabelecimento, Base de Dados - MM" table="SelecaoEstabelecimento" lazy="false">
+		<composite-id>
+			<key-property name="Id_selecao" column="id_selecao" type="Int32"/>
+			<key-property name="Estabelecimento_Estabelecimento" column="Estabelecimento" type="Int32"/>
+			<key-property name="Estabelecimento_Cliente" column="Cliente" type="Int32"/>
+		</composite-id>
+		<many-to-one name="ORM_Estabelecimento" class="Cliente_seleciona_Estabelecimento, Base de Dados - MM" insert="false" update="false">
+			<column name="Estabelecimento"/>
+			<column name="Cliente"/>
+		</many-to-one>
+		<property name="Data_hora_selecao" column="data_hora_selecao" type="Timestamp" not-null="true"/>
+	</class>
+</hibernate-mapping>

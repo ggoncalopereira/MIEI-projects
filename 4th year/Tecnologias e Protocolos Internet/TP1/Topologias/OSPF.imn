@@ -1,0 +1,345 @@
+node n1 {
+    type router
+    model router
+    network-config {
+	hostname n1
+	!
+	interface eth2
+	 ip address 10.0.5.1/24
+	 ipv6 address 2001:5::1/64
+	!
+	interface eth1
+	 ip address 10.0.4.2/24
+	 ipv6 address 2001:4::2/64
+	!
+	interface eth0
+	 ip address 10.0.0.1/24
+	 ipv6 address 2001:0::1/64
+	!
+    }
+    canvas c1
+    iconcoords {333.0 239.0}
+    labelcoords {333.0 271.0}
+    interface-peer {eth0 n2}
+    interface-peer {eth1 n5}
+    interface-peer {eth2 n6}
+    services {zebra OSPFv2 OSPFv3 vtysh IPForward}
+}
+
+node n2 {
+    type router
+    model router
+    network-config {
+	hostname n2
+	!
+	interface eth1
+	 ip address 10.0.1.1/24
+	 ipv6 address 2001:1::1/64
+	!
+	interface eth0
+	 ip address 10.0.0.2/24
+	 ipv6 address 2001:0::2/64
+	!
+    }
+    canvas c1
+    iconcoords {481.0 129.0}
+    labelcoords {481.0 161.0}
+    interface-peer {eth0 n1}
+    interface-peer {eth1 n3}
+    services {zebra OSPFv2 OSPFv3 vtysh IPForward}
+}
+
+node n3 {
+    type router
+    model router
+    network-config {
+	hostname n3
+	!
+	interface eth2
+	 ip address 10.0.6.1/24
+	 ipv6 address 2001:6::1/64
+	!
+	interface eth1
+	 ip address 10.0.2.1/24
+	 ipv6 address 2001:2::1/64
+	!
+	interface eth0
+	 ip address 10.0.1.2/24
+	 ipv6 address 2001:1::2/64
+	!
+    }
+    canvas c1
+    iconcoords {625.0 238.0}
+    labelcoords {625.0 270.0}
+    interface-peer {eth0 n2}
+    interface-peer {eth1 n4}
+    interface-peer {eth2 n7}
+    services {zebra OSPFv2 OSPFv3 vtysh IPForward}
+}
+
+node n4 {
+    type router
+    model router
+    network-config {
+	hostname n4
+	!
+	interface eth1
+	 ip address 10.0.3.1/24
+	 ipv6 address 2001:3::1/64
+	!
+	interface eth0
+	 ip address 10.0.2.2/24
+	 ipv6 address 2001:2::2/64
+	!
+    }
+    canvas c1
+    iconcoords {627.0 426.0}
+    labelcoords {627.0 458.0}
+    interface-peer {eth0 n3}
+    interface-peer {eth1 n5}
+    services {zebra OSPFv2 OSPFv3 vtysh IPForward}
+}
+
+node n5 {
+    type router
+    model router
+    network-config {
+	hostname n5
+	!
+	interface eth1
+	 ip address 10.0.4.1/24
+	 ipv6 address 2001:4::1/64
+	!
+	interface eth0
+	 ip address 10.0.3.2/24
+	 ipv6 address 2001:3::2/64
+	!
+    }
+    canvas c1
+    iconcoords {334.0 426.0}
+    labelcoords {334.0 458.0}
+    interface-peer {eth0 n4}
+    interface-peer {eth1 n1}
+    services {zebra OSPFv2 OSPFv3 vtysh IPForward}
+}
+
+node n6 {
+    type lanswitch
+    network-config {
+	hostname n6
+	!
+    }
+    canvas c1
+    iconcoords {59.0 240.0}
+    labelcoords {59.0 264.0}
+    interface-peer {e0 n1}
+    interface-peer {e1 n8}
+    interface-peer {e2 n9}
+}
+
+node n7 {
+    type lanswitch
+    network-config {
+	hostname n7
+	!
+    }
+    canvas c1
+    iconcoords {908.0 235.0}
+    labelcoords {908.0 259.0}
+    interface-peer {e0 n3}
+    interface-peer {e1 n10}
+    interface-peer {e2 n11}
+}
+
+node n8 {
+    type router
+    model PC
+    network-config {
+	hostname n8
+	!
+	interface eth0
+	 ip address 10.0.5.20/24
+	 ipv6 address 2001:5::20/64
+	!
+    }
+    canvas c1
+    iconcoords {60.0 136.0}
+    labelcoords {60.0 168.0}
+    interface-peer {eth0 n6}
+}
+
+node n9 {
+    type router
+    model PC
+    network-config {
+	hostname n9
+	!
+	interface eth0
+	 ip address 10.0.5.21/24
+	 ipv6 address 2001:5::21/64
+	!
+    }
+    canvas c1
+    iconcoords {60.0 354.0}
+    labelcoords {60.0 386.0}
+    interface-peer {eth0 n6}
+}
+
+node n10 {
+    type router
+    model PC
+    network-config {
+	hostname n10
+	!
+	interface eth0
+	 ip address 10.0.6.20/24
+	 ipv6 address 2001:6::20/64
+	!
+    }
+    canvas c1
+    iconcoords {907.0 151.0}
+    labelcoords {907.0 183.0}
+    interface-peer {eth0 n7}
+}
+
+node n11 {
+    type router
+    model PC
+    network-config {
+	hostname n11
+	!
+	interface eth0
+	 ip address 10.0.6.21/24
+	 ipv6 address 2001:6::21/64
+	!
+    }
+    canvas c1
+    iconcoords {909.0 354.0}
+    labelcoords {909.0 386.0}
+    interface-peer {eth0 n7}
+}
+
+link l1 {
+    delay 110
+    nodes {n1 n2}
+    bandwidth 100000000
+}
+
+link l2 {
+    delay 160
+    nodes {n2 n3}
+    bandwidth 10000000
+}
+
+link l3 {
+    delay 110
+    nodes {n3 n4}
+    bandwidth 100000000
+}
+
+link l4 {
+    delay 110
+    nodes {n4 n5}
+    bandwidth 100000000
+}
+
+link l5 {
+    delay 110
+    nodes {n5 n1}
+    bandwidth 100000000
+}
+
+link l6 {
+    delay 110
+    nodes {n1 n6}
+    bandwidth 100000000
+}
+
+link l7 {
+    nodes {n6 n8}
+    bandwidth 0
+}
+
+link l8 {
+    nodes {n6 n9}
+    bandwidth 0
+}
+
+link l9 {
+    delay 110
+    nodes {n3 n7}
+    bandwidth 100000000
+}
+
+link l10 {
+    nodes {n7 n10}
+    bandwidth 0
+}
+
+link l11 {
+    nodes {n7 n11}
+    bandwidth 0
+}
+
+annotation a1 {
+    iconcoords {11.0 91.0 164.0 419.0}
+    type rectangle
+    label {}
+    labelcolor black
+    fontfamily {Arial}
+    fontsize {12}
+    color #4be34c
+    width 0
+    border black
+    rad 25
+    canvas c1
+}
+
+annotation a2 {
+    iconcoords {787.0 105.0 966.0 401.0}
+    type rectangle
+    label {}
+    labelcolor black
+    fontfamily {Arial}
+    fontsize {12}
+    color #40e91e
+    width 0
+    border black
+    rad 25
+    canvas c1
+}
+
+annotation a3 {
+    iconcoords {260.0 90.0 690.0 484.0}
+    type rectangle
+    label {}
+    labelcolor black
+    fontfamily {Arial}
+    fontsize {12}
+    color #c0c0ff
+    width 0
+    border black
+    rad 25
+    canvas c1
+}
+
+canvas c1 {
+    name {Canvas1}
+}
+
+option global {
+    interface_names no
+    ip_addresses yes
+    ipv6_addresses yes
+    node_labels yes
+    link_labels yes
+    show_api no
+    background_images no
+    annotations yes
+    grid yes
+    traffic_start 0
+}
+
+option session {
+}
+

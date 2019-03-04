@@ -1,0 +1,249 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ63BcUnf5JA0R0KkGrcO4vys",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJQ602cAP5JA0R4-68m6PDsp8",
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.498964,
+               "lng" : -8.405580499999999
+            },
+            "southwest" : {
+               "lat" : 41.484943,
+               "lng" : -8.435657299999999
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "4.8 km",
+                  "value" : 4770
+               },
+               "duration" : {
+                  "text" : "7 mins",
+                  "value" : 420
+               },
+               "end_address" : "4705-480 Lamas District, Portugal",
+               "end_location" : {
+                  "lat" : 41.498964,
+                  "lng" : -8.435657299999999
+               },
+               "start_address" : "4705-545 Morreira, Portugal",
+               "start_location" : {
+                  "lat" : 41.4977717,
+                  "lng" : -8.4080189
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 139
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 16
+                     },
+                     "end_location" : {
+                        "lat" : 41.4965875,
+                        "lng" : -8.4080362
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouth\u003c/b\u003e toward \u003cb\u003eR. de São Miguel\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "a`h|Fbeir@bAe@JCT?\\@|@FLHLJLL"
+                     },
+                     "start_location" : {
+                        "lat" : 41.4977717,
+                        "lng" : -8.4080189
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 122
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 17
+                     },
+                     "end_location" : {
+                        "lat" : 41.4961596,
+                        "lng" : -8.4090559
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eR. Nova de São Miguel\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "uxg|Ffeir@L`@FVBT?ZEZEN?N?F?DBB@BDBF@L@d@D"
+                     },
+                     "start_location" : {
+                        "lat" : 41.4965875,
+                        "lng" : -8.4080362
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 279
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 54
+                     },
+                     "end_location" : {
+                        "lat" : 41.4962265,
+                        "lng" : -8.405719899999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eEM584\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "_vg|Frkir@A]CqBAmAA{@AkBAi@A_AE_AAm@?SBQ@KBK"
+                     },
+                     "start_location" : {
+                        "lat" : 41.4961596,
+                        "lng" : -8.4090559
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 450
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 38
+                     },
+                     "end_location" : {
+                        "lat" : 41.4938785,
+                        "lng" : -8.409195799999999
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eAv. São Miguel\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "mvg|Fvvhr@HKBEDELCL?P?HBHBNHLLFFBD@DDNVvAh@bDd@pB^vAH^Hf@HZHVLXBDHJPLPHh@Fb@@N?"
+                     },
+                     "start_location" : {
+                        "lat" : 41.4962265,
+                        "lng" : -8.405719899999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 378
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 37
+                     },
+                     "end_location" : {
+                        "lat" : 41.4912266,
+                        "lng" : -8.410969
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eAv. Cabo de Vila\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "wgg|Fnlir@j@HLB^JZTDFDJJNFHJJFJHPFL@N@N@V@\\@RDPFPJTFHHJPNVNj@Jd@@\\ETETAPCTC^CPA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.4938785,
+                        "lng" : -8.409195799999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 km",
+                        "value" : 647
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 55
+                     },
+                     "end_location" : {
+                        "lat" : 41.4878205,
+                        "lng" : -8.4160977
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. de Leitões\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ewf|Fpwir@HLFLFNPZNTTRZTXH\\FV@X?F@D@LHLLLLLNJJLLFHFF@BJLJP^hAx@xBFV@P@PAJETET?T@THv@LxAJhBB`@LXPPNF|@PvAR"
+                     },
+                     "start_location" : {
+                        "lat" : 41.4912266,
+                        "lng" : -8.410969
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.9 km",
+                        "value" : 918
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 70
+                     },
+                     "end_location" : {
+                        "lat" : 41.4850454,
+                        "lng" : -8.4256455
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eEM5841\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "{af|Frwjr@r@JPHLPN`@^tATx@HZFRHX^pAh@hBH\\FP@BDF@FV|@XfAFZTbBBRJp@J`A@V@VCRMf@_@nAAT?\\BXPl@XfATj@V\\HJTTPJHJDHFLFTNt@`@xCDf@?TE`@EXEXALAH?T"
+                     },
+                     "start_location" : {
+                        "lat" : 41.4878205,
+                        "lng" : -8.4160977
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.8 km",
+                        "value" : 1837
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 133
+                     },
+                     "end_location" : {
+                        "lat" : 41.498964,
+                        "lng" : -8.435657299999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eN309\u003c/b\u003e/\u003cb\u003eN319\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "qpe|Fhslr@KLMTITAJCLABCLyApFWdAKXMVEHEHMLGJEDCDQRo@v@yBlCY\\wBdCWX_AhAUXWZg@l@cAnAc@d@KHMJ]HWHkDv@o@NQFc@LC?KDyEhAaB^q@PSDI@[FIBg@JMBs@NQBUF}A\\q@L{AXu@Pw@H]DA?qAPIDo@Zo@\\UNYNKFc@V{@h@k@^EBCDEBYPiCpAA?MBMDE?E@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.4850454,
+                        "lng" : -8.4256455
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "a`h|Fbeir@nAi@r@@|@FLHZXTx@Bp@Kj@?VBHFFTBd@DA]E_ECgDKwEBe@DWLQRI^?RF\\VJLhApGdAhERfARr@P^ZXPHh@Fr@@x@L^JZTJRRXRVP^B^Bt@Fd@Rf@PTh@^j@Jd@@r@Kf@Et@GPAHLN\\`@p@p@h@v@Pp@@LBZVZ\\h@j@LPj@zA`ApCBb@G`@Ej@JlALxAJhBB`@LX`@XtCd@r@JPHLPN`@t@nCz@zC|@|Cx@tCl@dELxAAj@m@vBAr@TfAn@rBv@~@ZVLVVjA`@xCDf@Ev@Kr@CV?TKLWj@EXwBhIe@dAuF|GeFbG_AhAgBtBYTu@R{EfAu@TkInBkB`@sBb@wDv@qCj@uANsAPy@`@kBdAqCdBIHcDbBc@HE@"
+         },
+         "summary" : "N309/N319",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

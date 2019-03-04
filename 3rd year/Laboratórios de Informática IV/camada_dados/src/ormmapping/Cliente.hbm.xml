@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Universidade do Minho
+License Type: Academic
+-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Cliente, Base de Dados - MM" table="Cliente" lazy="false">
+		<id name="Id_cliente" column="id_cliente" type="Int32" unsaved-value="0">
+			<generator class="increment">
+			</generator>
+		</id>
+		<property name="Nome_cliente" column="nome_cliente" type="String" length="45" not-null="true"/>
+		<property name="Ord_rat_igu" column="ord_rat_igu" type="Byte" length="1" not-null="true"/>
+		<property name="Ord_rat_est" column="ord_rat_est" type="Byte" length="1" not-null="true"/>
+		<property name="Ord_dist" column="ord_dist" type="Byte" length="1" not-null="true"/>
+		<property name="Ord_pop_igu" column="ord_pop_igu" type="Byte" length="1" not-null="true"/>
+		<property name="Ord_pop_est" column="ord_pop_est" type="Byte" length="1" not-null="true"/>
+		<many-to-one name="__utilizador" column="Utilizador" class="Utilizador, Base de Dados - MM" cascade="save-update" unique="true" not-null="false" lazy="proxy" access="field">
+		</many-to-one>
+		<set name="ORM_Cliente_critica_Iguaria" lazy="true" cascade="save-update" inverse="true">
+			<key column="Cliente"/>
+			<one-to-many class="Cliente_critica_Iguaria, Base de Dados - MM"/>
+		</set>
+		<set name="ORM_Cliente_seleciona_iguaria" lazy="true" cascade="save-update" inverse="true">
+			<key column="Cliente"/>
+			<one-to-many class="Cliente_seleciona_iguaria, Base de Dados - MM"/>
+		</set>
+		<set name="ORM_Cliente_seleciona_Estabelecimento" lazy="true" cascade="save-update" inverse="true">
+			<key column="Cliente"/>
+			<one-to-many class="Cliente_seleciona_Estabelecimento, Base de Dados - MM"/>
+		</set>
+		<set name="ORM_Cliente_avalia_Estabelecimento" lazy="true" cascade="save-update" inverse="true">
+			<key column="Cliente"/>
+			<one-to-many class="Cliente_avalia_Estabelecimento, Base de Dados - MM"/>
+		</set>
+	</class>
+</hibernate-mapping>

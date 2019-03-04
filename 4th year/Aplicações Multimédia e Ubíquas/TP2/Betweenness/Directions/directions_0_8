@@ -1,0 +1,14 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJz59o8spXJA0RF9SuShMB0iU",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "ZERO_RESULTS"
+      }
+   ],
+   "routes" : [],
+   "status" : "NOT_FOUND"
+}

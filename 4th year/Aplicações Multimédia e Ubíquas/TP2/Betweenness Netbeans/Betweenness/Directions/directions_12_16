@@ -1,0 +1,252 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJL9zHaeb-JA0RoWxVGoaG4s0",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJQ8dfHP_-JA0R0azN2IF970I",
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.5686381,
+               "lng" : -8.4306036
+            },
+            "southwest" : {
+               "lat" : 41.5546194,
+               "lng" : -8.436772399999999
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "2.1 km",
+                  "value" : 2116
+               },
+               "duration" : {
+                  "text" : "5 mins",
+                  "value" : 306
+               },
+               "end_address" : "4700-081 Braga, Portugal",
+               "end_location" : {
+                  "lat" : 41.5680532,
+                  "lng" : -8.436772399999999
+               },
+               "start_address" : "4700-442 Braga, Portugal",
+               "start_location" : {
+                  "lat" : 41.5546194,
+                  "lng" : -8.431206099999999
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "52 m",
+                        "value" : 52
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 18
+                     },
+                     "end_location" : {
+                        "lat" : 41.5548476,
+                        "lng" : -8.430682899999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e toward \u003cb\u003eR. de São Martinho\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "kcs|F`vmr@EEIKGKEMCGAGAGAGAMAIAE"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5546194,
+                        "lng" : -8.431206099999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 128
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 27
+                     },
+                     "end_location" : {
+                        "lat" : 41.55593349999999,
+                        "lng" : -8.430773799999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. de São Martinho\u003c/b\u003e (signs for \u003cb\u003eGaleria Mário Sequeira\u003c/b\u003e/\u003cb\u003eBarcelos\u003c/b\u003e/\u003cb\u003ePorto-Valença\u003c/b\u003e/\u003cb\u003eA11\u003c/b\u003e/\u003cb\u003eA3\u003c/b\u003e)",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "yds|Fvrmr@?OG@}@DQ@Q@q@FOBG?O@C@C?KD"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5548476,
+                        "lng" : -8.430682899999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 km",
+                        "value" : 575
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 71
+                     },
+                     "end_location" : {
+                        "lat" : 41.5596289,
+                        "lng" : -8.4331546
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e4th\u003c/b\u003e exit and stay on \u003cb\u003eR. de São Martinho\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "qks|Fhsmr@A?A?A?A?A?A?A?A@A?A?A@?@A@?@A?A@?@?@A@?@?@AB?@?@?@?@?@?@?B@@?@?@@@?@?@@@?@@??@@@@@@?@@@?@@@?@?@?@?@??A@?@??A@?@A@??A@??A@A@A?A@??A?A@A?A@A?A?A?A?A?A?A?A?A?A?AAA?A?AAAAA?AAAAAAAA??AA?A?AAA?A?A?A?A?A?A?A@A?A?ICC?M?Q?a@AWBA@KJIFIFIFGHEFILITEPKb@KVMXOd@ILINCBCDIDGFUHk@LWBq@JuAh@o@XYNqAl@]NI@C@EA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.55593349999999,
+                        "lng" : -8.430773799999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 km",
+                        "value" : 646
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 65
+                     },
+                     "end_location" : {
+                        "lat" : 41.565147,
+                        "lng" : -8.432425799999999
+                     },
+                     "html_instructions" : "\u003cb\u003eR. de São Martinho\u003c/b\u003e turns slightly \u003cb\u003eright\u003c/b\u003e and becomes \u003cb\u003eR. António José Lisboa\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ubt|Fdbnr@KACAIE]Us@i@UOKEKCM?c@HkA\\QFkAp@_@PUBO?OAMCeBu@o@SKCcAUKCWEg@AE?{AA_@@w@B_@Ci@@_Ao@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5596289,
+                        "lng" : -8.4331546
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 388
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 59
+                     },
+                     "end_location" : {
+                        "lat" : 41.567996,
+                        "lng" : -8.4339976
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e3rd\u003c/b\u003e exit onto \u003cb\u003eR. de São Martinho\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "eeu|Ft}mr@CIACKIKEGCG?UBGBGDCBITCLAL?N@JBJ@HMn@ULMJE@]Hi@LqA^g@JkBf@gAZk@P"
+                     },
+                     "start_location" : {
+                        "lat" : 41.565147,
+                        "lng" : -8.432425799999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 124
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : {
+                        "lat" : 41.5679099,
+                        "lng" : -8.435482799999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. de São Rosendo\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "_wu|Fngnr@BX?@@VDz@?`@DpB?b@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.567996,
+                        "lng" : -8.4339976
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "81 m",
+                        "value" : 81
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 18
+                     },
+                     "end_location" : {
+                        "lat" : 41.5686381,
+                        "lng" : -8.435527499999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. das Oliveiras\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "mvu|Fvpnr@[?U@{@@WBK@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5679099,
+                        "lng" : -8.435482799999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 122
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 22
+                     },
+                     "end_location" : {
+                        "lat" : 41.5680532,
+                        "lng" : -8.436772399999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eAv. Primeiro de Maio\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "_{u|F`qnr@Tr@Tl@LXVn@^`ABH"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5686381,
+                        "lng" : -8.435527499999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "kcs|F`vmr@OQMYI_@Em@iBJyALUFM@KHCP@PFLHDH?NODWIUGCMAE@]CkA@a@\\QPOTg@bB]~@S\\YVaAViANeCbAkB|@g@PI?OCg@[iAy@WIq@H}Ad@kBbAe@B]EeBu@o@SoAYc@Im@A{B?w@B_@Ci@@_Ao@EMWOOC]FKHMb@A\\DV@HMn@c@XmAXmHnBk@PBX@XJrFq@@sADK@Tr@b@fAz@zB"
+         },
+         "summary" : "R. António José Lisboa and R. de São Martinho",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

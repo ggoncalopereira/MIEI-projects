@@ -1,0 +1,13 @@
+int arr[4];
+arr[0] is read;
+arr[1] is read;
+arr[2] is read;
+arr[3] is read;
+if (arr[0] EQ arr[1] AND arr[1] EQ arr[2] AND arr[2] EQ arr[3])
+{
+  write "Podem\n";
+}
+else
+{
+  write "Não Podem\n";
+}

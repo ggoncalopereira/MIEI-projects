@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Universidade do Minho
+License Type: Academic
+-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Cliente_critica_Iguaria, Base de Dados - MM" table="Cliente_critica_Iguaria" lazy="false">
+		<composite-id>
+			<key-property name="Cliente_id_cliente" column="Cliente" type="Int32"/>
+			<key-property name="Iguaria_id_iguaria" column="Iguaria" type="Int32"/>
+			<key-property name="Iguaria_Estabelecimento" column="Estabelecimento" type="Int32"/>
+		</composite-id>
+		<many-to-one name="ORM_Cliente" column="Cliente" class="Cliente, Base de Dados - MM" insert="false" update="false">
+		</many-to-one>
+		<many-to-one name="ORM_Iguaria" class="Iguaria, Base de Dados - MM" insert="false" update="false">
+			<column name="Iguaria"/>
+			<column name="Estabelecimento"/>
+		</many-to-one>
+		<property name="Desc_critica" column="desc_critica" type="String" length="255" not-null="true"/>
+		<property name="Data_critica" column="data_critica" type="Timestamp" not-null="true"/>
+		<property name="Rating_igu" column="rating_igu" type="Decimal" precision="5" scale="4" not-null="true"/>
+	</class>
+</hibernate-mapping>

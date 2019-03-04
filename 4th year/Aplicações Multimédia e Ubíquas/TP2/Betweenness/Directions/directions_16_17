@@ -1,0 +1,324 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJQ8dfHP_-JA0R0azN2IF970I",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJq4u2_Bb-JA0Rfa-LPB979Ag",
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.604296,
+               "lng" : -8.41337
+            },
+            "southwest" : {
+               "lat" : 41.5651042,
+               "lng" : -8.4378408
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "7.4 km",
+                  "value" : 7388
+               },
+               "duration" : {
+                  "text" : "12 mins",
+                  "value" : 732
+               },
+               "end_address" : "4710-586 Adaúfe, Portugal",
+               "end_location" : {
+                  "lat" : 41.5988925,
+                  "lng" : -8.4149943
+               },
+               "start_address" : "4700-081 Braga, Portugal",
+               "start_location" : {
+                  "lat" : 41.5680532,
+                  "lng" : -8.436772399999999
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 115
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 24
+                     },
+                     "end_location" : {
+                        "lat" : 41.5674108,
+                        "lng" : -8.4378408
+                     },
+                     "html_instructions" : "Head \u003cb\u003esouthwest\u003c/b\u003e on \u003cb\u003eAv. Primeiro de Maio\u003c/b\u003e toward \u003cb\u003eCangosta do Pulo\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "iwu|Fxxnr@FTDNBD@FFRP\\LNV`@\\p@LJ"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5680532,
+                        "lng" : -8.436772399999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 189
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 38
+                     },
+                     "end_location" : {
+                        "lat" : 41.5678463,
+                        "lng" : -8.4357352
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. São Frutuoso\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "isu|Fn_or@EmFAYEOm@yAQ]CIEI"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5674108,
+                        "lng" : -8.4378408
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 146
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 24
+                     },
+                     "end_location" : {
+                        "lat" : 41.567996,
+                        "lng" : -8.4339976
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eR. de São Rosendo\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "avu|Fjrnr@CMCOCS?A?c@EqB?a@E{@AW?ACY"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5678463,
+                        "lng" : -8.4357352
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 291
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 43
+                     },
+                     "end_location" : {
+                        "lat" : 41.5655022,
+                        "lng" : -8.432974999999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. de São Martinho\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "_wu|Fngnr@j@QfA[jBg@f@KpA_@h@M\\IDALKTMf@W"
+                     },
+                     "start_location" : {
+                        "lat" : 41.567996,
+                        "lng" : -8.4339976
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.8 km",
+                        "value" : 806
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 88
+                     },
+                     "end_location" : {
+                        "lat" : 41.5698318,
+                        "lng" : -8.4267238
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e4th\u003c/b\u003e exit onto \u003cb\u003eAv. do Estádio\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "kgu|F`anr@B@B@D@F?D@BABABADABEDCFIDIBI@EB]AKAIEICIACKIKEGCG?UBEMIOIUq@iBWq@_@eA{@aCe@eASc@Ua@GKMSQWc@o@_@e@SUQUOMWWi@e@WQ]Wu@i@cAq@cAs@iAw@GEQKCEEEEEAEEQ"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5655022,
+                        "lng" : -8.432974999999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 428
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 45
+                     },
+                     "end_location" : {
+                        "lat" : 41.57201070000001,
+                        "lng" : -8.4233235
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit and stay on \u003cb\u003eAv. do Estádio\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "mbv|F~ylr@?I?EAE?EAEAECEAECCCCCCCACAEAC?EAC@E?C@C@CBSAEAE?CACAOIy@k@q@g@{@m@g@_@USKOSUM[GSGMI_@CQAOAMAMA_@?g@Ay@?]@Q?KBa@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5698318,
+                        "lng" : -8.4267238
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.1 km",
+                        "value" : 1078
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 98
+                     },
+                     "end_location" : {
+                        "lat" : 41.5807236,
+                        "lng" : -8.4274884
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e3rd\u003c/b\u003e exit onto \u003cb\u003eAv. do Cávado\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "apv|Fvdlr@@?@ABA@A?C@C?A?C?E?E?E?EACAEACCEAAAAA?A?C?C?C?C@C@C@C@C@AB?BAB?D_Ah@a@VQLIDEB[X_A\\g@Tk@Tk@Tu@\\g@P}@`@k@TsBx@w@ZOFOFi@V]LgBt@a@Pc@P{@\\gAf@wB~@eA\\]Ng@PKBMD_@HI@MDg@NiBr@[H_@LQH"
+                     },
+                     "start_location" : {
+                        "lat" : 41.57201070000001,
+                        "lng" : -8.4233235
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "2.7 km",
+                        "value" : 2676
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 218
+                     },
+                     "end_location" : {
+                        "lat" : 41.6042508,
+                        "lng" : -8.428070600000002
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit and stay on \u003cb\u003eAv. do Cávado\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "ofx|Fx~lr@CAC?A?C?A?A?A?A@A?A@A?A@A@A@A@?@A@?@A@M?C?I@IBQFUJsFhBSFSHgDbAq@TIF}Ad@UFMFQBE@[@S@w@BgBDgADoBDY@y@@g@BQAg@CS@U@eDLK?aBDcABqADoBD_@BY?_@B[?SCMAOCKEIEMGaAi@_@MeFaCg@USGECIAOEYA]@S@iDXm@BE@u@DS@C@A?E?cAHk@DsBLu@Fe@B]BeBLSBq@De@By@Dq@FmCR_@BkAHSBm@B_@Bg@D[@M?O?G?SC]IgBa@}@SsA[qA[kAYyA[ICICGAICa@MQG"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5807236,
+                        "lng" : -8.4274884
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.3 km",
+                        "value" : 1256
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 84
+                     },
+                     "end_location" : {
+                        "lat" : 41.6018334,
+                        "lng" : -8.413506999999999
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit onto \u003cb\u003eR. da Marginal\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "qy||Flbmr@?AAC?A?AAAAA?AAAAa@@iAFw@V{CL}AJ_AD]B_@Fs@Fw@JeBDi@JuAV_DLsAP}@r@oCT{@Le@Nm@p@sCTyAb@yDX_Cj@gFTgBJgATkBBe@?iAMgDEiA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.6042508,
+                        "lng" : -8.428070600000002
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 223
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 30
+                     },
+                     "end_location" : {
+                        "lat" : 41.5999571,
+                        "lng" : -8.41337
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eParque Industrial de Adaúfe\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eRestricted usage road\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "mj||Flgjr@f@NXNp@b@VBX?JErAm@~@_@n@O"
+                     },
+                     "start_location" : {
+                        "lat" : 41.6018334,
+                        "lng" : -8.413506999999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 180
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 40
+                     },
+                     "end_location" : {
+                        "lat" : 41.5988925,
+                        "lng" : -8.4149943
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e to stay on \u003cb\u003eParque Industrial de Adaúfe\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eRestricted usage road\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "w~{|Fpfjr@tAfCl@bApAvB"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5999571,
+                        "lng" : -8.41337
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "iwu|Fxxnr@Rr@Xp@d@p@\\p@LJGgGs@iBUg@IWGc@EyDKoBrBm@rCs@xCw@pAs@TDPCVUHSDc@Mi@MMSI]BO]sBwFaBgEi@eAg@w@iBaCg@e@aAw@{EgDgBoAKKGWA[IWOMSEQDW@KAqAy@mBuA}@s@_@e@Uo@Qm@Ea@EcB?uBDa@DCBK?UESGIK?ODGBAFAHaB`A}@p@_E~AsKlEqNdGwCbAeAVqCbA{@VUFE?I?GBIJABQ?SDg@RcM~D{@\\sBl@_@Ja@B{FPkFLy@Ei@BwIV{FN{@Ba@E[IWMaBw@mGwCs@Sw@?}DZ}BLkIj@iN`AmDTqBJW?q@MkImBoDy@}@WQIAECGCc@@iAFw@d@yFP}A^qFv@sJdAmEb@aB`AaETyAb@yDdAgJ`@oDXqC?iAMgDEiAf@NjAr@p@B~As@~@_@n@ObCjEpAvB"
+         },
+         "summary" : "Av. do Cávado",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

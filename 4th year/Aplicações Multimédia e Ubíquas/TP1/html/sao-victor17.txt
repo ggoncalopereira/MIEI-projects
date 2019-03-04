@@ -1,0 +1,256 @@
+<!DOCTYPE html><html
+itemscope itemtype="http://schema.org/WebPage" lang="pt-pt"><head><title>Códigos Postais de São Victor (17)</title><meta
+http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link
+rel="stylesheet" href="/public/css/flat-v4.css" type="text/css" /><meta
+name="description" content="Todos os Códigos Postais de São Victor, Braga. Por exemplo, 4715-101 BRAGA, Praceta Laura V. Gonçalves." /><meta
+name="keywords" content="codigo postal, São Victor, Braga, Braga, 4710-407, 4710-400, 4710-450, 4710-347, 4715-038, 4710-382, 4715-045, 4715-046, 4715-294, 4715-290, 4715-101, 4715-124, 4710-103" /><meta
+name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link
+rel="shortcut icon" href="/favicon.ico" /><meta
+property="fb:admins" content="1035683224" /><meta
+property="fb:app_id" content="420345441324086" /><meta
+property="og:title" content="Código Postal" /><meta
+property="og:url" content="https://www.codigo-postal.pt/" /><meta
+property="og:image" content="https://www.codigo-postal.pt/img/logo-fb.png" /><meta
+property="og:site_name" content="Código Postal" /><meta
+property="og:description" content="Todos os Códigos Postais de São Victor, Braga. Por exemplo, 4715-101 BRAGA, Praceta Laura V. Gonçalves." /><meta
+property="og:type" content="website" /> <script type="text/javascript">var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16650868-14']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script> <script type='text/javascript'>var googletag = googletag || {};
+                googletag.cmd = googletag.cmd || [];
+                (function() {
+                var gads = document.createElement('script');
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') + 
+                '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+                })();</script><script type='text/javascript'>googletag.cmd.push(function() {var mySizeMapping = googletag.sizeMapping().addSize([1,1], [300,250]).addSize([770,500], [728,90]).addSize([1190,500], [970,90]).build();googletag.defineSlot('/4685050/códigopostal_lists_leaderboard_top', [[970,90], [728, 90], [300, 250]], 'div-gpt-ad-1401463712846-1').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+var mySizeMapping = googletag.sizeMapping().addSize([0,0], [320,50]).addSize([770,500], []).build();googletag.defineSlot('/4685050/códigopostal_CodigoPostal_stickybottom320x50', [320, 50], 'div-gpt-ad-1401463712846-4').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+var mySizeMapping = googletag.sizeMapping().addSize([1,1], [300,250]).addSize([770,500], [336,280]).build();googletag.defineSlot('/4685050/códigopostal_lists_MREC_bottom', [[300, 250], [336, 280]], 'div-gpt-ad-1401463712846-3').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+var mySizeMapping = googletag.sizeMapping().addSize([1,1], [300,250]).addSize([770,500], [728,90]).addSize([1190,500], [970,90]).build();googletag.defineSlot('/4685050/códigopostal_lists_leaderboard_middle', [[970,90], [728, 90], [300, 250]], 'div-gpt-ad-1401463712846-2').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();googletag.enableServices();});</script> </head><body><div
+id="fb-root"></div><div
+id='header' class='min'><div
+class="container"><div
+class="col-md-12"><div
+id='logo' class='min'><a
+href='/'><span>Código Postal - Pesquisa e Validação de Códigos Postais</span></a></div></div></div></div><div
+id='search' class='min'><div
+class="container"><div
+class='search-container min'><div
+class="col-sm-4 col-md-4 hidden-xs"><form
+method='get' action='/' class="form-inline"><div
+class="form-group"> <label
+for='cp4'>Pesquisa por Código Postal</label> <input
+class='cp4 form-control input-lg min' name='cp4' maxlength="4" id='cp4' placeholder="0000" value="" /> <span
+id='cp-split'>-</span> <input
+class='cp3 form-control input-lg min' name='cp3' maxlength="3" placeholder="000"  value="" /> <button
+class="sbutton"><i
+class="fa fa-search"></i><span> Pesquisar</span></button></div></form></div><div
+class="col-sm-1 col-md-1 hidden-xs"><div
+class="row"><div
+class='search-split'></div></div></div><div
+class="col-sm-7 col-md-7 mobile-split hidden-xs"><form
+method='get' action='/' class="form-inline pull-right"> <label
+for='rua'>Pesquisa de Moradas e Ruas</label><div
+class="form-group"> <input
+class='rua form-control input-lg min' name='rua' id="rua" placeholder="Nome da Rua" value="" /> <input
+class='local form-control input-lg min' name='local' placeholder="Localidade"  value="" /> <button
+class="sbutton"><i
+class="fa fa-search"></i><span> Pesquisar</span></button></div></form></div><div
+class="col-sm-12 col-md-12 visible-xs"><form
+method='get' action='/' class="form-inline"><div
+class="input-group"> <input
+class='mobile form-control min' name='mobile' id='mobile' placeholder="Código Postal ou Morada"  value="" /> <span
+class="input-group-btn"> <button
+class="btn btn-default" type="button"><i
+class="fa fa-search"></i></button> </span></div></form></div></div></div></div><div
+class="container"><div
+class="col-md-12"><div
+class="row"><h1>Códigos Postais de São Victor</h1><div
+class="breadcrumbs" itemprop="breadcrumb"><a
+href="/distrito-braga/">Distrito de Braga</a> &gt; <a
+href="/braga/">Braga</a> &gt; São Victor</div> <br/><div
+id="isolated"><div
+class="places"><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.555237,-8.401775<br/>São Victor </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-monsenhor-ferreira/" >Rua Monsenhor Ferreira</a> <br/><span
+class="cp">4710-407</span> BRAGA <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p
+id="div-gpt-ad-1401463712846-1" style="display:inline-block;" class="nobg"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-1"); });</script></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.565187,-8.410665 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-doutor-jose-ferreira-da-silva/" >Rua Monsenhor José Ferreira da Silva</a> <br/><span
+class="cp">4710-400</span> BRAGA <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.558947,-8.404240<br/>São Victor </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-tomas-de-figueiredo/" >Rua Tomás de Figueiredo</a> <br/><span
+class="cp">4710-450</span> BRAGA <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.574658,-8.401427<br/>São Victor </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-helder-de-figueiredo-sao-victor/" >Rua Hélder de Figueiredo</a> <br/><span
+class="cp">4710-347</span> BRAGA <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.545773,-8.407468<br/>São Victor </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-nascente-sao-victor/" >Rua Nascente</a> <br/><span
+class="cp">4715-038</span> BRAGA <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.574483,-8.401070 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-das-sete-fontes/" >Rua das Sete Fontes</a> <br/><span
+class="cp">4710-382</span> ADAÚFE <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.547402,-8.412274<br/>São Victor </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-professor-machado-vilela/" >Rua Professor Machado Vilela</a> <br/><span
+class="cp">4715-045</span> BRAGA <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p
+id="div-gpt-ad-1401463712846-2" style="display:inline-block;" class="nobg"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-2"); });</script></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.546907,-8.412992<br/>São Victor </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/travessa-professor-machado-vilela/" >Travessa Professor Machado Vilela</a> <br/><span
+class="cp">4715-046</span> BRAGA <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.546907,-8.412992 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/travessa-professor-machado-vilela/" >Travessa Professor Machado Vilela</a> <br/><span
+class="cp">4715-046</span> BRAGA <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.550061,-8.402771<br/>São Victor </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/praceta-pedro-da-rocha/" >Praceta Pedro da Rocha</a> <br/><span
+class="cp">4715-294</span> BRAGA <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.550745,-8.404243<br/>São Victor </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-germao-galharde/" >Rua Germão Galharde</a> <br/><span
+class="cp">4715-290</span> BRAGA <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.556370,-8.346001 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/praceta-laura-v-goncalves/" >Praceta Laura V. Gonçalves</a> <br/><span
+class="cp">4715-101</span> BRAGA <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.556370,-8.346001<br/>Bairro Duarte Pacheco </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/praceta-laura-v-goncalves/" >Praceta Laura V. Gonçalves</a> <br/><span
+class="cp">4715-101</span> BRAGA <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.542403,-8.415745<br/>São Victor </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-jaime-sotto-mayor/" >Rua Jaime Sotto Mayor</a> <br/><span
+class="cp">4715-124</span> BRAGA <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.556543,-8.413725 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-jose-sarmento/" >Rua José Sarmento</a> <br/><span
+class="cp">4710-103</span> BRAGA <br
+/><span
+class='local'>São Victor, Braga</span> </span></p><p
+id="div-gpt-ad-1401463712846-3" style="display:inline-block;" class="nobg odd"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-3"); });</script></p><div
+class="col-md-12 pagination-container"><ul
+class="pagination"><li
+class="prev"><a
+href='/braga/sao-victor/16.html' title='Página Anterior'>&larr; Anterior</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/sao-victor/10.html" title="Página 10">10</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/sao-victor/11.html" title="Página 11">11</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/sao-victor/12.html" title="Página 12">12</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/sao-victor/13.html" title="Página 13">13</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/sao-victor/14.html" title="Página 14">14</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/sao-victor/15.html" title="Página 15">15</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/sao-victor/16.html" title="Página 16">16</a></li><li
+class='active'><a
+href="/braga/sao-victor/17.html" title="Página 17">17</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/sao-victor/18.html" title="Página 18">18</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/sao-victor/19.html" title="Página 19">19</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/sao-victor/20.html" title="Página 20">20</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/sao-victor/21.html" title="Página 21">21</a></li><li
+class='next'><a
+href="/braga/sao-victor/18.html" title="Próxima Página">Próxima &rarr;</a></li></ul><div
+class='pagination-totals '>Página 17 de 21</div></div></div></div></div></div></div><div
+id='footer'><div
+class="container"><div
+class="col-md-12"><div
+class="row"><p
+id='copyright' class="pull-left">&copy; 2018 Código Postal</p><div
+class="pull-right"><div
+id="powered"> <a
+href="http://www.nex.pt/"><span>Powered by Nex</span></a></div></div></div></div></div></div><div
+id='stickyBottom'><div
+id='stickyBottomAd'><div
+id="div-gpt-ad-1401463712846-4" style="display:inline-block;"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-4"); });</script></div></div></div> <script type='text/javascript'>eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(6(){3 1=5.k(\'4\');1.9=\'a/b\';1.c=d;1.8=\'/f/7/g.7\';3 2=5.h(\'4\')[0];2.i.j(1,2)})();6 e(){}',21,21,'|pjs|s|var|script|document|function|js|src|type|text|javascript|async|true|runInlineJs|public|main|getElementsByTagName|parentNode|insertBefore|createElement'.split('|'),0,{}))</script></body></html>

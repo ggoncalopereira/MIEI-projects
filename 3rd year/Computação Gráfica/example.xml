@@ -1,0 +1,6 @@
+<scene>
+	<models>
+		<model file="sphere.3d" />
+		<model file="cone.3d" />
+	</models>
+</scene>

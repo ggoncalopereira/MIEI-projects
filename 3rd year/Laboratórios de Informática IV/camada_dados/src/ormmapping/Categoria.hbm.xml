@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Universidade do Minho
+License Type: Academic
+-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Categoria, Base de Dados - MM" table="Categoria" lazy="false">
+		<id name="Id_categoria" column="id_categoria" type="Int32" unsaved-value="0">
+			<generator class="increment">
+			</generator>
+		</id>
+		<property name="Descricao" column="descricao" type="String" length="45" not-null="true"/>
+		<set name="ORM_Estabelecimento1" lazy="true" cascade="save-update" inverse="true">
+			<key column="Categoria"/>
+			<one-to-many class="Estabelecimento, Base de Dados - MM"/>
+		</set>
+	</class>
+</hibernate-mapping>

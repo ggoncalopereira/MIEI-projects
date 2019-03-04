@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Model quotesql="1" tablecharset="" mysql_version="504" mssql_version="2008" derby_version="106" ingres_version="9">
+  <Entity name="Estabelecimento" Unlogged="false" PKClustered="0">
+    <Column name="id_estabelecimento">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>increment</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Categoria">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Categoria.id_categoria</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Utilizador">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Utilizador.email</ReferencedColumn>
+      <Type>27</Type>
+      <Length>75</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="nome_estabelecimento">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>75</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="desc_ambiente">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>255</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="rating_medio_estabelecimento">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>11</Type>
+      <Length>5</Length>
+      <Scale>4</Scale>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+    <Column name="telefone">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>true</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="visual_estabelecimento">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+    <Column name="longitude">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>11</Type>
+      <Length>11</Length>
+      <Scale>8</Scale>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+    <Column name="latitude">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>11</Type>
+      <Length>11</Length>
+      <Scale>8</Scale>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+    <Column name="rua">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>75</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="numero">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="localidade">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>45</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="cod_postal">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>10</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <CheckConstraint name="LongitudeMax">
+      <Column name="longitude &lt;= 180 AND longitude &gt;= -180"/>
+      <Column name="latitude &lt;= 90 AND latitude &gt;= -90"/>
+      <Column name="rating_medio_estabelecimento &lt;= 5 AND  rating_medio_estabelecimento &gt;= 0"/>
+    </CheckConstraint>
+  </Entity>
+  <Entity name="Iguaria" Unlogged="false" PKClustered="1">
+    <Column name="id_iguaria">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>increment</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Estabelecimento">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Estabelecimento.id_estabelecimento</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="nome_iguaria">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>75</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="visual_iguaria">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+    <Column name="rating_medio_iguaria">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>11</Type>
+      <Length>5</Length>
+      <Scale>4</Scale>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+    <Column name="fotografia">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>40</Type>
+      <Length>-1</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="preco">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>11</Type>
+      <Length>10</Length>
+      <Scale>2</Scale>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+  </Entity>
+  <Entity name="Cliente" Unlogged="false" PKClustered="0">
+    <Column name="id_cliente">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>increment</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Utilizador">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Utilizador.email</ReferencedColumn>
+      <Type>27</Type>
+      <Length>75</Length>
+      <Nullable>true</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="nome_cliente">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>45</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="ord_rat_igu">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>7</Type>
+      <Length>1</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+    <Column name="ord_rat_est">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>7</Type>
+      <Length>1</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+    <Column name="ord_dist">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>7</Type>
+      <Length>1</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+    <Column name="ord_pop_igu">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>7</Type>
+      <Length>1</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+    <Column name="ord_pop_est">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>7</Type>
+      <Length>1</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+  </Entity>
+  <Entity name="Utilizador" Unlogged="false" PKClustered="0">
+    <Column name="email">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>75</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="password">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>255</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="tipo">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>7</Type>
+      <Length>1</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+  </Entity>
+  <Entity name="Categoria" Unlogged="false" PKClustered="0">
+    <Column name="id_categoria">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>increment</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="descricao">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>45</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+  </Entity>
+  <Entity name="Cliente_critica_Iguaria" Unlogged="false" PKClustered="1">
+    <Column name="Cliente">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Cliente.id_cliente</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Iguaria">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Iguaria.id_iguaria</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Estabelecimento">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Iguaria.Estabelecimento</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="desc_critica">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>27</Type>
+      <Length>255</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="data_critica">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>22</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="rating_igu">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>11</Type>
+      <Length>5</Length>
+      <Scale>4</Scale>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+    <CheckConstraint name="RatingIguariaBounded">
+      <Column name="rating_igu &lt;= 5 AND rating_igu &gt;= 0"/>
+    </CheckConstraint>
+  </Entity>
+  <Entity name="Cliente_seleciona_iguaria" Unlogged="false" PKClustered="1">
+    <Column name="Cliente">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Cliente.id_cliente</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Iguaria">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Iguaria.id_iguaria</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Estabelecimento">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Iguaria.Estabelecimento</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+  </Entity>
+  <Entity name="SelecaoIguaria" Unlogged="false" PKClustered="1">
+    <Column name="id_visualizacao">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>increment</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Cliente">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Cliente_seleciona_iguaria.Cliente</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Iguaria">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Cliente_seleciona_iguaria.Iguaria</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Estabelecimento">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Cliente_seleciona_iguaria.Estabelecimento</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="data_hora_visualizacao">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>22</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+  </Entity>
+  <Entity name="HorarioEstabelecimento" Unlogged="false" PKClustered="1">
+    <Column name="id_horario">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>increment</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Estabelecimento">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Estabelecimento.id_estabelecimento</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="dia">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>7</Type>
+      <Length>1</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="hora_abertura">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>22</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="hora_fecho">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>22</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+  </Entity>
+  <Entity name="Cliente_seleciona_Estabelecimento" Unlogged="false" PKClustered="1">
+    <Column name="Estabelecimento">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Estabelecimento.id_estabelecimento</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Cliente">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Cliente.id_cliente</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+  </Entity>
+  <Entity name="Cliente_avalia_Estabelecimento" Unlogged="false" PKClustered="1">
+    <Column name="Estabelecimento">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Estabelecimento.id_estabelecimento</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Cliente">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Cliente.id_cliente</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="rating_est">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>11</Type>
+      <Length>5</Length>
+      <Scale>4</Scale>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <DefaultValue>0</DefaultValue>
+      <UserTypes/>
+    </Column>
+    <Column name="data_avaliacao">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>22</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+    <CheckConstraint name="RatingEstBounded">
+      <Column name="rating_est &lt;= 5 AND rating_est &gt;= 0"/>
+    </CheckConstraint>
+  </Entity>
+  <Entity name="SelecaoEstabelecimento" Unlogged="false" PKClustered="1">
+    <Column name="id_selecao">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>increment</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Estabelecimento">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Cliente_seleciona_Estabelecimento.Estabelecimento</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="Cliente">
+      <PrimaryKey>true</PrimaryKey>
+      <ForeignKey>true</ForeignKey>
+      <ReferencedColumn>Cliente_seleciona_Estabelecimento.Cliente</ReferencedColumn>
+      <Type>9</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>assigned</IDGenerator>
+      <Unique>false</Unique>
+      <Index>true</Index>
+      <UserTypes/>
+    </Column>
+    <Column name="data_hora_selecao">
+      <PrimaryKey>false</PrimaryKey>
+      <ForeignKey>false</ForeignKey>
+      <Type>22</Type>
+      <Length>0</Length>
+      <Nullable>false</Nullable>
+      <IDGenerator>native</IDGenerator>
+      <Unique>false</Unique>
+      <Index>false</Index>
+      <UserTypes/>
+    </Column>
+  </Entity>
+  <ForeignKey name="FKIguaria812873">
+    <ReferenceTable>Iguaria</ReferenceTable>
+    <ReferencedTable>Estabelecimento</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>No action</OnDelete>
+    <Columns>
+      <Column>Estabelecimento</Column>
+    </Columns>
+    <RefColumns>
+      <Column>id_estabelecimento</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="FKEstabeleci130178">
+    <ReferenceTable>Estabelecimento</ReferenceTable>
+    <ReferencedTable>Utilizador</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>Cascade</OnDelete>
+    <Columns>
+      <Column>Utilizador</Column>
+    </Columns>
+    <RefColumns>
+      <Column>email</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="FKCliente585144">
+    <ReferenceTable>Cliente</ReferenceTable>
+    <ReferencedTable>Utilizador</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>Set null</OnDelete>
+    <Columns>
+      <Column>Utilizador</Column>
+    </Columns>
+    <RefColumns>
+      <Column>email</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="FKCliente_cr772423">
+    <ReferenceTable>Cliente_critica_Iguaria</ReferenceTable>
+    <ReferencedTable>Cliente</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>Cascade</OnDelete>
+    <Columns>
+      <Column>Cliente</Column>
+    </Columns>
+    <RefColumns>
+      <Column>id_cliente</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="FKCliente_cr116218">
+    <ReferenceTable>Cliente_critica_Iguaria</ReferenceTable>
+    <ReferencedTable>Iguaria</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>Cascade</OnDelete>
+    <Columns>
+      <Column>Iguaria</Column>
+      <Column>Estabelecimento</Column>
+    </Columns>
+    <RefColumns>
+      <Column>id_iguaria</Column>
+      <Column>Estabelecimento</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="FKCliente_se180803">
+    <ReferenceTable>Cliente_seleciona_iguaria</ReferenceTable>
+    <ReferencedTable>Cliente</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>Cascade</OnDelete>
+    <Columns>
+      <Column>Cliente</Column>
+    </Columns>
+    <RefColumns>
+      <Column>id_cliente</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="FKCliente_se263752">
+    <ReferenceTable>Cliente_seleciona_iguaria</ReferenceTable>
+    <ReferencedTable>Iguaria</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>Cascade</OnDelete>
+    <Columns>
+      <Column>Iguaria</Column>
+      <Column>Estabelecimento</Column>
+    </Columns>
+    <RefColumns>
+      <Column>id_iguaria</Column>
+      <Column>Estabelecimento</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="FKSelecaoIgu80450">
+    <ReferenceTable>SelecaoIguaria</ReferenceTable>
+    <ReferencedTable>Cliente_seleciona_iguaria</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>Cascade</OnDelete>
+    <Columns>
+      <Column>Cliente</Column>
+      <Column>Iguaria</Column>
+      <Column>Estabelecimento</Column>
+    </Columns>
+    <RefColumns>
+      <Column>Cliente</Column>
+      <Column>Iguaria</Column>
+      <Column>Estabelecimento</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="FKHorarioEst593610">
+    <ReferenceTable>HorarioEstabelecimento</ReferenceTable>
+    <ReferencedTable>Estabelecimento</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>Cascade</OnDelete>
+    <Columns>
+      <Column>Estabelecimento</Column>
+    </Columns>
+    <RefColumns>
+      <Column>id_estabelecimento</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="FKCliente_se177165">
+    <ReferenceTable>Cliente_seleciona_Estabelecimento</ReferenceTable>
+    <ReferencedTable>Estabelecimento</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>Cascade</OnDelete>
+    <Columns>
+      <Column>Estabelecimento</Column>
+    </Columns>
+    <RefColumns>
+      <Column>id_estabelecimento</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="FKCliente_se587637">
+    <ReferenceTable>Cliente_seleciona_Estabelecimento</ReferenceTable>
+    <ReferencedTable>Cliente</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>Cascade</OnDelete>
+    <Columns>
+      <Column>Cliente</Column>
+    </Columns>
+    <RefColumns>
+      <Column>id_cliente</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="FKCliente_av724674">
+    <ReferenceTable>Cliente_avalia_Estabelecimento</ReferenceTable>
+    <ReferencedTable>Cliente</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>Cascade</OnDelete>
+    <Columns>
+      <Column>Cliente</Column>
+    </Columns>
+    <RefColumns>
+      <Column>id_cliente</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="FKSelecaoEst185495">
+    <ReferenceTable>SelecaoEstabelecimento</ReferenceTable>
+    <ReferencedTable>Cliente_seleciona_Estabelecimento</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>Cascade</OnDelete>
+    <Columns>
+      <Column>Estabelecimento</Column>
+      <Column>Cliente</Column>
+    </Columns>
+    <RefColumns>
+      <Column>Estabelecimento</Column>
+      <Column>Cliente</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="FKCliente_av517886">
+    <ReferenceTable>Cliente_avalia_Estabelecimento</ReferenceTable>
+    <ReferencedTable>Estabelecimento</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>Cascade</OnDelete>
+    <Columns>
+      <Column>Estabelecimento</Column>
+    </Columns>
+    <RefColumns>
+      <Column>id_estabelecimento</Column>
+    </RefColumns>
+  </ForeignKey>
+  <ForeignKey name="FKEstabeleci380335">
+    <ReferenceTable>Estabelecimento</ReferenceTable>
+    <ReferencedTable>Categoria</ReferencedTable>
+    <OnUpdate>No action</OnUpdate>
+    <OnDelete>No action</OnDelete>
+    <Columns>
+      <Column>Categoria</Column>
+    </Columns>
+    <RefColumns>
+      <Column>id_categoria</Column>
+    </RefColumns>
+  </ForeignKey>
+</Model>

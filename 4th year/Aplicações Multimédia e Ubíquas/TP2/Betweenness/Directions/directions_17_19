@@ -1,0 +1,204 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJq4u2_Bb-JA0Rfa-LPB979Ag",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ8_otLJf9JA0RUKkAMDtncNQ",
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.6064346,
+               "lng" : -8.365861799999999
+            },
+            "southwest" : {
+               "lat" : 41.5964759,
+               "lng" : -8.4149943
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "6.0 km",
+                  "value" : 6002
+               },
+               "duration" : {
+                  "text" : "9 mins",
+                  "value" : 547
+               },
+               "end_address" : "4710-617 Crespos, Portugal",
+               "end_location" : {
+                  "lat" : 41.5999854,
+                  "lng" : -8.365861799999999
+               },
+               "start_address" : "4710-586 Adaúfe, Portugal",
+               "start_location" : {
+                  "lat" : 41.5988925,
+                  "lng" : -8.4149943
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 180
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 32
+                     },
+                     "end_location" : {
+                        "lat" : 41.5999571,
+                        "lng" : -8.41337
+                     },
+                     "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e on \u003cb\u003eParque Industrial de Adaúfe\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eRestricted usage road\u003c/div\u003e",
+                     "polyline" : {
+                        "points" : "ax{|Ftpjr@qAwBm@cAuAgC"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5988925,
+                        "lng" : -8.4149943
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 223
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 36
+                     },
+                     "end_location" : {
+                        "lat" : 41.6018334,
+                        "lng" : -8.413506999999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e to stay on \u003cb\u003eParque Industrial de Adaúfe\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eRestricted usage road\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "w~{|Fpfjr@o@N_A^sAl@KDY?WCq@c@YOg@O"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5999571,
+                        "lng" : -8.41337
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.7 km",
+                        "value" : 1733
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 139
+                     },
+                     "end_location" : {
+                        "lat" : 41.6024977,
+                        "lng" : -8.3979205
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. da Marginal\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "mj||Flgjr@AUCWSyFGwBKkCEmA?o@?aAAqACk@E_@Kg@Mc@M_@KOKKKIGCGCMAG?K?K@YDmBNK@iALO?M?KEAAKGGGs@aAi@y@e@kASo@s@gDo@sCG]Ia@Oq@Os@Ou@GYC]Ce@B[DUFUJUDEJONKRIXGt@QLGTQPULWRi@Ne@@EBGTo@Jc@LgADm@BQHq@H]R]Z_@lAyAb@e@Z[bAoAT]HKHOJWF_@HuADaA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.6018334,
+                        "lng" : -8.413506999999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "2.6 km",
+                        "value" : 2610
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 216
+                     },
+                     "end_location" : {
+                        "lat" : 41.5966449,
+                        "lng" : -8.3755635
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eEM565\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "sn||F~egr@B_AJ}A?YAWAMEOIUIMOSuAcBIMKQOWEKcAiBqCkFi@cAIMKU]o@KSESCWOmAE_@g@aEOcAc@gDWgBMuAM_BUgDUyCMmBAWCOO}@a@gBEYIw@?[@O@Iz@qDn@cDTkAFMHMNMLGPKRGLIb@Qv@]h@WJERIbA]d@Qb@MlA_@lA]RIz@WJCzDqAp@Qt@UfA[PERIVOROp@{@R]RYXc@h@o@r@aAj@w@dAuApAcBd@o@TYrAiBpCqDXg@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.6024977,
+                        "lng" : -8.3979205
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.1 km",
+                        "value" : 1098
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 98
+                     },
+                     "end_location" : {
+                        "lat" : 41.60125250000001,
+                        "lng" : -8.3665001
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e4th\u003c/b\u003e exit onto \u003cb\u003eAv. do Estádio\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "_j{|Ffzbr@?@@??@@?@@@?@?@??@@?@A@?@?@A@??A@??A@??A@A?A@A?A?A?A?A@??A?A?AA??A?A?A?AAA?AAA?AAAAAA??AA?A?A?A??AA@A?A?A?A??@A??@A?A@A@?@A@?@ECCAEAa@M]Ki@SKCIEGEECGECCIIGKu@gAuAqBsAqBW_@Wi@S]IOUUoAiAIOCGAK?K@MBODSHSZm@d@y@P_@J]F_@Hg@BS@e@?MCQIUY_Ae@uAIKIGMGOCYIMGGEEGKOGOGQIq@Ig@CKEIEKGG[]QSQOUOIGKIKMUe@Si@UeAK_@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5966449,
+                        "lng" : -8.3755635
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 158
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : {
+                        "lat" : 41.5999854,
+                        "lng" : -8.365861799999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. do Montinho\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "yf||Fraar@NEFAB?TBR?R?LCJEJGHIXi@FKJGPIp@W"
+                     },
+                     "start_location" : {
+                        "lat" : 41.60125250000001,
+                        "lng" : -8.3665001
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ax{|Ftpjr@_C{DuAgCo@NsClAKDY?WCq@c@YOg@OEm@[qJQyE?qBE}BQgA[cAW[SMUES?e@FsE^YEMI{@iAi@y@e@kAgAwEw@qDy@}DKw@?aALk@P[Z[l@QbAYTQPU`@aAPk@Xw@Jc@LgAH_ARoAn@}@pB_C~AkB^i@Tg@PuBHaCJwBCe@Oe@Ya@_BqBeB_DqEsIi@cAIk@mAsJ{@oG[uD{@gMSmAg@aCIw@?[BYz@qDn@cD\\yAX[^S|BaAt@]vAg@dF}AvGwB`EiAj@YROp@{@f@w@bAsAvFsH`HeJXe@@?@@FBFAHI@SEOOCKDCFoC_AYS}CoEkBqCk@gA_@e@oAiAIOES@YHc@d@aAv@yAR}@L{@@s@Mg@_AuCSS]Kg@QMMS_@QcAMs@KUgAiA_@WWWUe@Si@a@eBVGXBf@?XITQ`@u@\\Qp@W"
+         },
+         "summary" : "R. da Marginal and EM565",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

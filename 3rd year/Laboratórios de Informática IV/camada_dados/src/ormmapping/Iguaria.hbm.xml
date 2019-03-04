@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Universidade do Minho
+License Type: Academic
+-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="Iguaria, Base de Dados - MM" table="Iguaria" lazy="false">
+		<composite-id>
+			<key-property name="Id_iguaria" column="id_iguaria" type="Int32"/>
+			<key-property name="Estabelecimento_id_estabelecimento" column="Estabelecimento" type="Int32"/>
+		</composite-id>
+		<many-to-one name="ORM_Estabelecimento" column="Estabelecimento" class="Estabelecimento, Base de Dados - MM" insert="false" update="false">
+		</many-to-one>
+		<property name="Nome_iguaria" column="nome_iguaria" type="String" length="75" not-null="true"/>
+		<property name="Visual_iguaria" column="visual_iguaria" type="Int32" not-null="true"/>
+		<property name="Rating_medio_iguaria" column="rating_medio_iguaria" type="Decimal" precision="5" scale="4" not-null="true"/>
+    <property name="Fotografia" column="fotografia" type="Byte[]" not-null="true" length="2147483647" />
+		<property name="Preco" column="preco" type="Decimal" precision="10" scale="2" not-null="true"/>
+		<set name="ORM_Cliente_critica_Iguaria" lazy="true" cascade="save-update" inverse="true">
+			<key>
+				<column name="Iguaria"/>
+				<column name="Estabelecimento"/>
+			</key>
+			<one-to-many class="Cliente_critica_Iguaria, Base de Dados - MM"/>
+		</set>
+		<set name="ORM_Cliente_seleciona_iguaria" lazy="true" cascade="save-update" inverse="true">
+			<key>
+				<column name="Iguaria"/>
+				<column name="Estabelecimento"/>
+			</key>
+			<one-to-many class="Cliente_seleciona_iguaria, Base de Dados - MM"/>
+		</set>
+	</class>
+</hibernate-mapping>

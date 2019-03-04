@@ -1,0 +1,252 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJqfgByYFVJA0RzTVpqBdfiwU",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJQ8dfHP_-JA0R0azN2IF970I",
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.5686381,
+               "lng" : -8.435483399999999
+            },
+            "southwest" : {
+               "lat" : 41.55915,
+               "lng" : -8.487753399999999
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "5.7 km",
+                  "value" : 5680
+               },
+               "duration" : {
+                  "text" : "11 mins",
+                  "value" : 636
+               },
+               "end_address" : "4700-081 Braga, Portugal",
+               "end_location" : {
+                  "lat" : 41.5680532,
+                  "lng" : -8.436772399999999
+               },
+               "start_address" : "4700-658 Padim da Graça, Portugal",
+               "start_location" : {
+                  "lat" : 41.5654684,
+                  "lng" : -8.4874825
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "35 m",
+                        "value" : 35
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 7
+                     },
+                     "end_location" : {
+                        "lat" : 41.565711,
+                        "lng" : -8.4877468
+                     },
+                     "html_instructions" : "Head \u003cb\u003enorthwest\u003c/b\u003e toward \u003cb\u003eTv. do Passal\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "egu|Fvuxr@CBKHEFIJGFEFAB"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5654684,
+                        "lng" : -8.4874825
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 126
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : {
+                        "lat" : 41.5667121,
+                        "lng" : -8.4873171
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at \u003cb\u003eTv. do Passal\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "uhu|Flwxr@C?ICKCIGKGGIMMEEKOGIGGEEC?C?C?C@E@GDI@I@A?K@K?EAEAAC"
+                     },
+                     "start_location" : {
+                        "lat" : 41.565711,
+                        "lng" : -8.4877468
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "27 m",
+                        "value" : 27
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 12
+                     },
+                     "end_location" : {
+                        "lat" : 41.5669214,
+                        "lng" : -8.487340699999999
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. da Igreja\u003c/b\u003e",
+                     "maneuver" : "turn-slight-left",
+                     "polyline" : {
+                        "points" : "}nu|Fvtxr@CKe@N"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5667121,
+                        "lng" : -8.4873171
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "4.8 km",
+                        "value" : 4765
+                     },
+                     "duration" : {
+                        "text" : "8 mins",
+                        "value" : 459
+                     },
+                     "end_location" : {
+                        "lat" : 41.5653794,
+                        "lng" : -8.4396764
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eAv. do Estádio\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "gpu|Fztxr@KQeAuAe@k@EGGGCGGIGMCICI?E?I?G?GBWBUBQDQDQJk@@EBQDWDMFa@Lo@RaABKH_@TqAF]DSHa@BQBUDc@NyBDa@JcBFo@BOFQ\\u@x@}AxAsCHQFMFSDODYBWB[@[BW?a@@iB@?@?@??A@?@A@A?A@??A?A@A?A?A?A?A?A?A?AA??A?AAA?AA??AA??AA?A??AA?BqBIaEIkBIoBa@sHs@cNASCa@ASC_@C_@G]EWGYIYI[GSI[EOGSESEQE[?_@?eA?oC@[?O@QBKDIJQRWX[b@i@h@k@\\a@X]NQLQPYFIDGtAcDTk@jDsIRg@xAqDJWJODGFGFGTQ^YLKFGDGBGBGDK@KBI@I@G@GBKBIFOBEDGDEFGFGJGLKNIVK|@a@HEHEHEHEJGFCD?HCPCNCPEHCHEFEHIFMJUJ]d@_BJUJQPWf@w@NUJKHOHMFODK@I@M?MAMAKEQCIEIGMM[KUGOIQIUESGSIe@CSEUAUC_@C]A_@AY?_@@U@Q@UBUDYJk@Li@Je@H[HYHYHUTg@Pc@N]L[H[FSD[D]Dm@BY@W?_@?SAe@?U?M?QBg@Be@Fg@D_@Dc@@W@SASCMCKGQGMEOGOCMEMEWCU?IAI@]BgABcA@y@?S?MAQIg@GYIc@Mi@EUIWGSOWKOMQ_@{@?A?A?A?A?A?A?A?AAC?A?AAA?AA??AAA?AA??AA?AAAAA?AAA?A?A?A?A@A?A?g@a@EGaBwB_@i@kA}AiBaCcAuA}@iAcByBuBsCgAwAcDcE}@oAGOGW"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5669214,
+                        "lng" : -8.487340699999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 313
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 50
+                     },
+                     "end_location" : {
+                        "lat" : 41.5674108,
+                        "lng" : -8.4378408
+                     },
+                     "html_instructions" : "At the roundabout, continue straight onto \u003cb\u003eAv. 25 de Abril\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "sfu|F~jor@?C@A?C?A?C?C?AAC?A?CAA?AACAA?AAA?AA?AAAAA?ACA?AAC?A?A?A?A?A?C?A@A@A@_@Ue@o@Y]a@m@OOIGECSEUAoAHGAEA]IECEEEMCGCMAGAi@Aa@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5653794,
+                        "lng" : -8.4396764
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 211
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 38
+                     },
+                     "end_location" : {
+                        "lat" : 41.5679099,
+                        "lng" : -8.435482799999999
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eR. São Frutuoso\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "isu|Fn_or@EmFAYEOm@yAQ]CIEICMCOCS?A"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5674108,
+                        "lng" : -8.4378408
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "81 m",
+                        "value" : 81
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 22
+                     },
+                     "end_location" : {
+                        "lat" : 41.5686381,
+                        "lng" : -8.435527499999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. das Oliveiras\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "mvu|Fvpnr@[?U@{@@WBK@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5679099,
+                        "lng" : -8.435482799999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 122
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 22
+                     },
+                     "end_location" : {
+                        "lat" : 41.5680532,
+                        "lng" : -8.436772399999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eAv. Primeiro de Maio\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "_{u|F`qnr@Tr@Tl@LXVn@^`ABH"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5686381,
+                        "lng" : -8.435527499999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "egu|Fvuxr@_@`@MNEBUGUOg@m@OQIEQBQFK@W@KCEOe@NKQkBaCMOWi@Ca@JgAXuAfAwFl@eDFg@T}CPeCJ_Ad@gArCqFP_@Lc@NiBDcDB?BABCBI?KEICAAA@qBSmHk@cL{@mPG_AMu@c@cB]sAKm@?eBBmEHU^i@dCsChA{ALQjBoEdHeQ`@g@jA_ARc@Hg@Pm@V[p@e@hBy@f@Wp@KZIPKPWVs@p@uB\\i@lAiBP]FU@[CYWs@k@sAOi@Qy@O_BGwBHsAPeAXoAf@eBdAeCPo@Jy@HgA@w@A}ABy@JmAJcABk@Ea@K]Y{@OeAFsD@mAA_@i@oCOm@Wk@Ya@_@{@?G?GGOIGK?C?m@i@wHaK{ImLkF{G}@oAGOG[@E?KGUMKSACBa@SqBkCOKi@GwAFc@KKIIUEUCkAGgGs@iBUg@IWGc@[AuBHj@`Bd@hAb@jA"
+         },
+         "summary" : "Av. do Estádio",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

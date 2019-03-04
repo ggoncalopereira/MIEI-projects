@@ -1,0 +1,420 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJvQbdqKr-JA0Rbr6w4xGBOTo",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ2Yxj0Dv_JA0R5AeeCNKSico",
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.5418483,
+               "lng" : -8.3954298
+            },
+            "southwest" : {
+               "lat" : 41.516436,
+               "lng" : -8.458893699999999
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "10.3 km",
+                  "value" : 10257
+               },
+               "duration" : {
+                  "text" : "13 mins",
+                  "value" : 776
+               },
+               "end_address" : "4705-309 Braga, Portugal",
+               "end_location" : {
+                  "lat" : 41.5418483,
+                  "lng" : -8.4563215
+               },
+               "start_address" : "4715-342 Braga, Portugal",
+               "start_location" : {
+                  "lat" : 41.5344736,
+                  "lng" : -8.3964608
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 190
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 28
+                     },
+                     "end_location" : {
+                        "lat" : 41.5356536,
+                        "lng" : -8.3954372
+                     },
+                     "html_instructions" : "Head \u003cb\u003esoutheast\u003c/b\u003e on \u003cb\u003eR. Paio Peres\u003c/b\u003e toward \u003cb\u003eR. Devesa Basta\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "meo|Fz|fr@VaA?ECEy@c@_CeA]QEAC?GAG?M@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5344736,
+                        "lng" : -8.3964608
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.7 km",
+                        "value" : 678
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 97
+                     },
+                     "end_location" : {
+                        "lat" : 41.5362958,
+                        "lng" : -8.4032167
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. Padre Feliciano\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "ylo|Fnvfr@?@FP\\~@Nf@DX@P@P?N?N?H?FK~@MfAOz@UfAe@vBUhAETCNALCj@KdEIjCCr@Az@?z@BdC@hAAHEHCDCBEDIF"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5356536,
+                        "lng" : -8.3954372
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 245
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 38
+                     },
+                     "end_location" : {
+                        "lat" : 41.5358249,
+                        "lng" : -8.4050668
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e3rd\u003c/b\u003e exit onto \u003cb\u003eAv. Alfredo Barros\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "{po|Fbghr@K_@EKGKEEE?C?C?A@A@A?ADAF?B?DBHBLBJJVBJBFBDFBLNFNPb@DLv@nDBN?H@L?N"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5362958,
+                        "lng" : -8.4032167
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 477
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 52
+                     },
+                     "end_location" : {
+                        "lat" : 41.5363013,
+                        "lng" : -8.410008399999999
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit onto \u003cb\u003eEstr. Via Falperra\u003c/b\u003e/\u003cb\u003eN309\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "{mo|Ftrhr@C@CDABABADAD?D?D?B?B?B@@?B@B@B@BA`@Av@@NB~@Bn@DfB@b@@L@F?DBNBJBLN\\DPTn@VdABJ@J?H?L?F?DAJAFETENGHEJEHEDQTMRA@ST?@CBCBIL?@C@CDEJGLGJKHEDGBGBE@G@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5358249,
+                        "lng" : -8.4050668
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "85 m",
+                        "value" : 85
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 13
+                     },
+                     "end_location" : {
+                        "lat" : 41.5358151,
+                        "lng" : -8.4107582
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. do Miradouro\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "{po|Fpqir@BLBFFHFFTVRTNPFJ@D@B@D?H?F"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5363013,
+                        "lng" : -8.410008399999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 95
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 13
+                     },
+                     "end_location" : {
+                        "lat" : 41.5350132,
+                        "lng" : -8.411103899999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto the ramp to \u003cb\u003eA3\u003c/b\u003e/\u003cb\u003eA11\u003c/b\u003e/\u003cb\u003ePorto\u003c/b\u003e/\u003cb\u003eValença\u003c/b\u003e/\u003cb\u003eGuimarães\u003c/b\u003e/\u003cb\u003eBarcelos\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "{mo|Ffvir@FBB?B@B?JDN@D@JFLHRJNHFDHBZ@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5358151,
+                        "lng" : -8.4107582
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "3.6 km",
+                        "value" : 3641
+                     },
+                     "duration" : {
+                        "text" : "3 mins",
+                        "value" : 155
+                     },
+                     "end_location" : {
+                        "lat" : 41.519612,
+                        "lng" : -8.4407041
+                     },
+                     "html_instructions" : "Merge onto \u003cb\u003eAv. Miguel Torga\u003c/b\u003e",
+                     "maneuver" : "merge",
+                     "polyline" : {
+                        "points" : "yho|Fjxir@HBJDD@JB|@Rl@LTFr@Jt@Ld@HhAPd@H@@NBZDLB~AXTDLBTFRHj@Vp@Zj@Vb@PnAj@dH~CxIzD`Bt@HDJDFBz@`@x@d@NHHF@@NJPLVPTNZXPP@@RPNNZZv@~@n@z@dA~Al@|@Xd@|@pAz@tALPPVJNLRNTNTLRvCjEPZd@r@JPLN`D~ExEhHn@~@Vb@b@r@\\l@JR@BNV`AvBv@rBXx@Nj@Rr@Jd@Nn@R`AL|@Jl@RdBHt@B\\Bb@F|@D`AB`A@`A@V?x@Ap@A~@C|@Cb@A`@G`AI|@Ed@It@AJIp@G\\Kn@Kn@I^I^IZSz@IZY|@IZ[|@[z@_@bAq@~AO\\M\\Sh@Up@Yx@Uz@I`@G\\I`@M|@Eh@Eh@CZAXCf@A^?`@Al@@r@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5350132,
+                        "lng" : -8.411103899999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 km",
+                        "value" : 615
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 40
+                     },
+                     "end_location" : {
+                        "lat" : 41.5167139,
+                        "lng" : -8.4432545
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eA11\u003c/b\u003e exit toward \u003cb\u003eA3\u003c/b\u003e/\u003cb\u003eBarga (Norte)\u003c/b\u003e/\u003cb\u003eBarcelos\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "qhl|Fjqor@E\\?NA\\ARCTEPCNEPGNEHGLEF[h@KRINELENCP?P?L@L@LBLDLFLHJJHHFHBHBH?H?J?HAJC\\Md@MPGb@Mj@OpA_@VGVEPCJ?NAP@PBNBLDPL\\RTRf@^x@n@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.519612,
+                        "lng" : -8.4407041
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.9 km",
+                        "value" : 1927
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 84
+                     },
+                     "end_location" : {
+                        "lat" : 41.5321384,
+                        "lng" : -8.4438479
+                     },
+                     "html_instructions" : "Keep \u003cb\u003eright\u003c/b\u003e at the fork, follow signs for \u003cb\u003eBraga (Norte)\u003c/b\u003e/\u003cb\u003eBarcelos\u003c/b\u003e and merge onto \u003cb\u003eA11\u003c/b\u003e",
+                     "maneuver" : "fork-right",
+                     "polyline" : {
+                        "points" : "mvk|Fhapr@RXFFFLBF@DBF@D@F@D@F?F@JAH?FAHAHADAFADCDEHEHGDCDGBEBEBE@IBG@G@I@WB[Na@BYB[Dc@FWFg@JmAZs@RQDaJdCMDKBWHo@PuA^}@Vk@La@Fa@Da@Dc@@a@@g@C]Ac@E[ESE_@IUG_@Kg@Qk@Y]Q_@Wi@_@WSSOAAMKa@Yi@a@y@m@q@a@_@QOIOG_@Q[MQEQGg@OwIsCKCAAKCi@Qa@KUGWG_@G_@CQAWAI?Y@i@BYDc@HSHUHSFKFKDg@XSN]Vq@p@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5167139,
+                        "lng" : -8.4432545
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 310
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 24
+                     },
+                     "end_location" : {
+                        "lat" : 41.5345412,
+                        "lng" : -8.445359
+                     },
+                     "html_instructions" : "Take the \u003cb\u003eN103\u003c/b\u003e exit toward \u003cb\u003eBraga Oeste\u003c/b\u003e/\u003cb\u003eBarcelos\u003c/b\u003e",
+                     "maneuver" : "ramp-right",
+                     "polyline" : {
+                        "points" : "{vn|F`epr@OHOJQLMNq@v@uAbBORURYPSLWJSHYFYDc@@U?IAGAGEECIA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5321384,
+                        "lng" : -8.4438479
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 225
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 31
+                     },
+                     "end_location" : {
+                        "lat" : 41.5350086,
+                        "lng" : -8.4468713
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e3rd\u003c/b\u003e exit onto \u003cb\u003eN103\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "{eo|Fnnpr@?EACAGAEEKGICECEGICCEAEAE?E@E?CBEBABEFADCH?B?D?F?F@HDHBFFJFJCl@ATAB?R?XB^AP?NAPCJADAFCDAHEP"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5345412,
+                        "lng" : -8.445359
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.8 km",
+                        "value" : 785
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 67
+                     },
+                     "end_location" : {
+                        "lat" : 41.5369492,
+                        "lng" : -8.453663900000002
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit and stay on \u003cb\u003eN103\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "yho|F|wpr@A@A@A@A@?@A@?@A@ABA@?@AB?B?@?B?@?B?@?B?B@@?B@@?B@@@@?@@@@@@@@@@@@?@@@?FTBH@H?F?H@HAT@l@?`AAz@?LALALALAJCTIXGTMRMPGPMLOLMHIDMFI@KBK@Q@c@@]@c@BY@]@W@Q@KBIBIDMFKJEFGHCDEFELELCPCNALAR?R?TF~F@nB@J?J@J?N@H@FBHBJDHBFBFDFDHHHHFJJ"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5350086,
+                        "lng" : -8.4468713
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 541
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 71
+                     },
+                     "end_location" : {
+                        "lat" : 41.5387516,
+                        "lng" : -8.458718899999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. da Tomada\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "}to|Fjbrr@Uh@Uf@Yt@O`@GFm@jAHHFHPRRNPNFDDD@HBF?J@LAHEHCFGHID[Ha@NIDMJGHKLINOf@I^EXAVE^G\\Mh@M^_@hAUv@GZG^Wt@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5369492,
+                        "lng" : -8.453663900000002
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 403
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 56
+                     },
+                     "end_location" : {
+                        "lat" : 41.5418112,
+                        "lng" : -8.456794700000001
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. do Assento\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "e`p|F~asr@]N]NI@M?KAOEYQ_@W[WYUIMQWW]QSOMCCu@k@m@]IGKGGIEGEMGOKUKQOQOIOGIEKAW?]B"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5387516,
+                        "lng" : -8.458718899999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "40 m",
+                        "value" : 40
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 7
+                     },
+                     "end_location" : {
+                        "lat" : 41.5418483,
+                        "lng" : -8.4563215
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. da Igreja\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "isp|F|urr@CMC_@AY@U"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5418112,
+                        "lng" : -8.456794700000001
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "meo|Fz|fr@VgA}@i@gDyAOAMBd@pAT`ABbA?PYfCe@bC{@`EId@Ex@[`MB`E?rASXIFK_@MWKEG?EBCVVz@FRJHT^Pb@|@|DBX@\\GFGR?RBLBFCxANfFD~@FZRj@Z`AZpA@j@In@MXKTg@p@m@v@MXST[NG@BLJP`AfALZ?PJBb@Hr@^VNd@Df@NtDt@jEr@z@NtB^b@J|CtArVxK~BdAnCxAz@l@dA|@b@`@rAzAtBzCfAbBxCpEXb@vG|JbMlRlAtBPZ`AvBv@rBh@dB^xAb@pBXjB\\zCF`AL~BDbCAbEQdE[dDi@nDq@vCiArD}B|FqArD_@|AQ~@SfBIdAGbC?`BEl@Cp@If@Wz@u@rAO\\I`@?^BZHZPXTPRFh@A`Bg@xDeAh@IZAb@D\\HlBtAx@n@RXNTJZD\\Af@G\\W^WP_@Ha@D[Na@Bu@H{@N{D`AsKxCoFvAcALeAFiAAaAGeB]gA]iAk@uB{A{AiAy@m@q@a@_@Q{Aq@c@MmKiDmBi@w@Oq@Ea@AcAD}@Ni@RsAn@q@f@aAz@a@X_AfAeBvBo@d@k@Xm@P}@F_@A_@MEWUa@KMKCUDOTCZ@PHPNVEbA@pAA`@E\\I\\ITKPAVFVJJ@@HTDd@@nCEdBCXMn@Uh@Ub@]ZWNo@NyEPUFWL]b@Ut@GdAJpKBp@Nf@R`@RPJJUh@o@|AWh@m@jAHHX\\r@j@DP@XGRKPe@Nk@TUTU\\YfAGp@M|@[hAu@`COz@Wt@]Ng@PYAi@W{@o@c@c@i@u@a@a@y@o@w@e@SQKUSe@[c@_@QUGu@BGm@?o@"
+         },
+         "summary" : "Av. Miguel Torga",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

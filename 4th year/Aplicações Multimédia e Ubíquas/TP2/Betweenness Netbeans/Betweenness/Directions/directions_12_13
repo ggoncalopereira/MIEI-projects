@@ -1,0 +1,228 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJL9zHaeb-JA0RoWxVGoaG4s0",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJg-yz8Xn_JA0RTnThOO0GlJM",
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.566543,
+               "lng" : -8.4306036
+            },
+            "southwest" : {
+               "lat" : 41.5546194,
+               "lng" : -8.4751925
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "4.8 km",
+                  "value" : 4842
+               },
+               "duration" : {
+                  "text" : "8 mins",
+                  "value" : 491
+               },
+               "end_address" : "4700-830 Parada de Tibães, Portugal",
+               "end_location" : {
+                  "lat" : 41.5630646,
+                  "lng" : -8.4740822
+               },
+               "start_address" : "4700-442 Braga, Portugal",
+               "start_location" : {
+                  "lat" : 41.5546194,
+                  "lng" : -8.431206099999999
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "52 m",
+                        "value" : 52
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 18
+                     },
+                     "end_location" : {
+                        "lat" : 41.5548476,
+                        "lng" : -8.430682899999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e toward \u003cb\u003eR. de São Martinho\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "kcs|F`vmr@EEIKGKEMCGAGAGAGAMAIAE"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5546194,
+                        "lng" : -8.431206099999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 128
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 27
+                     },
+                     "end_location" : {
+                        "lat" : 41.55593349999999,
+                        "lng" : -8.430773799999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. de São Martinho\u003c/b\u003e (signs for \u003cb\u003eGaleria Mário Sequeira\u003c/b\u003e/\u003cb\u003eBarcelos\u003c/b\u003e/\u003cb\u003ePorto-Valença\u003c/b\u003e/\u003cb\u003eA11\u003c/b\u003e/\u003cb\u003eA3\u003c/b\u003e)",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "yds|Fvrmr@?OG@}@DQ@Q@q@FOBG?O@C@C?KD"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5548476,
+                        "lng" : -8.430682899999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.7 km",
+                        "value" : 652
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 64
+                     },
+                     "end_location" : {
+                        "lat" : 41.5562255,
+                        "lng" : -8.4380615
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit onto \u003cb\u003eR. da Feira\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eGo through 1 roundabout\u003c/div\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "qks|Fhsmr@A?A?A?A?A?A?A?A@A?A?A@?@A@?@A?A@?@?@A@?@?@AB?@?@?@?@?@?@?B@@?@?@@@?@?@@@AN?HBVBh@?H@H@PBHDJ?@\\bADNDLDRBJ@HDd@BV?@BZ@VAPATCp@A@A?A@A??@A@?@?@A??@?@?@?@?@?@?@@D@@?@@@?@@??@@??@@?InAK~@Or@M^KXSl@Qp@If@If@KbAE\\A^?T?TBf@Df@B\\Fr@@F@H?hA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.55593349999999,
+                        "lng" : -8.430773799999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 342
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 35
+                     },
+                     "end_location" : {
+                        "lat" : 41.5574776,
+                        "lng" : -8.441676299999999
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eVariante de Real\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "mms|Fz`or@?NEh@Ej@E|@El@AP@\\ETE\\Ml@GVSt@Qj@OVSd@[n@a@v@]l@MPKN"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5562255,
+                        "lng" : -8.4380615
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.5 km",
+                        "value" : 475
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 50
+                     },
+                     "end_location" : {
+                        "lat" : 41.5602107,
+                        "lng" : -8.4459845
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e3rd\u003c/b\u003e exit and stay on \u003cb\u003eVariante de Real\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "gus|Fnwor@A??AA??@A?A?A??@C@?@A?A@A@?@A@?@A@?@?@A@?@?@?@?@?@?@?@?@INIZEHkC~EeCrEkDrGU\\CDGDMJ"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5574776,
+                        "lng" : -8.441676299999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "2.9 km",
+                        "value" : 2894
+                     },
+                     "duration" : {
+                        "text" : "4 mins",
+                        "value" : 242
+                     },
+                     "end_location" : {
+                        "lat" : 41.5655741,
+                        "lng" : -8.4751925
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e3rd\u003c/b\u003e exit onto \u003cb\u003eAv. do Estádio\u003c/b\u003e/\u003cb\u003eN201\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eContinue to follow Av. do Estádio\u003c/div\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "ift|Fjrpr@A?A?A?A?A@A?A?A@A??@A?A@A@A@?@A@?@A@?@A@?B?@A@?B?@@@?@?@?@@@?@?@?@@@@@?@@@?@@??@@?@??@@?@@@?@?@?@?@?@?@Ar@`@LPJNNVFRHVDTLh@Hb@FXHf@@P?L?RAx@CbACfAA\\@H?HBTDVDLBLFNDNFLFPBJBL@RARAVEb@E^Gf@Cd@Cf@?P?L?T@d@?R?^AVCXEl@E\\EZGRIZMZO\\Qb@Uf@ITIXIXIZKd@Mh@Kj@EXCTATAPAT?^@X@^B\\B^@TDTBRHd@FRDRHTHPFNJTLZFLDHBHDP@J@L?LALAHEJGNILINKJOTg@v@QVKPKTe@~AK\\KTGLIHGDIDIBQDOBQBIBE?GBKFIDIDIDID}@`@WJOHMJKFGFGFEDEFCDGNCHCJAFAFAHCHAJEJCFCFEFGFMJ_@XUPGFGFEFKNKVyApDSf@kDrIUj@uAbDEFGHQXMPOPY\\]`@i@j@c@h@YZSVKPEHCJAP?NAZ?nC?dA?^DZDPDRFRDNHZFRHZHXFXDVF\\B^B^@RB`@@Rr@bN`@rH"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5602107,
+                        "lng" : -8.4459845
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 299
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 55
+                     },
+                     "end_location" : {
+                        "lat" : 41.5630646,
+                        "lng" : -8.4740822
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. 10 de Junho\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "ygu|F|hvr@XKF?XGb@GREHAH?bCWPM^W^Ut@g@^WXQNMHEF?D?"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5655741,
+                        "lng" : -8.4751925
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "kcs|F`vmr@OQMYI_@Em@iBJyALUFM@KHCP@PBFAXF`AFn@h@`BPv@LzA?h@EfAEBEJ@NDHB@InAK~@]rA_@fA[xAUjBG|@?j@HnANbB?xAKtAKjB?n@Kr@UdAe@`Bc@|@}@fBk@~@MLC@C@KLCN?FSj@qChFqHfNYb@YPE@MFGP?NBJFHHBHAr@`@X`@Vj@Nl@h@nC@^AlAGrDNdAXz@J\\D`@Cj@KbAKlACx@@|AAv@IfAKx@Qn@eAdCg@dBYnAQdAIrAFvBN~APx@Nh@j@rAVr@BXAZGTQ\\mAhB]h@q@tBWr@QVQJ[Hq@Jg@ViBx@q@d@WZQl@If@Sb@kA~@a@f@eHdQkBnEMPiAzAeCrC_@h@ITClE?dBJl@\\rAb@bBLt@F~@z@lP`@rHXK`@GjAObCWPM~@m@~B_BPED?"
+         },
+         "summary" : "Av. do Estádio",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

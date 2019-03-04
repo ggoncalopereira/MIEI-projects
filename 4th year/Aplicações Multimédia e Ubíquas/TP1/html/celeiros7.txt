@@ -1,0 +1,250 @@
+<!DOCTYPE html><html
+itemscope itemtype="http://schema.org/WebPage" lang="pt-pt"><head><title>Códigos Postais de Celeirós (7)</title><meta
+http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link
+rel="stylesheet" href="/public/css/flat-v4.css" type="text/css" /><meta
+name="description" content="Todos os Códigos Postais de Celeirós, Braga. Por exemplo, 4705-410 CELEIRÓS BRG, Rua de Fão." /><meta
+name="keywords" content="codigo postal, Celeirós, Braga, Braga, 4705-433, 4705-395, 4705-451, 4705-425, 4705-396, 4705-403, 4705-402, 4705-426, 4705-397, 4705-398, 4705-405, 4705-406, 4705-407, 4705-410, 4705-731" /><meta
+name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link
+rel="shortcut icon" href="/favicon.ico" /><meta
+property="fb:admins" content="1035683224" /><meta
+property="fb:app_id" content="420345441324086" /><meta
+property="og:title" content="Código Postal" /><meta
+property="og:url" content="https://www.codigo-postal.pt/" /><meta
+property="og:image" content="https://www.codigo-postal.pt/img/logo-fb.png" /><meta
+property="og:site_name" content="Código Postal" /><meta
+property="og:description" content="Todos os Códigos Postais de Celeirós, Braga. Por exemplo, 4705-410 CELEIRÓS BRG, Rua de Fão." /><meta
+property="og:type" content="website" /> <script type="text/javascript">var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16650868-14']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();</script> <script type='text/javascript'>var googletag = googletag || {};
+                googletag.cmd = googletag.cmd || [];
+                (function() {
+                var gads = document.createElement('script');
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') + 
+                '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+                })();</script><script type='text/javascript'>googletag.cmd.push(function() {var mySizeMapping = googletag.sizeMapping().addSize([1,1], [300,250]).addSize([770,500], [728,90]).addSize([1190,500], [970,90]).build();googletag.defineSlot('/4685050/códigopostal_lists_leaderboard_top', [[970,90], [728, 90], [300, 250]], 'div-gpt-ad-1401463712846-1').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+var mySizeMapping = googletag.sizeMapping().addSize([0,0], [320,50]).addSize([770,500], []).build();googletag.defineSlot('/4685050/códigopostal_CodigoPostal_stickybottom320x50', [320, 50], 'div-gpt-ad-1401463712846-4').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+var mySizeMapping = googletag.sizeMapping().addSize([1,1], [300,250]).addSize([770,500], [336,280]).build();googletag.defineSlot('/4685050/códigopostal_lists_MREC_bottom', [[300, 250], [336, 280]], 'div-gpt-ad-1401463712846-3').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+var mySizeMapping = googletag.sizeMapping().addSize([1,1], [300,250]).addSize([770,500], [728,90]).addSize([1190,500], [970,90]).build();googletag.defineSlot('/4685050/códigopostal_lists_leaderboard_middle', [[970,90], [728, 90], [300, 250]], 'div-gpt-ad-1401463712846-2').defineSizeMapping(mySizeMapping).addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();googletag.enableServices();});</script> </head><body><div
+id="fb-root"></div><div
+id='header' class='min'><div
+class="container"><div
+class="col-md-12"><div
+id='logo' class='min'><a
+href='/'><span>Código Postal - Pesquisa e Validação de Códigos Postais</span></a></div></div></div></div><div
+id='search' class='min'><div
+class="container"><div
+class='search-container min'><div
+class="col-sm-4 col-md-4 hidden-xs"><form
+method='get' action='/' class="form-inline"><div
+class="form-group"> <label
+for='cp4'>Pesquisa por Código Postal</label> <input
+class='cp4 form-control input-lg min' name='cp4' maxlength="4" id='cp4' placeholder="0000" value="" /> <span
+id='cp-split'>-</span> <input
+class='cp3 form-control input-lg min' name='cp3' maxlength="3" placeholder="000"  value="" /> <button
+class="sbutton"><i
+class="fa fa-search"></i><span> Pesquisar</span></button></div></form></div><div
+class="col-sm-1 col-md-1 hidden-xs"><div
+class="row"><div
+class='search-split'></div></div></div><div
+class="col-sm-7 col-md-7 mobile-split hidden-xs"><form
+method='get' action='/' class="form-inline pull-right"> <label
+for='rua'>Pesquisa de Moradas e Ruas</label><div
+class="form-group"> <input
+class='rua form-control input-lg min' name='rua' id="rua" placeholder="Nome da Rua" value="" /> <input
+class='local form-control input-lg min' name='local' placeholder="Localidade"  value="" /> <button
+class="sbutton"><i
+class="fa fa-search"></i><span> Pesquisar</span></button></div></form></div><div
+class="col-sm-12 col-md-12 visible-xs"><form
+method='get' action='/' class="form-inline"><div
+class="input-group"> <input
+class='mobile form-control min' name='mobile' id='mobile' placeholder="Código Postal ou Morada"  value="" /> <span
+class="input-group-btn"> <button
+class="btn btn-default" type="button"><i
+class="fa fa-search"></i></button> </span></div></form></div></div></div></div><div
+class="container"><div
+class="col-md-12"><div
+class="row"><h1>Códigos Postais de Celeirós</h1><div
+class="breadcrumbs" itemprop="breadcrumb"><a
+href="/distrito-braga/">Distrito de Braga</a> &gt; <a
+href="/braga/">Braga</a> &gt; Celeirós</div> <br/><div
+id="isolated"><div
+class="places"><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.515397,-8.449911 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-da-pedra/" >Rua da Pedra</a> <br/><span
+class="cp">4705-433</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p
+id="div-gpt-ad-1401463712846-1" style="display:inline-block;" class="nobg"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-1"); });</script></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.518068,-8.456670 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-das-camelias-celeiros/" >Rua das Camélias</a> <br/><span
+class="cp">4705-395</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.519120,-8.453169 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-senhora-do-carmo/" >Rua Senhora do Carmo</a> <br/><span
+class="cp">4705-451</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.519594,-8.455582 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-nova-de-celeiros/" >Rua Nova de Celeirós</a> <br/><span
+class="cp">4705-425</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.510001,-8.443526 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-dos-citrinos/" >Rua dos Citrinos</a> <br/><span
+class="cp">4705-396</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.516428,-8.456566 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/travessa-de-covedelo/" >Travessa de Covedêlo</a> <br/><span
+class="cp">4705-403</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.509578,-8.443052 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-do-covelo-celeiros/" >Rua do Covêlo</a> <br/><span
+class="cp">4705-402</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p
+id="div-gpt-ad-1401463712846-2" style="display:inline-block;" class="nobg"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-2"); });</script></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.510034,-8.441200 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-nova-do-covelo/" >Rua Nova do Covêlo</a> <br/><span
+class="cp">4705-426</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.516903,-8.453409 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-de-covas/" >Rua de Covas</a> <br/><span
+class="cp">4705-397</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.518009,-8.452165 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/travessa-de-covas/" >Travessa de Covas</a> <br/><span
+class="cp">4705-398</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.520607,-8.454281 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-dos-cravos-celeiros/" >Rua dos Cravos</a> <br/><span
+class="cp">4705-405</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.512646,-8.450234 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-da-cruz-celeiros/" >Rua da Cruz</a> <br/><span
+class="cp">4705-406</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.493826,-8.459579 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/praceta-das-dalias/" >Praceta das Dálias</a> <br/><span
+class="cp">4705-407</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p
+class="odd"> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.514416,-8.420664 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-de-fao/" >Rua de Fão</a> <br/><span
+class="cp">4705-410</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p> <span
+class='pull-left'> <i
+class="fa fa-map-marker"></i> </span> <span
+class='pull-right gps'> <b>GPS:</b> 41.510276,-8.452811 </span> <span
+class='col-1'> <a
+class="search-title"  href="/braga/rua-da-gandra-celeiros/" >Rua da Gandra</a> <br/><span
+class="cp">4705-731</span> CELEIRÓS BRG <br
+/><span
+class='local'>Celeirós, Braga</span> </span></p><p
+id="div-gpt-ad-1401463712846-3" style="display:inline-block;" class="nobg odd"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-3"); });</script></p><div
+class="col-md-12 pagination-container"><ul
+class="pagination"><li
+class="prev"><a
+href='/braga/celeiros/6.html' title='Página Anterior'>&larr; Anterior</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/celeiros/" title="Página 1">1</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/celeiros/2.html" title="Página 2">2</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/celeiros/3.html" title="Página 3">3</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/celeiros/4.html" title="Página 4">4</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/celeiros/5.html" title="Página 5">5</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/celeiros/6.html" title="Página 6">6</a></li><li
+class='active'><a
+href="/braga/celeiros/7.html" title="Página 7">7</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/celeiros/8.html" title="Página 8">8</a></li><li
+class='hidden-xs hidden-sm'><a
+href="/braga/celeiros/9.html" title="Página 9">9</a></li><li
+class='next'><a
+href="/braga/celeiros/8.html" title="Próxima Página">Próxima &rarr;</a></li></ul><div
+class='pagination-totals '>Página 7 de 9</div></div></div></div></div></div></div><div
+id='footer'><div
+class="container"><div
+class="col-md-12"><div
+class="row"><p
+id='copyright' class="pull-left">&copy; 2018 Código Postal</p><div
+class="pull-right"><div
+id="powered"> <a
+href="http://www.nex.pt/"><span>Powered by Nex</span></a></div></div></div></div></div></div><div
+id='stickyBottom'><div
+id='stickyBottomAd'><div
+id="div-gpt-ad-1401463712846-4" style="display:inline-block;"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1401463712846-4"); });</script></div></div></div> <script type='text/javascript'>eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(6(){3 1=5.k(\'4\');1.9=\'a/b\';1.c=d;1.8=\'/f/7/g.7\';3 2=5.h(\'4\')[0];2.i.j(1,2)})();6 e(){}',21,21,'|pjs|s|var|script|document|function|js|src|type|text|javascript|async|true|runInlineJs|public|main|getElementsByTagName|parentNode|insertBefore|createElement'.split('|'),0,{}))</script></body></html>

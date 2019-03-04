@@ -1,0 +1,392 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJL9zHaeb-JA0RoWxVGoaG4s0",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJPfGM7Z_-JA0RPnAbVttuXDc",
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.5624949,
+               "lng" : -8.397355299999999
+            },
+            "southwest" : {
+               "lat" : 41.5524499,
+               "lng" : -8.431206099999999
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "4.9 km",
+                  "value" : 4939
+               },
+               "duration" : {
+                  "text" : "8 mins",
+                  "value" : 468
+               },
+               "end_address" : "4715-295 Braga, Portugal",
+               "end_location" : {
+                  "lat" : 41.5539317,
+                  "lng" : -8.397661099999999
+               },
+               "start_address" : "4700-442 Braga, Portugal",
+               "start_location" : {
+                  "lat" : 41.5546194,
+                  "lng" : -8.431206099999999
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "25 m",
+                        "value" : 25
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 4
+                     },
+                     "end_location" : {
+                        "lat" : 41.5547712,
+                        "lng" : -8.430988299999999
+                     },
+                     "html_instructions" : "Head \u003cb\u003enortheast\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "kcs|F`vmr@EEIKGKEM"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5546194,
+                        "lng" : -8.431206099999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "30 m",
+                        "value" : 30
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 11
+                     },
+                     "end_location" : {
+                        "lat" : 41.5546541,
+                        "lng" : -8.430677599999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e toward \u003cb\u003eR. de São Martinho\u003c/b\u003e (signs for \u003cb\u003eCentro\u003c/b\u003e)",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ids|Fttmr@BW@G@EDIHM"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5547712,
+                        "lng" : -8.430988299999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 221
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 41
+                     },
+                     "end_location" : {
+                        "lat" : 41.5527863,
+                        "lng" : -8.429864199999999
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. de São Martinho\u003c/b\u003e",
+                     "maneuver" : "turn-slight-right",
+                     "polyline" : {
+                        "points" : "qcs|Fvrmr@JMj@AZCVEHALGVMt@[jAe@tAo@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5546541,
+                        "lng" : -8.430677599999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 130
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 18
+                     },
+                     "end_location" : {
+                        "lat" : 41.5530153,
+                        "lng" : -8.430826699999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto the \u003cb\u003eN101\u003c/b\u003e ramp to \u003cb\u003eVila Verde\u003c/b\u003e/\u003cb\u003eAmares\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "}wr|Frmmr@PNNPJNFLCVARCPIZ?BABABABCDEDABE@IDC@G?C@EAIAM?"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5527863,
+                        "lng" : -8.429864199999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.9 km",
+                        "value" : 1924
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 111
+                     },
+                     "end_location" : {
+                        "lat" : 41.5620762,
+                        "lng" : -8.412543099999999
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eAv. António Macedo\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "kyr|Ftsmr@s@g@UOc@]c@[QMqA}@g@]i@a@aDwBKKaAo@GEk@a@_@[UYQSIMGMMSGQKQK]IYGSEWG[COYwBCYa@wCK{@OeAMy@Mq@Mq@EMI[Wu@O]Q_@O[EIEKYg@y@wAmAsBuBuDmE}HYe@}@eBO_@Sk@AGGOQq@GWGWG[Ie@Ig@I_AC[Ec@A_@Ec@UoFGwASyDGaACe@KuA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5530153,
+                        "lng" : -8.430826699999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "1.2 km",
+                        "value" : 1237
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 81
+                     },
+                     "end_location" : {
+                        "lat" : 41.554652,
+                        "lng" : -8.407060299999999
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eAv. Padre Júlio Fragata\u003c/b\u003e/\u003cb\u003eN101\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "_rt|Fjajr@_@{F?CAS?CCSAM?OCSASCY?AA[?AASAMCQ?AC[AS?ACY?IAOAOCS?MCU?Y?AAG@S?O?E?C@GBYBMBQDMDQDMDMFKDIFMLQHGHIHIHGXMHCJELCPATCT?P?v@A@?N?R?N?P?J?P?J?D?@?B?N?H?TAT?N?BAB?@?D?nAEf@A\\CN?l@Ed@Ej@CBA`AEJA`BGxAI~FYhBIn@CTAJ?RC"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5620762,
+                        "lng" : -8.412543099999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 210
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 31
+                     },
+                     "end_location" : {
+                        "lat" : 41.5527794,
+                        "lng" : -8.406963299999999
+                     },
+                     "html_instructions" : "Take the ramp to \u003cb\u003eChaves\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "qcs|Fb_ir@p@Hh@C^AFAPAF?PCRAr@IPCDAFAF?DAD?HAH?F?LB^B"
+                     },
+                     "start_location" : {
+                        "lat" : 41.554652,
+                        "lng" : -8.407060299999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 255
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 30
+                     },
+                     "end_location" : {
+                        "lat" : 41.5534226,
+                        "lng" : -8.4047061
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit toward \u003cb\u003eChaves\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "{wr|Fn~hr@@@?@@??@@??@@?@?B@B@B?@?B?BAB?BA@A@A@?BC@ABC@C@C@C@C@E?E?I?E?CAG?A?EAEAA?AAECGEGEEGEECGUMYCGIMACMYISCCEKGSIU?AIWIUCGEKGQMc@AEIUAC"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5527794,
+                        "lng" : -8.406963299999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.4 km",
+                        "value" : 351
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 22
+                     },
+                     "end_location" : {
+                        "lat" : 41.5549859,
+                        "lng" : -8.401041599999999
+                     },
+                     "html_instructions" : "Take the ramp onto \u003cb\u003eAv. João Paulo II\u003c/b\u003e/\u003cb\u003eN103\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "{{r|Flphr@Wq@EIGKq@_Cw@}BiDwK"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5534226,
+                        "lng" : -8.4047061
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 235
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 50
+                     },
+                     "end_location" : {
+                        "lat" : 41.5530645,
+                        "lng" : -8.3999196
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eAv. Mte. José Veiga\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ues|Fnygr@^UrBsAFEj@]DCDCn@a@TCJEPIFAHCHAFAHAZG"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5549859,
+                        "lng" : -8.401041599999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 206
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 33
+                     },
+                     "end_location" : {
+                        "lat" : 41.5530949,
+                        "lng" : -8.3977801
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e2nd\u003c/b\u003e exit onto \u003cb\u003eRotunda da Bragalândia\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "syr|Fnrgr@@@@?B?@?B?@?B?@AHCFGFIBKBK@M?KCO?A?AA??AAA?A?AA?E]CIEOCQEOCSCOCSAQAOGa@As@A}@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5530645,
+                        "lng" : -8.3999196
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "82 m",
+                        "value" : 82
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 24
+                     },
+                     "end_location" : {
+                        "lat" : 41.5537512,
+                        "lng" : -8.397355299999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. Manuel Ferreira Gomes\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "yyr|Fbegr@IAC?AAa@OOKKKu@g@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5530949,
+                        "lng" : -8.3977801
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "19 m",
+                        "value" : 19
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 9
+                     },
+                     "end_location" : {
+                        "lat" : 41.5538243,
+                        "lng" : -8.397567
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eR. Dr. Gomes dos Santos\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "}}r|Fnbgr@GTER"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5537512,
+                        "lng" : -8.397355299999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "14 m",
+                        "value" : 14
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 3
+                     },
+                     "end_location" : {
+                        "lat" : 41.5539317,
+                        "lng" : -8.397661099999999
+                     },
+                     "html_instructions" : "Slight \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. Matias Ferreira de Sá\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                     "maneuver" : "turn-slight-right",
+                     "polyline" : {
+                        "points" : "k~r|Fxcgr@MHGF"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5538243,
+                        "lng" : -8.397567
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "kcs|F`vmr@OQMYD_@FOT[fAE`@Gd@U`CaAtAo@PNZ`@FLCVEd@I^IPWPU@WAiAw@kDeC_GcEiAu@kA}@y@iAm@uA_@aBcAyH[aC[kBS_Aa@qAw@cBgD_GcIsNwAkCm@cBi@}BSmAM{Ac@wIg@yJs@_LOcCOyBIgA?w@@a@PgAXy@d@q@RSb@Ut@Oj@ChAAd@?pA?~AC~EQvCQfMm@zDORCp@Hh@C`AEjBSZE`@An@JBBJBLAPIHMDSA[COKWMKMY[o@]u@u@yBa@qAYu@MUiB}FiDwK^UzByAp@a@t@e@`@Il@Qn@IJ?PENQFW@YCQCE[}AMiAIq@CqBMAc@Q[Wu@g@GTERMHGF"
+         },
+         "summary" : "Av. António Macedo and Av. Padre Júlio Fragata/N101",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

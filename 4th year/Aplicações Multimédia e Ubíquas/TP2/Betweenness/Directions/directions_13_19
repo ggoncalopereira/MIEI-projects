@@ -1,0 +1,205 @@
+{
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJg-yz8Xn_JA0RTnThOO0GlJM",
+         "types" : [ "postal_code" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJ8_otLJf9JA0RUKkAMDtncNQ",
+         "types" : [ "postal_code" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 41.60125250000001,
+               "lng" : -8.365861799999999
+            },
+            "southwest" : {
+               "lat" : 41.5591552,
+               "lng" : -8.4751925
+            }
+         },
+         "copyrights" : "Map data ©2018 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "12.5 km",
+                  "value" : 12487
+               },
+               "duration" : {
+                  "text" : "18 mins",
+                  "value" : 1104
+               },
+               "end_address" : "4710-617 Crespos, Portugal",
+               "end_location" : {
+                  "lat" : 41.5999854,
+                  "lng" : -8.365861799999999
+               },
+               "start_address" : "4700-830 Parada de Tibães, Portugal",
+               "start_location" : {
+                  "lat" : 41.5630646,
+                  "lng" : -8.4740822
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.3 km",
+                        "value" : 299
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 30
+                     },
+                     "end_location" : {
+                        "lat" : 41.5655741,
+                        "lng" : -8.4751925
+                     },
+                     "html_instructions" : "Head \u003cb\u003enorth\u003c/b\u003e on \u003cb\u003eR. 10 de Junho\u003c/b\u003e toward \u003cb\u003eTravessa 10 de Junho\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "cxt|F~avr@E?G?IDOLYP_@Vu@f@_@T_@VQLcCVI?I@SDc@FYFG?YJ"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5630646,
+                        "lng" : -8.4740822
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "3.6 km",
+                        "value" : 3645
+                     },
+                     "duration" : {
+                        "text" : "6 mins",
+                        "value" : 355
+                     },
+                     "end_location" : {
+                        "lat" : 41.5653794,
+                        "lng" : -8.4396764
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eAv. do Estádio\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ygu|F|hvr@a@sHs@cNASCa@ASC_@C_@G]EWGYIYI[GSI[EOGSESEQE[?_@?eA?oC@[?O@QBKDIJQRWX[b@i@h@k@\\a@X]NQLQPYFIDGtAcDTk@jDsIRg@xAqDJWJODGFGFGTQ^YLKFGDGBGBGDK@KBI@I@G@GBKBIFOBEDGDEFGFGJGLKNIVK|@a@HEHEHEHEJGFCD?HCPCNCPEHCHEFEHIFMJUJ]d@_BJUJQPWf@w@NUJKHOHMFODK@I@M?MAMAKEQCIEIGMM[KUGOIQIUESGSIe@CSEUAUC_@C]A_@AY?_@@U@Q@UBUDYJk@Li@Je@H[HYHYHUTg@Pc@N]L[H[FSD[D]Dm@BY@W?_@?SAe@?U?M?QBg@Be@Fg@D_@Dc@@W@SASCMCKGQGMEOGOCMEMEWCU?IAI@]BgABcA@y@?S?MAQIg@GYIc@Mi@EUIWGSOWKOMQ_@{@?A?A?A?A?A?A?A?AAC?A?AAA?AA??AAA?AA??AA?AAAAA?AAA?A?A?A?A@A?A?g@a@EGaBwB_@i@kA}AiBaCcAuA}@iAcByBuBsCgAwAcDcE}@oAGOGW"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5655741,
+                        "lng" : -8.4751925
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.6 km",
+                        "value" : 638
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 53
+                     },
+                     "end_location" : {
+                        "lat" : 41.5652192,
+                        "lng" : -8.4329201
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit and stay on \u003cb\u003eAv. do Estádio\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "sfu|F~jor@?C@A?C?A?C?C?AAC?A?CAA?AACPUv@sAj@_Ah@_Ab@q@T]LUFQDK@GDSBS@Y?SCSCUG_@YkBc@qCu@{ESoAQ{@UiAIWUaA"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5653794,
+                        "lng" : -8.4396764
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.8 km",
+                        "value" : 773
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 81
+                     },
+                     "end_location" : {
+                        "lat" : 41.5698318,
+                        "lng" : -8.4267238
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e3rd\u003c/b\u003e exit and stay on \u003cb\u003eAv. do Estádio\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "seu|Fv`nr@FIDIBI@EB]AKAIEICIACKIKEGCG?UBEMIOIUq@iBWq@_@eA{@aCe@eASc@Ua@GKMSQWc@o@_@e@SUQUOMWWi@e@WQ]Wu@i@cAq@cAs@iAw@GEQKCEEEEEAEEQ"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5652192,
+                        "lng" : -8.4329201
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "7.0 km",
+                        "value" : 6974
+                     },
+                     "duration" : {
+                        "text" : "9 mins",
+                        "value" : 559
+                     },
+                     "end_location" : {
+                        "lat" : 41.60125250000001,
+                        "lng" : -8.3665001
+                     },
+                     "html_instructions" : "At the roundabout, take the \u003cb\u003e1st\u003c/b\u003e exit and stay on \u003cb\u003eAv. do Estádio\u003c/b\u003e",
+                     "maneuver" : "roundabout-right",
+                     "polyline" : {
+                        "points" : "mbv|F~ylr@?I?EAE?EAEAECEAECCCCCCCACAEAC?EAC@E?C@C@CBSAEAE?CACAOIy@k@q@g@{@m@g@_@USKOSUM[GSGMI_@CQAOAMAMA_@?g@Ay@?]@Q?KBa@@?@ABA@A?C@C?A?C?E?E?E?EACAEACCEAAAAA?A?KSIYGYEWCWES?CAGGOCS?GEa@CM?U@g@Bs@@W@MAMAMAKCIEKGKk@s@CGk@u@EEk@u@OQmA_Bg@o@MOIIKIGEQKKEGCKCUC[KUGOGCC_@IMGKGOKKGEEAAKKIISUOSWWGCECGCg@k@]e@W_@IKISEMCGAK?EAEAO?g@?sB@_AA_AAUEYEUGc@Ou@a@}BQy@Ic@CQGYEa@AQAU?SAm@@w@?qA?u@Ai@C[ASEWEWEYCSASAMAGCSCMCGCIGKMMOM_@UWKMGkAa@ECaA]_@O_@MMGSMGCc@[_Ao@IK_@a@i@q@SUSWa@g@OUQ]Qa@Sg@Ww@AAa@cAWk@KSUa@Q[S[MSGEEGIEGCICIAg@AE@Q?a@A_@GMCOEGEIESQYUMKc@[KIQKKGYS_@Qa@S]OYKQEGC[E[EYEUEQGMESMCCCCEECEKQIOKYQa@Um@So@[{@_@gAKYCEGQM[EK]{@Yy@o@cBQo@GYCOGc@Gk@Gg@C_@Aq@A]?Y?U@W?Q@y@BqA@e@@{@B_@BUH]DOBKHOHMNQDEBCl@e@hBsA`@e@JUDM@IBK@K?M?OAOGk@Gg@G]Ii@GWO{@Km@Km@Ko@Km@Km@Ki@UyAEUUsAIe@I]G_@I[I]I[K]K[Wm@KWEQEKCOCOAMCOAOEYC[MaA?KIe@AICIGMGKEGGEEEEAOGEAi@SUGc@O_@Mk@Se@QYIMCOCSAUAcBIg@As@EOCQGUKOKIGGIKOIQIOGQIQUc@_@u@[q@MYQg@K[I[WeAEOGMEGEGSSMOKOMSQc@O_@Yu@IWSy@G[CYGk@As@Ce@?m@CYAUCQCIAIEICKEGEIe@s@_@q@CECGQk@EMI_@q@sDOk@AICEIKKMa@_@AAGEIGIGKGACYSQMGIIIKKGIIKGIOUGOEKCGAICII[ISEMEMGKGKKMMOq@}@MQOSEGGIEICEAEEKCICMAMCOCQEWCSCMEMK]IWSg@EKCICGCAAAAAAAAACA?A?A?A?A@??A?A?AA??A?A?A?AAA?AAA?AAAAAA??AA?A?A?A??AA@A?A?A?A??@A??@A?A@A@?@A@?@ECCAEAa@M]Ki@SKCIEGEECGECCIIGKu@gAuAqBsAqBW_@Wi@S]IOUUoAiAIOCGAK?K@MBODSHSZm@d@y@P_@J]F_@Hg@BS@e@?MCQIUY_Ae@uAIKIGMGOCYIMGGEEGKOGOGQIq@Ig@CKEIEKGG[]QSQOUOIGKIKMUe@Si@UeAK_@"
+                     },
+                     "start_location" : {
+                        "lat" : 41.5698318,
+                        "lng" : -8.4267238
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.2 km",
+                        "value" : 158
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 26
+                     },
+                     "end_location" : {
+                        "lat" : 41.5999854,
+                        "lng" : -8.365861799999999
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eR. do Montinho\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "yf||Fraar@NEFAB?TBR?R?LCJEJGHIXi@FKJGPIp@W"
+                     },
+                     "start_location" : {
+                        "lat" : 41.60125250000001,
+                        "lng" : -8.3665001
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "traffic_speed_entry" : [],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "cxt|F~avr@M?YRoCfBq@d@mCV{AVa@JuAwWKiBK}@Mq@e@eBYiAE{@?uE@k@D]P[l@s@dCuCv@gAzAkD`E_KlByEVg@j@i@l@e@LONg@Hc@Rk@Z]XSf@UzAs@b@Q|@QRIPORc@p@}BVg@x@oAn@_AL[BWA[G]_@}@g@mA[aBOiBCy@@u@LwAn@wCRs@^}@`@aAVw@Lo@JkADq@?s@A{AFmALgAF{@?g@Wy@W{@KaAJcF?a@Ky@e@}BQk@[g@MQ_@}@?GAIEMIEM?i@a@gB_CyG_J_JoLaFsGOg@@KAMAINYbBsCpBeDL]F[Dm@Cg@iAsHiAkHg@eC_@yALSDO@i@Ma@WOOCUBEMSe@eDcJy@iB]m@cA{AuA_BaA}@u@i@gGgEc@]GKE[CWKUOKSAQFc@E_C_BcBmAa@c@a@q@Oa@Mq@C]EoCD}AHE@M?WISECMSQs@OgAMs@Io@@}@DgBCYIUcB}BoCmDu@_AUSm@[sA[SKm@Qm@a@k@m@g@k@MGo@o@u@eAS_@IUEg@?{GGo@My@mAqGKk@Gs@Ai@?eB?gCEeAS}AI}@Ga@GQUYo@c@wBy@oCcA_C}AgBuBu@_Aa@s@_AcCy@oBa@u@{@qAa@Uq@CW@aAI]I_As@oA}@e@[aAe@w@[YIgBW_@MWQYa@}@yB{BmGw@uBaAsC[yBKgACoA@yAHmFFu@Nm@L[X_@`DcC`@e@JUFWDu@YaCm@kDmBgLe@_Ck@sBo@cBM}@YgCIq@ESOYMMKGUIcCy@yBs@c@EyBK{AGa@Ke@WQQg@cA{A}C_@aAUw@]uAMUs@{@_@w@i@uA]qAKu@I_BCsAEo@G[Qg@oAuBUs@Om@aA_FEOUYc@a@g@]u@o@g@k@W_@M[Sw@]{@sAgBk@w@Qa@_@aCo@kBQ_@GGCC@IEQMGMDEF?@ECiA]gAc@[WgFwHmAwBeB_BMWAWD]Ng@`AgB\\}@PgADy@C_@c@uAe@uAIKWOi@MUMQWOa@SyAWi@m@q@g@_@UQa@s@i@oBK_@NEJAh@B`@CVMb@s@RSbAa@"
+         },
+         "summary" : "Av. do Estádio",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

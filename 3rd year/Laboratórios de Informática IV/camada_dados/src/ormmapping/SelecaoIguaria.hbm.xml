@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+Licensee: Universidade do Minho
+License Type: Academic
+-->
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+	<class name="SelecaoIguaria, Base de Dados - MM" table="SelecaoIguaria" lazy="false">
+		<composite-id>
+			<key-property name="Id_visualizacao" column="id_visualizacao" type="Int32"/>
+			<key-property name="Cliente_Cliente" column="Cliente" type="Int32"/>
+			<key-property name="Cliente_Iguaria" column="Iguaria" type="Int32"/>
+			<key-property name="Cliente_Estabelecimento" column="Estabelecimento" type="Int32"/>
+		</composite-id>
+		<many-to-one name="ORM_Cliente" class="Cliente_seleciona_iguaria, Base de Dados - MM" insert="false" update="false">
+			<column name="Cliente"/>
+			<column name="Iguaria"/>
+			<column name="Estabelecimento"/>
+		</many-to-one>
+		<property name="Data_hora_visualizacao" column="data_hora_visualizacao" type="Timestamp" not-null="true"/>
+	</class>
+</hibernate-mapping>
