@@ -7,6 +7,7 @@ co-authored with:
 + [Bruno Dantas](https://github.com/brunodantas6)
 + [Bruno Pereira](https://github.com/b-pereira)
 + [Eduardo Semanas](https://github.com/004Ryu)
++ Hélder Gonçalves
 + [Jorge Paiva](https://github.com/Phaktumn)
 + [José Bastos](https://github.com/zbastos)
 + [José Silva](https://github.com/Jpvsilva)
