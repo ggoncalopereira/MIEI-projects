@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=f
+comment0.target=FacturacaoProd(FacturacaoProd)
+comment1.params=
+comment1.target=FacturacaoProd()
+comment10.params=
+comment10.target=FacturacaoProd\ clone()
+comment11.params=
+comment11.target=int\ hashCode()
+comment2.params=
+comment2.target=int\ getVendasTotal()
+comment2.text=\ \ \ \ public\ TreeSet<String>\ getClientes(){\n\ \ \ \ \ \ \ \ return\ clientes;\n\ \ \ \ }\n\ \ \ \ \n\ \ \ \ public\ int\ getNClientes\ (){\n\ \ \ \ \ \ \ \ return\ clientes.size();\n\ \ \ \ }\n
+comment3.params=filial
+comment3.target=int\ getVendas(int)
+comment4.params=
+comment4.target=double\ getFactTotal()
+comment5.params=filial
+comment5.target=double\ getFact(int)
+comment6.params=
+comment6.target=int\ getQuantTotal()
+comment7.params=filial
+comment7.target=int\ getQuant(int)
+comment8.params=filial\ quant\ preco
+comment8.target=void\ adiciona(int,\ int,\ double)
+comment9.params=o
+comment9.target=boolean\ equals(java.lang.Object)
+numComments=12

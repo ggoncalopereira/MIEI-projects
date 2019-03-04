@@ -1,0 +1,163 @@
+{-|
+Module      : Main
+Description : Módulo Haskell para resolução da Tarefa D - Sequência de Comandos
+Copyright   : Gonçalo Pereira <a74413@alunos.uminho.pt>
+
+Este é um módulo definido para resolução dos tabuleiros propostos
+na TarefaD, relativa ao jogo de tabuleiro "Sokoban", no âmbito
+da disciplina de Laboratórios de Informática I. Esta página
+servirá de documentação do código para tal tarefa.
+
+-}  
+module Main where
+import Data.Char
+
+{- | A função outStr é uma função pré-definida nas aulas para efectuar um "unlines" de forma mais eficaz.
+
+-}
+outStr :: [String] -> String
+outStr [] = "\n"
+outStr t = unlines t
+
+main = do inp <- getContents
+          putStr (outStr (tarefa4 (lines inp)))
+
+{- | A função 'tarefa4' será responsável pela execução de todo o programa, com o intuito de calcular a solução. Este utilizará a função 'resolve', atribuindo-lhe dados como a lista de cardinais e a lista de caixas.
+
+-}
+tarefa4 :: [String] -> [String]
+tarefa4 s = lines (resolve tabuleiro caixasident paredes pontos comando posicao 0)
+            where tabuleiro   = (lines (filtraTab (unlines s)))
+                  coords      = (filtraCoord (unlines s))
+                  caixas      = converteTudo (reverse (tail (reverse (tail (lines (coords))))))
+                  caixasident = boxIdentify caixas 1
+                  paredes     = checkCardList (reverse tabuleiro) (0,0)
+                  pontos      = checkDotList (reverse tabuleiro) (0,0)
+                  comando     = ((reverse s)!!0)
+                  posicao     = converte (head (lines (coords)))
+
+{- | A função 'resolve' calculará a próxima posição através da averiguação do comando fornecido, assim como a existência de caixas e/ou paredes nos arredores da posição inicial. Esta função
+averiguará, através da função 'checkEnding', se todas as caixas se encontram nas posições dos pontos, devolvendo "FIM" nessa situação. Caso os comandos se esgotem, esta devolverá "INCOMPLETO".
+
+-}
+resolve :: [String] -> [((Int, Int),Int)] -> [(Int, Int)] -> [(Int, Int)] -> [Char] -> (Int, Int) -> Int -> String
+resolve _ caixasident _ pontos [] _ a | (checkEnding caixasident pontos) = "FIM " ++ show a
+                                      | otherwise                        = "INCOMPLETO " ++ show a
+resolve tabuleiro caixasident paredes pontos (b:c) (x,y) a | (checkEnding caixasident pontos) = "FIM " ++ show a
+                                                           | (b == 'U') && (not (elem (x,(y+1)) caixas)) && (not (elem (x,(y+1)) paredes))                            = resolve tabuleiro caixasident paredes pontos c (x,(y+1)) (a+1)
+                                                           | (b == 'R') && (not (elem ((x+1),y) caixas)) && (not (elem ((x+1),y) paredes))                            = resolve tabuleiro caixasident paredes pontos c ((x+1),y) (a+1)
+                                                           | (b == 'L') && (not (elem ((x-1),y) caixas)) && (not (elem ((x-1),y) paredes))                            = resolve tabuleiro caixasident paredes pontos c ((x-1),y) (a+1)
+                                                           | (b == 'D') && (not (elem (x,(y-1)) caixas)) && (not (elem (x,(y-1)) paredes))                            = resolve tabuleiro caixasident paredes pontos c (x,(y-1)) (a+1)
+                                                           | (b == 'U') && (elem (x,(y+1)) caixas) && (not (elem (x,(y+2)) paredes)) && (not (elem (x,(y+2)) caixas)) = resolve tabuleiro boxModifyU paredes pontos c (x,(y+1)) (a+1)
+                                                           | (b == 'R') && (elem ((x+1),y) caixas) && (not (elem ((x+2),y) paredes)) && (not (elem ((x+2),y) caixas)) = resolve tabuleiro boxModifyR paredes pontos c ((x+1),y) (a+1)
+                                                           | (b == 'L') && (elem ((x-1),y) caixas) && (not (elem ((x-2),y) paredes)) && (not (elem ((x-2),y) caixas)) = resolve tabuleiro boxModifyL paredes pontos c ((x-1),y) (a+1)
+                                                           | (b == 'D') && (elem (x,(y-1)) caixas) && (not (elem (x,(y-2)) paredes)) && (not (elem (x,(y-2)) caixas)) = resolve tabuleiro boxModifyD paredes pontos c (x,(y-1)) (a+1)
+                                                           | otherwise                                                                                                = resolve tabuleiro caixasident paredes pontos c (x,y) a
+                                                           where caixas = map (\l@(caixas) -> fst l) caixasident
+                                                                 boxModifyU = boxModify caixasident (boxSearch caixasident (x,(y+1))) (x,(y+2))
+                                                                 boxModifyR = boxModify caixasident (boxSearch caixasident ((x+1),y)) ((x+2),y)
+                                                                 boxModifyL = boxModify caixasident (boxSearch caixasident ((x-1),y)) ((x-2),y)
+                                                                 boxModifyD = boxModify caixasident (boxSearch caixasident (x,(y-1))) (x,(y-2))
+
+{- | A função 'converte' servirá para posterior conversão da posição (o primeiro elemento de 'filtraCoord') para um par de inteiros, com respectivas coordenadas no eixo do x e no eixo do y.
+
+>>>converte "2 3"
+(2,3)
+
+-}
+converte :: String -> (Int, Int)
+converte s = let [sx, sy] = words s
+                 sf = "(" ++ sx ++ "," ++ sy ++ ")"
+             in read sf :: (Int, Int)
+
+{- | A função 'converteTudo' efectuará o mesmo que a função 'converte', excepto que para listas de strings, de tal modo que devolverá uma lista de pares de inteiros.
+
+-}
+converteTudo :: [String] -> [(Int, Int)]
+converteTudo [] = []
+converteTudo (x:y) = (converte x) : (converteTudo y) 
+
+{- | A função 'filtraTab' filtrará o tabuleiro no input inicial, e devolverá o mesmo input até ao ponto em que encontra um dígito.
+
+-}
+filtraTab :: String -> String
+filtraTab x = fst (span (not.isDigit) x)
+
+{- | A função 'filtraCoord' efectuará o inverso da função 'filtraTab'; esta devolverá o input restante que teria sido filtrado em 'filtraTab'.
+
+-}
+filtraCoord :: String -> String
+filtraCoord x = snd (span (not.isDigit) x)
+
+{- | A função 'checkChar' receberá um tabuleiro e um par de coordenadas, assim como um caracter, para verificar a existência de esse caracter no tabuleiro.
+
+>>>checkChar ["abcd"] (0,0) 'a'
+True
+
+-}
+checkChar :: [String] -> (Int, Int) -> Char -> Bool
+checkChar tab (x,y) c = let ponto = ((tab!!y)!!x)
+                        in if (ponto == c) then True
+                           else False
+
+{- | A função 'checkCardList' efectuará uma simples operação: a compilação sob forma de lista de todos os cardinais existentes no tabuleiro, para uma posterior comparação.
+
+-}  
+checkCardList :: [String] -> (Int, Int) -> [(Int,Int)]
+checkCardList tab (x,y) | ((x == sizex) && (y == sizey) && isAcard) = [(x,y)]
+                        | ((x == sizex) && (y < sizey) && isAcard)  = [(x,y)] ++ checkCardList tab (x, y+1)
+                        | ((x < sizex) && (y == sizey) && isAcard)  = [(x,y)] ++ checkCardList tab (x+1, 0)
+                        | ((x < sizex) && (y < sizey) && isAcard)   = [(x,y)] ++ checkCardList tab (x, y+1)
+                        | (x == sizex) && (y < sizey)              = checkCardList tab (x, y+1)
+                        | (x < sizex) && (y == sizey)              = checkCardList tab (x+1, 0)
+                        | (x < sizex) && (y < sizey)               = checkCardList tab (x, y+1)
+                        | otherwise                                = []
+                        where sizex = (length (head tab) - 1)
+                              sizey = (length tab) - 1
+                              isAcard = (checkChar tab (x, y) '#')
+
+{- | A função 'checkCardList' assemelha-se à função 'checkCardList', diferindo apenas no caracter em questão (descobre todos os pontos).
+
+-} 
+checkDotList :: [String] -> (Int, Int) -> [(Int,Int)]
+checkDotList tab (x,y) | ((x == sizex) && (y == sizey) && isAdot) = [(x,y)]
+                       | ((x == sizex) && (y < sizey) && isAdot)  = [(x,y)] ++ checkDotList tab (x, y+1)
+                       | ((x < sizex) && (y == sizey) && isAdot)  = [(x,y)] ++ checkDotList tab (x+1, 0)
+                       | ((x < sizex) && (y < sizey) && isAdot)   = [(x,y)] ++ checkDotList tab (x, y+1)
+                       | (x == sizex) && (y < sizey)              = checkDotList tab (x, y+1)
+                       | (x < sizex) && (y == sizey)              = checkDotList tab (x+1, 0)
+                       | (x < sizex) && (y < sizey)               = checkDotList tab (x, y+1)
+                       | otherwise                                = []
+                        where sizex  = (length (head tab) - 1)
+                              sizey  = (length tab) - 1
+                              isAdot = (checkChar tab (x, y) '.')
+
+
+{- | A função 'boxIdentify' atribui um índice a cada uma das caixas existentes, de forma a poder controlá-las via funções auxiliares, para que sejam alteradas consoante a sua movimentação.
+
+-}
+boxIdentify :: [(Int, Int)] -> Int -> [((Int, Int),Int)]
+boxIdentify [] _ = []
+boxIdentify (caixa:caixas) identify = (caixa,identify) : boxIdentify caixas (identify+1)
+
+{- | A função 'boxSearch' está encarregue de comparar a caixa que está prestes a ser movimentada, para que possa ser alterada na lista de caixas existentes.
+
+-}
+boxSearch :: [((Int, Int),Int)] -> (Int, Int) -> Int
+boxSearch (caixa:caixas) (x,y) | (x,y) == (fst caixa) = (snd caixa)
+                               | otherwise = boxSearch caixas (x,y)
+
+{- | A função 'boxModify' modifica as caixas consoante a posição destas se altera no tabuleiro. Servirá de base para comparar com a lista de pontos.
+
+-}
+boxModify :: [((Int, Int),Int)] -> Int -> (Int, Int) -> [((Int, Int),Int)]
+boxModify (((x,y),identify):resto) position (newx, newy) | (position == identify) = ((newx, newy),identify):resto
+                                                         | otherwise              = ((x,y),identify):(boxModify resto position (newx, newy)) 
+
+{- | A função 'checkEnding' verifica se o fim do jogo terá sido atingido, consoante a igualdade entre a lista de caixas existentes e a lista de pontos presentes no tabuleiro.
+
+-}
+checkEnding :: [((Int, Int),Int)] -> [(Int, Int)] -> Bool
+checkEnding [] _ = True
+checkEnding (((x,y),_):resto) a | (elem (x,y) a) = checkEnding resto a
+                                | otherwise      = False

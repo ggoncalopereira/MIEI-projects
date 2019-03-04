@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=f
+comment0.target=FilialFact(FilialFact)
+comment1.params=quant\ preco\ mes
+comment1.target=FilialFact(int,\ double,\ int)
+comment2.params=
+comment2.target=int\ getVendas()
+comment3.params=
+comment3.target=double\ getFact()
+comment4.params=
+comment4.target=int\ getQuant()
+comment5.params=
+comment5.target=int\ getMes()
+comment6.params=quant\ preco
+comment6.target=void\ adiciona(int,\ double)
+comment7.params=o
+comment7.target=boolean\ equals(java.lang.Object)
+comment8.params=
+comment8.target=FilialFact\ clone()
+comment9.params=
+comment9.target=int\ hashCode()
+numComments=10

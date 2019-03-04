@@ -1,0 +1,13 @@
+\select@language {portuguese}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{2}
+\contentsline {chapter}{\numberline {2}Desenvolvimento}{3}
+\contentsline {section}{\numberline {2.1}Tarefa D}{3}
+\contentsline {subsection}{\numberline {2.1.1}Problema}{3}
+\contentsline {subsection}{\numberline {2.1.2}Resolu\IeC {\c c}\IeC {\~a}o}{3}
+\contentsline {section}{\numberline {2.2}Tarefa E}{4}
+\contentsline {subsection}{\numberline {2.2.1}Problema}{4}
+\contentsline {subsection}{\numberline {2.2.2}Resolu\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {section}{\numberline {2.3}Tarefa F}{4}
+\contentsline {subsection}{\numberline {2.3.1}Problema}{4}
+\contentsline {subsection}{\numberline {2.3.2}Resolu\IeC {\c c}\IeC {\~a}o}{4}
+\contentsline {chapter}{\numberline {3}Conclus\IeC {\~a}o}{5}

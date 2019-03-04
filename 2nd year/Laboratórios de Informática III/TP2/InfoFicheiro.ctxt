@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=ficheiro
+comment0.target=InfoFicheiro(java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ InfoFicheiro\n
+comment1.params=
+comment1.target=void\ atualiza()
+comment2.params=totalProdutos\ totalProdutosC\ totalProdutosNC\ totalClientes\ totalClientesC\ totalClientesNC\ comprasZero\ factTotal
+comment2.target=void\ atualiza(int,\ int,\ int,\ int,\ int,\ int,\ int,\ double)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

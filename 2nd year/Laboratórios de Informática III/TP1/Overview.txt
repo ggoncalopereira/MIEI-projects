@@ -1,0 +1,37 @@
+1- Ler ficheiros
+------------------------------------------------------------------------------------------------------
+
+2- Lista de produtos por Letra ordem alfabética 
+
+
+-->?Double? Hash Table for Char?s --->Struct Ordered Array of Strings and Size 
+
+References Catálogo de Produtos -> Método percorrer_clientes_letra
+
+
+//ask stor about ordem alfabetica AA->AB or AA->BA or AA1->AA9
+------------------------------------------------------------------------------------------------------
+
+3- Com Mês e código, Nº Total de vendas e $$$ do produto no mês, modos P e N, global ou filial a filial
+
+
+-->?Double? Hash Table for Char?s ---> Ordered Array of Structs --> ?reference to catalogo produtos? + faturação
+
+
+References Facturação Global -> Método vendas_mes_
+
+
+-------------------------------------------------------------------------------------------------------
+4- Numero e Lista de produtos  com faturação 0
+References Facturação Global
+
+5-Para Cliente, número total de produtos comprados mês a mês
+References Vendas por Filial
+
+6-Intervalo de meses total de vendas, total facturado
+References Facturação Global
+
+7-Lista de clientes por filial que compraram
+References Vendas por Filial
+
+8-

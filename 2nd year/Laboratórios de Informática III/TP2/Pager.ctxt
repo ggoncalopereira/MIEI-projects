@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=t\ lines\ columns\ buf
+comment0.target=Pager(java.util.Collection,\ int,\ int,\ java.io.BufferedReader)
+comment0.text=\r\n\ Construtor\ que\ constroi\ p\u00E1ginas\ por\ tabelas\ para\ cole\u00E7\u00F5es\ sem\ newlines\ nem\ cabe\u00E7alhos.\ \ \r\n
+comment1.params=t\ lines\ buf
+comment1.target=Pager(java.util.Collection,\ int,\ java.io.BufferedReader)
+comment1.text=\r\n\ Construtor\ que\ constroi\ p\u00E1ginas\ por\ tabelas\ para\ cole\u00E7\u00F5es\ de\ cole\u00E7\u00F5es\r\n\ que\ requerem\ cabe\u00E7alhos.\ \ \r\n
+comment2.params=s
+comment2.target=void\ setHeader(java.lang.String)
+comment2.text=\r\n\ Aplica\ a\ string\ dada\ como\ cabe\u00E7alho\ de\ todas\ as\ p\u00E1ginas.\r\n
+comment3.params=
+comment3.target=java.lang.String\ nextPage()
+comment3.text=\r\n\ Consulta\ a\ pr\u00F3xima\ p\u00E1gina\ at\u00E9\ chegar\ ao\ fim\ das\ p\u00E1ginas.\r\n
+comment4.params=
+comment4.target=java.lang.String\ previousPage()
+comment4.text=\r\n\ Consulta\ a\ p\u00E1gina\ anterior\ at\u00E9\ chegar\ ao\ fim\ das\ p\u00E1ginas.\r\n
+comment5.params=page
+comment5.target=java.lang.String\ getPage(int)
+comment5.text=\r\n\ Consulta\ a\ p\u00E1gina\ dada.\r\n
+comment6.params=
+comment6.target=void\ run()
+comment6.text=\r\n\ Corre\ um\ menu\ de\ consulta\ das\ p\u00E1ginas.\r\n
+numComments=7

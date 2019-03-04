@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LerFichsTexto_Teste()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ LerFichsTexto_Teste\n
+comment1.params=fich
+comment1.target=java.util.ArrayList\ readLinesWithBuff(java.lang.String)
+comment2.params=ficheiro
+comment2.target=java.util.ArrayList\ readLinesArrayWithScanner(java.lang.String)
+comment3.params=linha
+comment3.target=Venda\ parseLinhaVenda(java.lang.String)
+comment3.text=Kinda\ long\ and\ sucky\ but\ super\ fast,\ only\ slightly\ faster\ than\ split,\ probly\ worse\ if\ tons\ of\ exceptions\n\ \ \ \ public\ static\ Venda\ parseLinhaVenda(String\ linha)\ throws\ VendaInv\u00E1lidaException\ {\ \n\ \ \ \ \ \ \ \ String\ p,c,pro;\n\ \ \ \ \ \ \ \ double\ pr;\n\ \ \ \ \ \ \ \ boolean\ promo;\n\ \ \ \ \ \ \ \ int\ quant,mes,filial,left,right;\n\ \ \ \ \ \ \ \ left\=0;\n\ \ \ \ \ \ \ \ try\ {\n\ \ \ \ \ \ \ \ \ \ \ \ right\=linha.indexOf("\ ",left);\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (right\!\=-1)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ p\=linha.substring(0,right);\n\ \ \ \ \ \ \ \ \ \ \ \ else\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ throw\ new\ VendaInv\u00E1lidaException();\n\ \ \ \ \ \ \ \ \ \ \ \ left\=linha.indexOf("\ ",right+1);\n\ \ \ \ \ \ \ \ \ \ \ \ if(left\!\=-1)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ pr\=Double.valueOf(linha.substring(right+1,left));\n\ \ \ \ \ \ \ \ \ \ \ \ else\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ throw\ new\ VendaInv\u00E1lidaException();\n\ \ \ \ \ \ \ \ \ \ \ \ right\=linha.indexOf("\ ",left+1);\n\ \ \ \ \ \ \ \ \ \ \ \ if(right\!\=-1)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ quant\=Integer.parseInt(linha.substring(left+1,right));\n\ \ \ \ \ \ \ \ \ \ \ \ else\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ throw\ new\ VendaInv\u00E1lidaException();\n\ \ \ \ \ \ \ \ \ \ \ \ left\=linha.indexOf("\ ",right+1);\n\ \ \ \ \ \ \ \ \ \ \ \ if(left\!\=-1)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ pro\=linha.substring(right+1,left);\n\ \ \ \ \ \ \ \ \ \ \ \ else\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ throw\ new\ VendaInv\u00E1lidaException();\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (pro.equals("P"))\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ promo\=true;\n\ \ \ \ \ \ \ \ \ \ \ \ else\ if\ (pro.equals("N"))\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ promo\=false;\n\ \ \ \ \ \ \ \ \ \ \ \ else\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ throw\ new\ VendaInv\u00E1lidaException();\n\ \ \ \ \ \ \ \ \ \ \ \ right\=linha.indexOf("\ ",left+1);\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (right\!\=-1)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ c\=linha.substring(left+1,right);\n\ \ \ \ \ \ \ \ \ \ \ \ else\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ throw\ new\ VendaInv\u00E1lidaException();\n\ \ \ \ \ \ \ \ \ \ \ \ left\=linha.indexOf("\ ",right+1);\n\ \ \ \ \ \ \ \ \ \ \ \ if\ (left\!\=-1)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ mes\=Integer.parseInt(linha.substring(right+1,left));\n\ \ \ \ \ \ \ \ \ \ \ \ else\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ throw\ new\ VendaInv\u00E1lidaException();\n\ \ \ \ \ \ \ \ \ \ \ \ filial\=Integer.parseInt(linha.substring(left+1));\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ catch\ (NumberFormatException\ e)\ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ throw\ new\ VendaInv\u00E1lidaException();\n\ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ return\ new\ Venda(quant,mes,filial,pr,promo,c,p);\n\ \ \ \ }\ \n
+comment4.params=linhas
+comment4.target=java.util.ArrayList\ parseAllLinhas(java.util.ArrayList)
+comment5.params=linhas
+comment5.target=java.util.HashSet\ parseAllLinhasToSet(java.util.ArrayList)
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

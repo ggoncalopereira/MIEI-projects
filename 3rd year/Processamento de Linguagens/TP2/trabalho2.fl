@@ -1,0 +1,167 @@
+%option noyywrap
+%{
+  #include <glib.h>
+  #include <string.h>
+  void expandGraph (char *etiqueta,FILE *fp);
+  char *historyBuffer;
+  GTree *etiquetasDep,*etiquetasAt;
+  void remove_parentheses(char* str) {
+      char *pr = str, *pw = str;
+      while (*pr) {
+          *pw = *pr++;
+          pw += (*pw != '(' && *pw != ')');
+      }
+      *pw = '\0';
+  }
+  void remove_symbs_and_spaces(char* str) {
+      char *pr = str, *pw = str;
+      while (*pr) {
+          *pw = *pr++;
+          pw += (*pw != ' ' && *pw != '?' && *pw != '*');
+      }
+      *pw = '\0';
+  }
+
+  //for cosmetic purposes only
+  char* replace_PCDATA(char* str) {
+    char *token,*aux,*n="nenhuma";
+    token=strtok(str,"#PCDATA");
+    aux=malloc(strlen(token)+strlen(n)+2);
+    strcpy(aux,n);
+    strcat(aux,token);
+    return aux;
+  }
+
+%}
+%%
+  int needsFree=0;
+  char *et,*at,*deps,*atOld,*atNew,*prevEt;
+
+\<!ELEMENT[ ][A-Za-z]*[ ]((\((.*?)\))|[A-Za-z]*)       {
+                                                        et = strtok(strdup(yytext+10)," ");
+                                                        deps = strdup(yytext+11+strlen(et));
+                                                        remove_parentheses(deps);
+                                                        if (strcmp(deps,"#PCDATA")==0||strcmp(deps,"EMPTY")==0) deps=NULL;
+                                                        if (deps&&strstr(deps,"#PCDATA")){ deps=replace_PCDATA(deps);needsFree=1;}
+                                                        g_tree_insert (etiquetasDep,et,deps);et=NULL;deps=NULL;if(needsFree)free(deps);}
+
+\<!ATTLIST[ ][A-Za-z]*[ ][A-Za-z]*      {et =strtok(strdup(yytext+10)," ");at=strtok(NULL," ");
+                                         if(atOld=g_tree_lookup(etiquetasAt,et)){
+                                           atNew=malloc(strlen(atOld)+strlen(at)+3);
+                                           strcpy(atNew,atOld);
+                                           strcat(atNew,", ");
+                                           strcat(atNew,at);
+                                         }else{atNew=at;}
+                                         g_tree_insert (etiquetasAt,et,atNew);et=NULL;at=NULL;atNew=NULL;free(atNew);atOld=NULL;}
+
+\<!ATTLIST[ ][A-Za-z]*                {prevEt =strtok(strdup(yytext+10)," ");}
+
+^\t[A-Za-z]*[ ][A-Za-z]*[ ][#|A-Za-z]*$          {et=prevEt; at=strtok(strdup(yytext+1)," ");
+                                                   if(atOld=g_tree_lookup(etiquetasAt,et)){
+                                                     atNew=malloc(strlen(atOld)+strlen(at)+3);
+                                                     strcpy(atNew,atOld);
+                                                     strcat(atNew,", ");
+                                                     strcat(atNew,at);
+                                                   }else{atNew=at;}
+                                                   g_tree_insert (etiquetasAt,et,atNew);et=NULL;at=NULL;atNew=NULL;free(atNew);atOld=NULL;}
+.|\n        {}
+
+%%
+void linkEtiquetas (char* etiqueta,char* depends,FILE *fp){
+  char *token,*aux,*p,*auxSep,*sep="*";
+  aux=malloc(strlen(depends)+1);
+  strcpy(aux,depends);
+  if(strstr(aux,",")){
+    while(token=strtok_r(aux,",",&aux)) linkEtiquetas(etiqueta,token,fp);
+  }else{
+    if (strstr(aux,"|")){
+      while(token=strtok_r(aux,"|",&aux)) linkEtiquetas(etiqueta,token,fp);
+    }else{
+      if (strcmp(aux,"nenhuma")){
+        fprintf(fp,"\t%s -> %s;\n",etiqueta,aux);
+        auxSep=malloc(strlen(aux)+2*strlen(sep)+1);
+        strcpy(auxSep,sep);
+        strcat(auxSep,aux);
+        strcat(auxSep,sep);
+        if (!strstr(historyBuffer,auxSep)) {
+          expandGraph(aux,fp);
+        }
+        auxSep=NULL;
+        free(auxSep);
+      }
+    }
+  }
+  aux=NULL;
+  free(aux);
+}
+
+void expandGraph (char *etiqueta,FILE *fp){
+  char *token,*p,*sep="*";
+  char *depends=g_tree_lookup(etiquetasDep,etiqueta);
+  if (depends){
+    if(p=realloc(historyBuffer,strlen(etiqueta)+strlen(historyBuffer)+2*strlen(sep)+1)){
+      historyBuffer=p;
+      strcat(historyBuffer,sep);
+      strcat(historyBuffer,etiqueta);
+      strcat(historyBuffer,sep);
+    }
+    remove_symbs_and_spaces(depends);
+    linkEtiquetas(etiqueta,depends,fp);
+  }
+}
+
+
+
+gboolean tree2Graph(gpointer key, gpointer value, gpointer data){
+  FILE *fp;
+  char *token,*depends,*etiqueta,*fileName,*sep="*";
+
+  if (value){
+    depends=(char*)value;
+    etiqueta=(char*)key;
+    fileName=malloc(strlen(etiqueta)+strlen(".dot")+1);
+    strcpy(fileName,etiqueta);
+    strcat(fileName,".dot");
+    fp=fopen(fileName,"w");
+    fprintf(fp,"digraph %s{\n",etiqueta);
+    remove_symbs_and_spaces(depends);
+
+    historyBuffer=malloc(strlen(etiqueta)+2*strlen(sep)+1);
+    strcpy(historyBuffer,sep);
+    strcat(historyBuffer,etiqueta);
+    strcat(historyBuffer,sep);
+
+    linkEtiquetas(etiqueta,depends,fp);
+    fprintf(fp,"}\n");
+    fclose(fp);
+    historyBuffer=NULL;
+    free(historyBuffer);
+  }
+  return FALSE;
+}
+
+
+gboolean printTree(gpointer key, gpointer value,gpointer data){
+  char *at;
+  if (value!=NULL) {
+    printf(">%s\n  -Dependencias: %s\n",(char *)key,(char *)value);
+  }else{
+    printf(">%s\n",(char *)key);
+  }
+  if (at=g_tree_lookup(etiquetasAt,key)){
+    printf("  -Atributos: %s\n",at);
+  }
+  return FALSE;
+}
+
+
+
+int main()
+{
+  etiquetasDep=g_tree_new((GCompareFunc)strcmp);
+  etiquetasAt=g_tree_new((GCompareFunc)strcmp);
+  yylex();
+  g_tree_foreach(etiquetasDep,printTree,NULL);
+  g_tree_foreach(etiquetasDep,tree2Graph,NULL);
+  return 0;
+}

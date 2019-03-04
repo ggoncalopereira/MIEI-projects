@@ -1,0 +1,21 @@
+CFLAGS=-O0 -Wall -ansi -pedantic `pkg-config --cflags glib-2.0`
+
+SRCS = $(wildcard *arv.c)
+
+objects:= $(patsubst %.c,%.o,$(SRCS))
+
+all : $(objects)
+	$(CC) $(CFLAGS) -o LI3exe $(objects) `pkg-config --libs glib-2.0`
+
+cleanobj: 
+	rm -f $(objectsarr) $(objectsarv)
+
+
+clean: cleanobj
+	rm -f LI3exe
+
+allclean: clean cleanobj
+	rm -f *_vá* Facturacao.txt
+
+.PHONY: cleanobj clean allclean
+

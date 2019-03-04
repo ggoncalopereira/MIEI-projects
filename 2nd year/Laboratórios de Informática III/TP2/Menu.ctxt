@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=readIM
+comment0.target=java.lang.String\ readString(java.io.BufferedReader)
+comment0.text=\n\ M\u00E9todo\ que\ l\u00EA\ uma\ string\ n\u00E3o\ vazia.\n
+comment1.params=bf
+comment1.target=int\ readPosInt(java.io.BufferedReader)
+comment1.text=\n\ M\u00E9todo\ que\ l\u00EA\ um\ inteiro\ positivo.\n
+comment2.params=bf
+comment2.target=int\ readMes(java.io.BufferedReader)
+comment2.text=\n\ M\u00E9todo\ que\ l\u00EA\ um\ m\u00EAs.\n
+comment3.params=bf
+comment3.target=int\ readFilial(java.io.BufferedReader)
+comment3.text=\n\ M\u00E9todo\ que\ l\u00EA\ uma\ filial.\n
+comment4.params=sb1\ bf1
+comment4.target=Menu(java.lang.StringBuilder,\ java.io.BufferedReader)
+comment4.text=\n\ Construtor\ para\ objetos\ da\ classe\ Menu\n
+comment5.params=m
+comment5.target=void\ addChoice(MenuFunctions)
+comment5.text=\n\ Adiciona\ um\ m\u00E9todo\ \u00E0s\ escolhas\ poss\u00EDveis\ do\ menu\n\ \n\ @param\ \ r\ \ \ \u00E9\ uma\ fun\u00E7\u00E3o\ do\ menu\n
+comment6.params=
+comment6.target=void\ run()
+comment6.text=\n\ Corre\ o\ menu,\ fica\ a\ ler\ inteiros\ para\ escolher\ algo\ no\ menu,\ 0\ sai\ do\ menu.\n\ \n\ Uma\ escolha\ implica\ invocar\ o\ m\u00E9todo\ correspondente.\n
+numComments=7

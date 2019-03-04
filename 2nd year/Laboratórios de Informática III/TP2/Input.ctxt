@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=in
+comment0.target=java.lang.String\ lerString(java.lang.String)
+comment0.text=\n\ M\u00E9todos\ de\ Classe\n
+comment1.params=in
+comment1.target=int\ lerInt(java.lang.String)
+comment2.params=in
+comment2.target=double\ lerDouble(java.lang.String)
+comment3.params=in
+comment3.target=float\ lerFloat(java.lang.String)
+comment4.params=in
+comment4.target=boolean\ lerBoolean(java.lang.String)
+comment5.params=in
+comment5.target=short\ lerShort(java.lang.String)
+numComments=6

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.lang.String\ getProduto()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ ParProdutoVenda\n
+comment1.params=
+comment1.target=int\ getQuant()
+comment10.params=
+comment10.target=int\ hashCode()
+comment2.params=
+comment2.target=int\ getClientes()
+comment3.params=s\ q
+comment3.target=ParProdutoQVenda(java.lang.String,\ int)
+comment4.params=s\ q\ c
+comment4.target=ParProdutoQVenda(java.lang.String,\ int,\ int)
+comment5.params=c
+comment5.target=void\ setClientes(int)
+comment6.params=ppv
+comment6.target=ParProdutoQVenda(ParProdutoQVenda)
+comment7.params=
+comment7.target=ParProdutoQVenda\ clone()
+comment8.params=o
+comment8.target=boolean\ equals(java.lang.Object)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=11
