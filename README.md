@@ -11,6 +11,6 @@ co-authored with:
 + [José Bastos](https://github.com/zbastos)
 + [José Silva](https://github.com/Jpvsilva)
 + [Márcia Costa](https://github.com/msplinter46)
-+ [Matias Nicolau](https://github.com/MatiasN)
++ [Matias Araújo](https://github.com/MatiasN)
 + [Miguel Costa](https://github.com/XoRtY)
 + [Nuno Vieira](https://github.com/forlemon)
