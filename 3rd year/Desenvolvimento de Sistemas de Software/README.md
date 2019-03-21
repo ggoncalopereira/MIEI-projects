@@ -1,4 +1,4 @@
-# Comunicações por Computadores
+# Desenvolvimento de Sistemas de Software
 requirements projected into Visual Paradigm for an expenses management platform 
 
 co-authored with:
